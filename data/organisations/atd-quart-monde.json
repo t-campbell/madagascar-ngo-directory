@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "atd-quart-monde",
+  "name": "ATD Quart Monde",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Anti-poverty movement working alongside families and communities.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Antananarivo"
+      ],
+      "sector_ids": [
+        "education",
+        "child-protection"
+      ],
+      "summary": "Runs street-library and community learning activities with children and families in low-income neighbourhoods of Antananarivo.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Madagascar country page",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.atd-quartmonde.org/ou-sommes-nous/ocean-indien/madagascar/",
+          "href": "https://www.atd-quartmonde.org/ou-sommes-nous/ocean-indien/madagascar/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.atd-quartmonde.org/wp-content/uploads/2025/09/RA-2024-ATD-Quart-Monde-Mada-OK.pdf",
+      "title": "Madagascar 2024 activity report",
+      "publisher": "ATD Quart Monde",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.atd-quartmonde.org/ou-sommes-nous/ocean-indien/madagascar/",
+      "title": "Published organisation contact",
+      "publisher": "ATD Quart Monde",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

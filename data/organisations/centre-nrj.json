@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "centre-nrj",
+  "name": "Centre Nouveau Relais des Jeunes",
+  "acronym": "NRJ",
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Nonprofit centre offering education and social support to vulnerable young people.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Andavamamba",
+        "Mandroseza"
+      ],
+      "sector_ids": [
+        "education",
+        "child-protection"
+      ],
+      "summary": "Supports literacy, preschool and school attendance for vulnerable children and young people at sites in Antananarivo.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Published centre contact details",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.associationclef.net/action-et-partenariat-avec-le-centre-nrj-de-tananarive/",
+          "href": "https://www.associationclef.net/action-et-partenariat-avec-le-centre-nrj-de-tananarive/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.illis-monaco.org/madagascar-2025/",
+      "title": "2025–2026 programme at NRJ and Vonjy",
+      "publisher": "ILLIS Monaco",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.associationclef.net/action-et-partenariat-avec-le-centre-nrj-de-tananarive/",
+      "title": "Published organisation contact",
+      "publisher": "Association C.L.E.F.",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "la-chaine-de-lespoir",
+  "name": "La Chaîne de l’Espoir",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Nonprofit improving access to specialist surgery and strengthening hospital teams.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Antananarivo"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Works with the Centre Hospitalier de Soavinandriana in Antananarivo on paediatric cardiac care, screening and surgical training.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "International office referral",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "web_form",
+          "value": "https://donner.chainedelespoir.org/contactez-nous",
+          "href": "https://donner.chainedelespoir.org/contactez-nous",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://conference-recherche.afd.fr/fr/commmuniques-de-presse/sauver-des-vies-denfants-dans-locean-indien-lafd-soutient-la-chirurgie",
+      "title": "AFD support for paediatric cardiac surgery in Madagascar",
+      "publisher": "Agence Française de Développement",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://donner.chainedelespoir.org/contactez-nous",
+      "title": "Published organisation contact",
+      "publisher": "La Chaîne de l’Espoir",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

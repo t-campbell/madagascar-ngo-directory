@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "sante-sud",
+  "name": "Santé Sud",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Solidarity organisation working to strengthen local health services and health worker capacity.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Ankazobe district",
+        "Fifanasoavana"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Works with community midwives to improve maternal, newborn and reproductive health in rural Analamanga. The project documents a cabinet at Fifanasoavana.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Published Madagascar organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "contact.madagascar@santesud.org",
+          "href": "mailto:contact.madagascar@santesud.org",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.santesud.org/programmes/bien-naitre/",
+      "title": "Bien naître maternal and child health programme",
+      "publisher": "Santé Sud",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.groupe-sos.org/structure/sante-sud-madagascar-2/",
+      "title": "Published organisation contact",
+      "publisher": "Groupe SOS",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

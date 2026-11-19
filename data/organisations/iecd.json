@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "iecd",
+  "name": "Institut Européen de Coopération et de Développement",
+  "acronym": "IECD",
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Nonprofit supporting education, vocational training and small enterprises.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Antananarivo"
+      ],
+      "sector_ids": [
+        "education",
+        "livelihoods"
+      ],
+      "summary": "Supports university access for students through SESAME and accompanies small businesses in the capital area.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "ceres",
+      "region_scope": "specified",
+      "region_ids": [
+        "haute-matsiatra"
+      ],
+      "localities": [
+        "Fianarantsoa area"
+      ],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "The CERES programme supports school completion and career guidance in the Fianarantsoa area.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Published Madagascar team contacts",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.iecd.org/geographies/ocean-indien/madagascar/",
+          "href": "https://www.iecd.org/geographies/ocean-indien/madagascar/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.iecd.org/geographies/ocean-indien/madagascar/",
+      "title": "Madagascar programmes and local team",
+      "publisher": "Institut Européen de Coopération et de Développement",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.iecd.org/geographies/ocean-indien/madagascar/",
+      "title": "Published organisation contact",
+      "publisher": "Institut Européen de Coopération et de Développement",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

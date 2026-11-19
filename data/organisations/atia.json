@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "id": "atia",
+  "name": "ATIA",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "International NGO supporting education, community health and livelihoods with local associations.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Antananarivo"
+      ],
+      "sector_ids": [
+        "education",
+        "health",
+        "livelihoods"
+      ],
+      "summary": "Supports local education and family-service associations, health insurance and community health, and vocational training for underserved city residents.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "ko-zama-support",
+      "region_scope": "specified",
+      "region_ids": [
+        "vakinankaratra",
+        "itasy"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "Supports KOZAMA to improve schooling and teaching. The country page dates expansion to Antsirabe in 2023 and Itasy in 2025.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "raitratia-support",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsinanana",
+        "vakinankaratra",
+        "boeny"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Supports RAITRATIA’s community health partnership, which expanded in 2026. The country page identifies Vatomandry, Antsirabe and Mahajanga.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "mampita-support",
+      "region_scope": "specified",
+      "region_ids": [
+        "boeny",
+        "sofia"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "livelihoods"
+      ],
+      "summary": "Supports the local MAMPITA association’s financial inclusion work.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "sahi-support",
+      "region_scope": "specified",
+      "region_ids": [
+        "fitovinany"
+      ],
+      "localities": [
+        "Manakara"
+      ],
+      "sector_ids": [
+        "livelihoods"
+      ],
+      "summary": "Supports social microfinance through SAHI.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "ATIA international office referral",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "info@atia-ong.org",
+          "href": "mailto:info@atia-ong.org",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://atia-ong.org/pays-intervention/madagascar/",
+      "title": "2026 Madagascar programmes and operational partners",
+      "publisher": "ATIA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://atia-ong.org/nous-rejoindre/",
+      "title": "Published organisation contact",
+      "publisher": "ATIA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

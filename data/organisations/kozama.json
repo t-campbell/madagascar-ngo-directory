@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "id": "kozama",
+  "name": "KOZAMA",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy NGO supporting early learning and strengthening public education.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Antananarivo"
+      ],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "Works on preschool, school support and teacher development in underserved neighbourhoods.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "antsirabe-education",
+      "region_scope": "specified",
+      "region_ids": [
+        "vakinankaratra"
+      ],
+      "localities": [
+        "Antsirabe"
+      ],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "ATIA reports that KOZAMA expanded its education support to Antsirabe in 2023.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "itasy-education",
+      "region_scope": "specified",
+      "region_ids": [
+        "itasy"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "ATIA reports that KOZAMA expanded its education support to Itasy in 2025. Confirm communes with the NGO.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "ATIA partner referral for KOZAMA",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "info@atia-ong.org",
+          "href": "mailto:info@atia-ong.org",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://atia-ong.org/pays-intervention/madagascar/",
+      "title": "KOZAMA education programme areas",
+      "publisher": "ATIA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://atia-ong.org/nous-rejoindre/",
+      "title": "Published organisation contact",
+      "publisher": "ATIA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

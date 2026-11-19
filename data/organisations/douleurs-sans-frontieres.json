@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "id": "douleurs-sans-frontieres",
+  "name": "Douleurs Sans Frontières",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Medical NGO improving access to pain management and quality of care.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Antananarivo"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Works with health teams on care and support for women, including cervical cancer prevention and services around childbirth.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "mahajanga-health",
+      "region_scope": "specified",
+      "region_ids": [
+        "boeny"
+      ],
+      "localities": [
+        "Mahajanga"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Works with Mahajanga health partners on women’s health, prevention and care.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "International office referral",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "dsf.france@douleurs.org",
+          "href": "mailto:dsf.france@douleurs.org",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.douleurs.org/madagascar/",
+      "title": "Madagascar women’s health and pain care programmes",
+      "publisher": "Douleurs Sans Frontières",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.douleurs.org/contact/",
+      "title": "Published organisation contact",
+      "publisher": "Douleurs Sans Frontières",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

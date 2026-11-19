@@ -60,6 +60,30 @@
       "web_reviewed_on": "2026-11-19",
       "direct_confirmed_on": null,
       "notes": []
+    },
+    {
+      "id": "sakandro",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Antananarivo"
+      ],
+      "sector_ids": [
+        "health",
+        "nutrition"
+      ],
+      "summary": "Works with underserved neighbourhoods on maternal and child health, nutritional support and links to services for families.",
+      "activity_status": "reported_active",
+      "starts_on": "2025-08-21",
+      "ends_on": "2028-08-21",
+      "source_ids": [
+        "sakandro-tana"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "offices": [
@@ -176,6 +200,18 @@
       "checked_on": "2026-11-19",
       "supports": [
         "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sakandro-tana",
+      "url": "https://www.afd.fr/fr/projets/accompagnement-social-sanitaire-et-nutritionnel-des-femmes-et-des-enfants",
+      "title": "SAKANDRO programme in Antananarivo, 2025–2028",
+      "publisher": "Agence Française de Développement",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
       ],
       "notes": []
     }

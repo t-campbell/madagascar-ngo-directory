@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "id": "fisoi",
+  "name": "Filamatra Soa Iombonanana",
+  "acronym": "FISOI",
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Farmer association supporting family agriculture and market access.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Mahitsy",
+        "Ambohidratrimo",
+        "Ankazobe",
+        "Antananarivo Avaradrano"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "livelihoods"
+      ],
+      "summary": "Supports family farming, livestock and producer networks, including around Mahitsy and Ankazobe.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "arivonimamo-producers",
+      "region_scope": "specified",
+      "region_ids": [
+        "itasy"
+      ],
+      "localities": [
+        "Arivonimamo"
+      ],
+      "sector_ids": [
+        "agriculture"
+      ],
+      "summary": "Réseau SOA lists Arivonimamo among the districts where the association supports family farmers.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "filamatrasoaiombonana@gmail.com",
+          "href": "mailto:filamatrasoaiombonana@gmail.com",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://reseausoa.mg/op-fisoi/",
+      "title": "Members, work areas and public contact",
+      "publisher": "Réseau SOA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://reseausoa.mg/op-fisoi/",
+      "title": "Published organisation contact",
+      "publisher": "Réseau SOA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

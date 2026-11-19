@@ -53,6 +53,30 @@
       "web_reviewed_on": "2026-11-19",
       "direct_confirmed_on": null,
       "notes": []
+    },
+    {
+      "id": "ambohibao-health-centre",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Ambohibao",
+        "67 Ha, Antananarivo"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "SALFA lists the Ambohibao Lutheran health centre and its 67 Ha annex. Ask the network to confirm current hours and available services.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "offices": [],

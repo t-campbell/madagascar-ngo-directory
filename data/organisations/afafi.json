@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "id": "afafi",
+  "name": "AFAFi",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy mutual health organisation supporting access to care for low-income households.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Antananarivo"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Offers mutual health coverage to eligible families. Ask about enrollment and the current partner facilities.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "fianarantsoa-mutual-health",
+      "region_scope": "specified",
+      "region_ids": [
+        "haute-matsiatra"
+      ],
+      "localities": [
+        "Fianarantsoa"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "ATIA identifies Fianarantsoa as a mutual health programme location. Ask about current enrollment and facilities.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "web_form",
+          "value": "https://afafi-mutuelle.mg/contact/",
+          "href": "https://afafi-mutuelle.mg/contact/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://atia-ong.org/pays-intervention/madagascar/",
+      "title": "AFAFi mutual health operations",
+      "publisher": "ATIA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://afafi-mutuelle.mg/contact/",
+      "title": "Published organisation contact",
+      "publisher": "AFAFi",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

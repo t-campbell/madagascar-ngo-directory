@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "id": "grandir-dignement",
+  "name": "Grandir Dignement",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Nonprofit supporting young people in contact with the justice system.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Antanimora",
+        "Mandrosoa"
+      ],
+      "sector_ids": [
+        "education",
+        "child-protection"
+      ],
+      "summary": "Provides education and reintegration support for young people in detention or rehabilitation, including at Antanimora and Mandrosoa.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "diana-youth-support",
+      "region_scope": "specified",
+      "region_ids": [
+        "diana"
+      ],
+      "localities": [
+        "Antsiranana",
+        "Joffreville"
+      ],
+      "sector_ids": [
+        "education",
+        "child-protection"
+      ],
+      "summary": "The organisation lists youth support work at the Antsiranana prison and Joffreville rehabilitation centre.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Published Madagascar team contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "web_form",
+          "value": "https://www.grandirdignement.org/contact/",
+          "href": "https://www.grandirdignement.org/contact/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.grandirdignement.org/actions/madagascar/",
+      "title": "Youth support programmes and sites in Madagascar",
+      "publisher": "Grandir Dignement",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.grandirdignement.org/contact/",
+      "title": "Published organisation contact",
+      "publisher": "Grandir Dignement",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

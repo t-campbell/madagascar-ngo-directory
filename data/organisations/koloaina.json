@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "koloaina",
+  "name": "Koloaina",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy NGO helping families access education, health services and social rights.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Antananarivo"
+      ],
+      "sector_ids": [
+        "health",
+        "child-protection"
+      ],
+      "summary": "Provides psychosocial support and helps families in underserved neighbourhoods navigate local schools and health services.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "antsirabe-family-support",
+      "region_scope": "specified",
+      "region_ids": [
+        "vakinankaratra"
+      ],
+      "localities": [
+        "Antsirabe"
+      ],
+      "sector_ids": [
+        "child-protection"
+      ],
+      "summary": "ATIA reports that the association expanded family support to Antsirabe in 2025.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "web_form",
+          "value": "https://koloaina.org/contact/",
+          "href": "https://koloaina.org/contact/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://atia-ong.org/pays-intervention/madagascar/",
+      "title": "Family-support partners and programme sites",
+      "publisher": "ATIA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://koloaina.org/contact/",
+      "title": "Published organisation contact",
+      "publisher": "Koloaina",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

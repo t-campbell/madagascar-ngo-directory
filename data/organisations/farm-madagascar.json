@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "farm-madagascar",
+  "name": "FARM Madagascar",
+  "acronym": null,
+  "aliases": [],
+  "type": "nonprofit_network",
+  "mission": "Nonprofit network helping rural women and their organisations improve livelihoods and participation.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Ankazobe",
+        "Anjozorobe",
+        "Ambohidratrimo",
+        "Manjakandriana",
+        "Andramasina"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "livelihoods"
+      ],
+      "summary": "Works through district groups on agroecology, capacity development and marketing of locally produced goods.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "contact@farm-madagascar.org",
+          "href": "mailto:contact@farm-madagascar.org",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.farm-madagascar.org/zone-intervention/analamanga/",
+      "title": "Analamanga actions and district teams",
+      "publisher": "FARM Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.farm-madagascar.org/contactez-nous/",
+      "title": "Published organisation contact",
+      "publisher": "FARM Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

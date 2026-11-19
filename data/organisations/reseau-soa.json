@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reseau-soa",
+  "name": "Réseau SOA",
+  "acronym": null,
+  "aliases": [],
+  "type": "nonprofit_network",
+  "mission": "Malagasy network helping producer organisations strengthen family farming and represent farmers.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "agriculture",
+        "livelihoods"
+      ],
+      "summary": "Supports producer organisations in Analamanga. Its member FISOI has a published contact and works in Ambohidratrimo, Ankazobe and other districts.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "reseausoa1@gmail.com",
+          "href": "mailto:reseausoa1@gmail.com",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://reseausoa.mg/a-propos/",
+      "title": "Farmer network footprint and strategy",
+      "publisher": "Réseau SOA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://reseausoa.mg/op-fisoi/",
+      "title": "Published organisation contact",
+      "publisher": "Réseau SOA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

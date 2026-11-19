@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "id": "wsup",
+  "name": "Water and Sanitation for Urban Populations",
+  "acronym": "WSUP",
+  "aliases": [
+    "Water & Sanitation for Urban Poor"
+  ],
+  "type": "ngo_association",
+  "mission": "Nonprofit working with local providers on practical urban water and sanitation services.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Antananarivo"
+      ],
+      "sector_ids": [
+        "wash"
+      ],
+      "summary": "Works with city authorities and JIRAMA on water, sanitation, waste and hygiene planning.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "boeny-urban-wash",
+      "region_scope": "specified",
+      "region_ids": [
+        "boeny"
+      ],
+      "localities": [
+        "Mahajanga"
+      ],
+      "sector_ids": [
+        "wash"
+      ],
+      "summary": "The 2026 update lists collaboration with local authorities and JIRAMA on water, sanitation, waste and hygiene planning.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "atsimo-andrefana-urban-wash",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsimo-andrefana"
+      ],
+      "localities": [
+        "Toliara"
+      ],
+      "sector_ids": [
+        "wash"
+      ],
+      "summary": "The 2026 update lists collaboration with local authorities and JIRAMA on water, sanitation, waste and hygiene planning.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Madagascar office contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://wsup.com/about-us/contact-us/",
+          "href": "https://wsup.com/about-us/contact-us/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://wsup.com/media-centre/news/scaling-sustainable-wash-solutions-across-madagascar/",
+      "title": "2026 urban water and sanitation update",
+      "publisher": "Water & Sanitation for Urban People",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://wsup.com/about-us/contact-us/",
+      "title": "Published organisation contact",
+      "publisher": "Water & Sanitation for Urban People",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

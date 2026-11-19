@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "akany-avoko-ambohidratrimo",
+  "name": "Akany Avoko Ambohidratrimo",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Children’s home and education provider supporting children who need protection.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Ambohidratrimo",
+        "Bevalala"
+      ],
+      "sector_ids": [
+        "education",
+        "child-protection"
+      ],
+      "summary": "Provides residential protection and education at its centre near Antananarivo. Bevalala is run under the same management.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://akany-avoko.blogspot.com/p/contact.html",
+          "href": "https://akany-avoko.blogspot.com/p/contact.html",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://moneyformadagascar.org/our-programmes/children-for-the-future/akany-avoko-ambri/",
+      "title": "Ambohidratrimo and Bevalala centres",
+      "publisher": "Money for Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://akany-avoko.blogspot.com/p/contact.html",
+      "title": "Published organisation contact",
+      "publisher": "Akany Avoko Ambohidratrimo",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "ong-manda",
+  "name": "ONG Manda",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy organisation supporting children and youth in street situations.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Antananarivo"
+      ],
+      "sector_ids": [
+        "education",
+        "livelihoods",
+        "child-protection"
+      ],
+      "summary": "Published work in Antananarivo includes the Tsiry social station and Vony sewing and weaving training.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Published Manda contact details",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://uni-tuebingen.de/en/faculties/faculty-of-humanities/departments/asian-and-oriental-studies/social-and-cultural-anthropology/study/consultation-organisation/internship-opportunities/eastern-and-southern-africa/zaza-faly-ev-and-ong-manda-madagaskar/",
+          "href": "https://uni-tuebingen.de/en/faculties/faculty-of-humanities/departments/asian-and-oriental-studies/social-and-cultural-anthropology/study/consultation-organisation/internship-opportunities/eastern-and-southern-africa/zaza-faly-ev-and-ong-manda-madagaskar/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://uni-tuebingen.de/en/faculties/faculty-of-humanities/departments/asian-and-oriental-studies/social-and-cultural-anthropology/study/consultation-organisation/internship-opportunities/eastern-and-southern-africa/zaza-faly-ev-and-ong-manda-madagaskar/",
+      "title": "Antananarivo social and vocational centres",
+      "publisher": "University of Tübingen",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://uni-tuebingen.de/en/faculties/faculty-of-humanities/departments/asian-and-oriental-studies/social-and-cultural-anthropology/study/consultation-organisation/internship-opportunities/eastern-and-southern-africa/zaza-faly-ev-and-ong-manda-madagaskar/",
+      "title": "Published organisation contact",
+      "publisher": "University of Tübingen",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

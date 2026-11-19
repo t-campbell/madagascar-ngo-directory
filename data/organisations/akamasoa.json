@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "akamasoa",
+  "name": "Akamasoa",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "A Malagasy association supporting access to education, housing and livelihoods.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Andralanitra",
+        "Bemasoandro"
+      ],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "Runs schools serving families around Antananarivo. The 2025 report describes classes at Andralanitra and a primary school at Bemasoandro.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "web_form",
+          "value": "https://www.perepedro-akamasoa.net/contact-2/",
+          "href": "https://www.perepedro-akamasoa.net/contact-2/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.perepedro-akamasoa.net/petit-rapport-dactivite-dakamasoa-2025/",
+      "title": "2025 activity report and school sites",
+      "publisher": "Akamasoa",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.perepedro-akamasoa.net/contact-2/",
+      "title": "Published organisation contact",
+      "publisher": "Akamasoa",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

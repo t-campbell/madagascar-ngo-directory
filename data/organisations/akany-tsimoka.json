@@ -31,6 +31,31 @@
       "web_reviewed_on": "2026-11-19",
       "direct_confirmed_on": null,
       "notes": []
+    },
+    {
+      "id": "anosy-avaratra-school",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Anosy Avaratra"
+      ],
+      "sector_ids": [
+        "education",
+        "child-protection",
+        "livelihoods"
+      ],
+      "summary": "Runs a school and provides children in its care with schooling support. Offers practical workshops for young people and low-income families.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "analamanga-education"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "offices": [],
@@ -82,6 +107,18 @@
       "checked_on": "2026-11-19",
       "supports": [
         "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "analamanga-education",
+      "url": "https://www.akany-tsimoka.org/",
+      "title": "School, child protection and vocational training in Analamanga",
+      "publisher": "Akany Tsimoka",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
       ],
       "notes": []
     }

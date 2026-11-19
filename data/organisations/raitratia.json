@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "id": "raitratia",
+  "name": "RAITRATIA",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy association working with health services and community partners.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Antananarivo"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Works with local health partners on tuberculosis and broader community health support.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "atsinanana-health",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsinanana"
+      ],
+      "localities": [
+        "Vatomandry"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "ATIA identifies this city in RAITRATIA’s 2026 community health and health-worker support expansion.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "vakinankaratra-health",
+      "region_scope": "specified",
+      "region_ids": [
+        "vakinankaratra"
+      ],
+      "localities": [
+        "Antsirabe"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "ATIA identifies this city in RAITRATIA’s 2026 community health and health-worker support expansion.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "boeny-health",
+      "region_scope": "specified",
+      "region_ids": [
+        "boeny"
+      ],
+      "localities": [
+        "Mahajanga"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "ATIA identifies this city in RAITRATIA’s 2026 community health and health-worker support expansion.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "ATIA partner referral for RAITRATIA",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "info@atia-ong.org",
+          "href": "mailto:info@atia-ong.org",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://atia-ong.org/pays-intervention/madagascar/",
+      "title": "RAITRATIA community health and 2026 expansion",
+      "publisher": "ATIA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://atia-ong.org/nous-rejoindre/",
+      "title": "Published organisation contact",
+      "publisher": "ATIA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

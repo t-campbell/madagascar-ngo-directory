@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "passerelles-numeriques-madagascar",
+  "name": "Passerelles Numériques Madagasikara",
+  "acronym": null,
+  "aliases": [
+    "Passerelles Numériques Madagascar",
+    "PNM"
+  ],
+  "type": "ngo_association",
+  "mission": "Malagasy association helping young people from lower-income backgrounds access higher education and digital skills.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Ampandrianomby, Antananarivo"
+      ],
+      "sector_ids": [
+        "education",
+        "livelihoods"
+      ],
+      "summary": "Runs a university preparation programme with technical and workplace skills training at its Antananarivo centre.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Antananarivo training centre",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 20 85 000 26",
+          "href": "tel:+261208500026",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.passerellesnumeriques.org/fr/what-we-do/madagascar/",
+      "title": "Antananarivo training centre and 2026 intake",
+      "publisher": "Passerelles Numériques Madagasikara",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.passerellesnumeriques.org/fr/what-we-do/madagascar/",
+      "title": "Published organisation contact",
+      "publisher": "Passerelles Numériques Madagasikara",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

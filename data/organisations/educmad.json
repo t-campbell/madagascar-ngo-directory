@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "id": "educmad",
+  "name": "ONG EDUCMAD",
+  "acronym": null,
+  "aliases": [
+    "ACCESMAD",
+    "Programme EDUCMAD"
+  ],
+  "type": "ngo_association",
+  "mission": "Malagasy NGO providing school science and technical learning materials and teacher training.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "education",
+        "digital"
+      ],
+      "summary": "Provides schools with digital libraries and teacher support. ACCESMAD’s programme page documents participating schools in Analamanga.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity",
+        "implementer"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "regional-school-network",
+      "region_scope": "specified",
+      "region_ids": [
+        "vakinankaratra",
+        "itasy",
+        "bongolava",
+        "haute-matsiatra",
+        "amoroni-mania",
+        "diana",
+        "alaotra-mangoro",
+        "boeny",
+        "atsinanana",
+        "sava"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "education",
+        "digital"
+      ],
+      "summary": "The programme lists participating secondary schools in these regions as of late 2024. The Malagasy NGO took over in 2025. Ask which schools still participate and can receive support.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity",
+        "implementer"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Published EDUCMAD programme and organisation page",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://accesmad.org/qui-sommes-nous/",
+          "href": "https://accesmad.org/qui-sommes-nous/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://accesmad.org/le-programme-educmad/",
+      "title": "Digital school library programme and participating regions",
+      "publisher": "ACCESMAD",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://accesmad.org/qui-sommes-nous/",
+      "title": "Published organisation contact",
+      "publisher": "ACCESMAD",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "implementer",
+      "url": "https://accesmad.org/qui-sommes-nous/",
+      "title": "Transfer to the Malagasy NGO EDUCMAD in 2025",
+      "publisher": "ACCESMAD",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

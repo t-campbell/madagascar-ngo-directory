@@ -127,7 +127,7 @@ const home = directory('/', title, 'Find organisations by region, sector and nam
 const regionCounts = new Map(regions.map(({ id }) => [id, published.filter(({ record }) =>
   !['government','un_bilateral'].includes(record.type) && record.operations.some(op => op.region_ids.includes(id))).length]));
 const regionsCovered = [...regionCounts.values()].filter(Boolean).length;
-page('/regions/', 'Browse by region', 'Counts show organisations with documented work, including historical records. Coverage varies by region.',
+page('/regions/', 'Browse by region', 'Counts reflect the listings we have documented, including historical work. Research depth varies by region.',
   `<ul class="listing region-grid">${regions.map(({ id, name }) => `<li><a href="/regions/${id}/">${html(name)}</a> · ${regionCounts.get(id)} listed</li>`).join('')}</ul>
   <h2>Browse by sector</h2><ul class="listing region-grid">${sectors.map(({ id, name }) => `<li><a href="/sectors/${id}/">${html(name)}</a></li>`).join('')}</ul>`);
 for (const { id, name } of regions) directory('/regions/' + id + '/', name,
@@ -180,7 +180,7 @@ page('/contribute/', 'Contribute', 'A maintainer reviews suggestions before they
   <span role="status"></span></div></section>`).join('')}</div>`, links['contribute.mjs']);
 page('/about/', 'About the directory', 'A community-maintained resource for volunteers looking for organisations to work with in Madagascar.',
   `<div class="readable">${section('Coverage', `<p>The directory began with the Analanjirofo registry and now documents organisations in ${regionsCovered} of ${regions.length} regions. <a href="/regions/">Browse regional coverage</a>. Volunteers can confirm local programmes and contact routes through the <a href="/contribute/#confirm">contribution page</a>.</p>
-  <p>Regions describe documented work. Office locations and contact scope appear on each profile. Ambatosoa includes Maroantsetra and Mananara-Nord under <a href="${html(readJSON('data/regions.json').catalogue_source_url)}">Law 2023-012</a>.</p>`)}
+  <p>Coverage is still growing. Some regions have had a deeper research pass than others, and organisations with little public information may be missing. A regional listing requires a documented programme or service in that region. Office locations and contact scope appear on each profile. Ambatosoa includes Maroantsetra and Mananara-Nord under <a href="${html(readJSON('data/regions.json').catalogue_source_url)}">Law 2023-012</a>.</p>`)}
   ${section('Activity and review dates', '<dl><dt>Reported active</dt><dd>A source reports ongoing or recent work.</dd><dt>Activity needs confirmation</dt><dd>The evidence is undated or the current status is unclear.</dd><dt>Historical or planned</dt><dd>The work has ended or was described as planned.</dd></dl><p>A web review records when an editor checked a source. A direct confirmation requires contact with the organisation or other professional verification. Web reviews older than 365 days and direct confirmations older than 180 days are flagged.</p>')}
   ${section('Maintenance', '<p>Maintainers review public sources and contact corrections before publishing updates. <a href="/contribute/">Suggest an update</a>. The directory is independent of the Peace Corps.</p>')}</div>`);
 page('/404.html', 'Page not found', 'The link may be out of date.', '<p><a href="/">Search the directory</a> or <a href="/all/">browse all organisations</a>.</p>');

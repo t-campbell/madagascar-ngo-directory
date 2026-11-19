@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "aina-enfance-et-avenir",
+  "name": "Aïna, Enfance & Avenir",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Supports children and families through education and child protection.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Malaza",
+        "Antananarivo area"
+      ],
+      "sector_ids": [
+        "education",
+        "child-protection"
+      ],
+      "summary": "Operates a children’s home and learning activities in Malaza and lists other early-childhood and family support facilities around Antananarivo.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "web_form",
+          "value": "https://www.ainaenfance.org/contact/",
+          "href": "https://www.ainaenfance.org/contact/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.ainaenfance.org/nos-structures/",
+      "title": "Child protection and education centres",
+      "publisher": "Aïna, Enfance & Avenir",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.ainaenfance.org/contact/",
+      "title": "Published organisation contact",
+      "publisher": "Aïna, Enfance & Avenir",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

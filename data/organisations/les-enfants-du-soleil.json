@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "id": "les-enfants-du-soleil",
+  "name": "Les Enfants du Soleil",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Association supporting children living in street situations with shelter and education.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Antananarivo"
+      ],
+      "sector_ids": [
+        "education",
+        "child-protection"
+      ],
+      "summary": "Runs child protection and schooling support in Antananarivo through reception and residential programmes.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "vakinankaratra-children",
+      "region_scope": "specified",
+      "region_ids": [
+        "vakinankaratra"
+      ],
+      "localities": [
+        "Antsirabe"
+      ],
+      "sector_ids": [
+        "education",
+        "child-protection"
+      ],
+      "summary": "The association lists this city among its child protection and education service locations. Confirm the relevant centre and services.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "haute-matsiatra-children",
+      "region_scope": "specified",
+      "region_ids": [
+        "haute-matsiatra"
+      ],
+      "localities": [
+        "Fianarantsoa"
+      ],
+      "sector_ids": [
+        "education",
+        "child-protection"
+      ],
+      "summary": "The association lists this city among its child protection and education service locations. Confirm the relevant centre and services.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "atsinanana-children",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsinanana"
+      ],
+      "localities": [
+        "Toamasina"
+      ],
+      "sector_ids": [
+        "education",
+        "child-protection"
+      ],
+      "summary": "The association lists this city among its child protection and education service locations. Confirm the relevant centre and services.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "atsimo-andrefana-children",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsimo-andrefana"
+      ],
+      "localities": [
+        "Toliara"
+      ],
+      "sector_ids": [
+        "education",
+        "child-protection"
+      ],
+      "summary": "The association lists this city among its child protection and education service locations. Confirm the relevant centre and services.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Association information and referral form",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "web_form",
+          "value": "https://eds-madagascar.org/contact/",
+          "href": "https://eds-madagascar.org/contact/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://eds-madagascar.org/decouvrir-eds/",
+      "title": "Child and youth services in five cities",
+      "publisher": "Les Enfants du Soleil",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://eds-madagascar.org/contact/",
+      "title": "Published organisation contact",
+      "publisher": "Les Enfants du Soleil",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

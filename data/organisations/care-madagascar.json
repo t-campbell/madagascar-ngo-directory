@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "id": "care-madagascar",
+  "name": "CARE Madagascar",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Humanitarian and development organisation working on nutrition, livelihoods, water and community resilience.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-programme",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "wash"
+      ],
+      "summary": "CARE’s programme page names Analamanga among the areas where it has worked on water, hygiene and sanitation access. Ask which projects are currently running.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "miare-nutrition",
+      "region_scope": "specified",
+      "region_ids": [
+        "boeny"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "nutrition"
+      ],
+      "summary": "The four-year MIARE programme launched in 2025 and works with rural communities to improve nutrition for women and children.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "miare"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "MDG.CAREMadagascar@care.org",
+          "href": "mailto:MDG.CAREMadagascar@care.org",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://care.mg/ranowash/care/",
+      "title": "CARE’s published water and sanitation work areas",
+      "publisher": "CARE Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://care.mg/contact/",
+      "title": "Published organisation contact",
+      "publisher": "CARE Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "miare",
+      "url": "https://care.mg/etude-baseline-miare/",
+      "title": "Boeny MIARE nutrition programme",
+      "publisher": "CARE Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}
