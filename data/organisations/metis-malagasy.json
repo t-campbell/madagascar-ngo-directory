@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "id": "metis-malagasy",
+  "name": "Association MétisMalagasy",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Works with rural communities and public schools in Androy.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "erada-schools",
+      "region_scope": "specified",
+      "region_ids": [
+        "androy"
+      ],
+      "localities": [
+        "Érada"
+      ],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "Works with public primary schools on school access and facilities in rural Érada.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "erada-health-centre",
+      "region_scope": "specified",
+      "region_ids": [
+        "androy"
+      ],
+      "localities": [
+        "Érada"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "The association describes a basic health centre project for school communities and nearby hamlets. Confirm opening status before referring people.",
+      "activity_status": "planned",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.associationmetismalagasy.net/home",
+          "href": "https://www.associationmetismalagasy.net/home",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.associationmetismalagasy.net/home",
+      "title": "Education and health projects in Androy",
+      "publisher": "Association MétisMalagasy",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.associationmetismalagasy.net/home",
+      "title": "Published organisation contact",
+      "publisher": "Association MétisMalagasy",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

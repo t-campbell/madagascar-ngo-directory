@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "adra-madagascar",
+  "name": "ADRA Madagascar",
+  "acronym": "ADRA",
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Works with Malagasy communities on resilient livelihoods and access to essential services.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "miatrika",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsimo-andrefana"
+      ],
+      "localities": [
+        "Saint-Augustin",
+        "Toliara II"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "livelihoods",
+        "environment"
+      ],
+      "summary": "Miatrika reports local work on climate-smart farming, agroforestry and value chains with communities in Saint-Augustin.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "exec-sec.co@adra.mg",
+          "href": "mailto:exec-sec.co@adra.mg",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://adra.mg/miatrika/",
+      "title": "Miatrika project and Madagascar contact",
+      "publisher": "ADRA Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://adra.mg/miatrika/",
+      "title": "Published organisation contact",
+      "publisher": "ADRA Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

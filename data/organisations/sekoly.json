@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "sekoly",
+  "name": "Sekoly",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Association supporting a public school in Maevatanana.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "maevatanana-school",
+      "region_scope": "specified",
+      "region_ids": [
+        "betsiboka"
+      ],
+      "localities": [
+        "Andranomangatsiaka",
+        "Maevatanana"
+      ],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "Supports pupils and teachers at Andranomangatsiaka public primary school. The association’s public listing does not date its latest activities.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.helloasso.com/associations/sekoly",
+          "href": "https://www.helloasso.com/associations/sekoly",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.helloasso.com/associations/sekoly",
+      "title": "Andranomangatsiaka school support and contact, published by the association",
+      "publisher": "Sekoly",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.helloasso.com/associations/sekoly",
+      "title": "Published organisation contact",
+      "publisher": "Sekoly",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

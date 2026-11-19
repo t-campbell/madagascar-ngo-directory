@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "duke-lemur-center-sava",
+  "name": "Duke Lemur Center SAVA Conservation",
+  "acronym": null,
+  "aliases": [],
+  "type": "other_nonprofit",
+  "mission": "Duke University nonprofit conservation programme based around community partnerships in SAVA.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "sava-conservation",
+      "region_scope": "specified",
+      "region_ids": [
+        "sava"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "environment",
+        "education"
+      ],
+      "summary": "Works on conservation with SAVA partners and documents local environmental education activities.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://lemur.duke.edu/protect/sava-conservation/",
+          "href": "https://lemur.duke.edu/protect/sava-conservation/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://lemur.duke.edu/protect/sava-conservation/",
+      "title": "SAVA programme and public contact navigation",
+      "publisher": "Duke Lemur Center SAVA Conservation",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://lemur.duke.edu/protect/sava-conservation/",
+      "title": "Published organisation contact",
+      "publisher": "Duke Lemur Center SAVA Conservation",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

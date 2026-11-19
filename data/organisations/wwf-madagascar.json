@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "wwf-madagascar",
+  "name": "WWF Madagascar",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Works with local partners to conserve key landscapes and support sustainable use of natural resources.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "melaky-field-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "melaky"
+      ],
+      "localities": [
+        "Maintirano"
+      ],
+      "sector_ids": [
+        "environment",
+        "livelihoods"
+      ],
+      "summary": "The 2025 field programme describes conservation and alternative livelihoods work from Maintirano. Its programme window runs through 2026, so check what support continues.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.wwf.mg/",
+          "href": "https://www.wwf.mg/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://wwfeu.awsassets.panda.org/downloads/250509_jd-agents-de-terrain-melaky.pdf",
+      "title": "WWF Melaky field work description for 2025",
+      "publisher": "WWF Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.wwf.mg/",
+      "title": "Published organisation contact",
+      "publisher": "WWF Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

@@ -1,6 +1,6 @@
 # Maintain the directory
 
-Use the contribution templates for new organisations, contact corrections and ended programmes. The maintainer reviews the evidence, edits a branch, checks the preview and merges the approved change. Browse and downloads are public. People can submit a correction through the public GitHub issue template without having write access to the records. Review the source and respond on the issue if more evidence is needed.
+Use the contribution templates for confirmations, new organisations, contact corrections and ended programmes. The maintainer reviews the evidence, edits a branch, checks the preview and merges the approved change. Browse and downloads are public. People can submit an update through the public GitHub issue template without having write access to the records. Review the source and respond on the issue if more evidence is needed.
 
 ## Add or correct a record
 
@@ -15,5 +15,7 @@ Use the contribution templates for new organisations, contact corrections and en
 Run `npm run review-due` when reviewing corrections. Aim for quarterly review of reports and an annual regional pass. Direct confirmations older than 180 days and web reviews older than 365 days remain visible with their dates. Prioritise stale numbers and uncertain activity. Update review dates only when the underlying evidence is checked.
 
 For national research, complete a source pass in every region for agriculture, education and health. Record dates, sources and gaps in `coverage.csv`. Count organisations once per region, and count national organisations separately across the collection. Require at least two supported NGO or nonprofit listings in each region for the national milestone. A completed search with no suitable source should remain visible as a gap.
+
+For volunteer checks, begin with the listings in the volunteer's region. Ask for the programme name, commune, whether the work is still active, the best public contact route, and the date and method of confirmation. A volunteer can submit these through **Confirm a listing**. Update the programme and contact confirmation dates separately, according to what the volunteer actually checked.
 
 Before handover, give the successor access to the GitHub repository, Cloudflare account/project, public correction queue and domain renewal account through the providers' access controls. Record primary and backup maintainers, billing and renewal ownership, production settings and the last tested rollback in the deployment notes. Verify that the successor can edit a record and inspect a preview before relying on the transfer.

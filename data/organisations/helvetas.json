@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "helvetas",
+  "name": "Helvetas",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Swiss nonprofit organisation supporting sustainable livelihoods and stronger local institutions.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "sambirano-cocoa",
+      "region_scope": "specified",
+      "region_ids": [
+        "diana"
+      ],
+      "localities": [
+        "Ambanja",
+        "Sambirano valley"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "environment"
+      ],
+      "summary": "Works with cocoa producers and other local stakeholders on more sustainable farming and landscape management in the Sambirano basin.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.helvetas.org/fr/madagascar",
+          "href": "https://www.helvetas.org/fr/madagascar",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.helvetas.org/fr/madagascar/ce-qu-on-fait/comment-on-travaille/nos-projets/afrique/madagascar/madagascar-paysage-cacao-sambirano",
+      "title": "Paysage Cacao Sambirano",
+      "publisher": "Helvetas",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.helvetas.org/fr/madagascar",
+      "title": "Published organisation contact",
+      "publisher": "Helvetas",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

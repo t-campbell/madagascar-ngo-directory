@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "seed-madagascar",
+  "name": "SEED Madagascar",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Partners with communities in southeastern Madagascar on education, health, conservation and livelihoods.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "anosy-programmes",
+      "region_scope": "specified",
+      "region_ids": [
+        "anosy"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "education",
+        "health",
+        "wash",
+        "environment",
+        "livelihoods"
+      ],
+      "summary": "The Anosy portfolio includes school construction, maternal and sexual health education, sanitation, conservation, and local livelihood projects.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://madagascar.co.uk/projects",
+          "href": "https://madagascar.co.uk/projects",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://madagascar.co.uk/projects",
+      "title": "Programme portfolio in Anosy",
+      "publisher": "SEED Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://madagascar.co.uk/projects",
+      "title": "Published organisation contact",
+      "publisher": "SEED Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

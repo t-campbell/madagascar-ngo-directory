@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "edena",
+  "name": "ONG EDENa",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Works with rural authorities, youth and women’s associations on local development.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "andramasina-farmers",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Andramasina"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "gender-inclusion"
+      ],
+      "summary": "Supports producer associations and the bean value chain while helping women and youth participate in local governance.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "ambatondrazaka-restoration",
+      "region_scope": "specified",
+      "region_ids": [
+        "alaotra-mangoro"
+      ],
+      "localities": [
+        "Ambohitsilaozana"
+      ],
+      "sector_ids": [
+        "environment"
+      ],
+      "summary": "Reports support for reforestation and training with the local MISANDRATRA association.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://ngo-edena.com/zones-d-intervention/",
+          "href": "https://ngo-edena.com/zones-d-intervention/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://ngo-edena.com/zones-d-intervention/",
+      "title": "Official intervention locations",
+      "publisher": "ONG EDENa",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://ngo-edena.com/zones-d-intervention/",
+      "title": "Published organisation contact",
+      "publisher": "ONG EDENa",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

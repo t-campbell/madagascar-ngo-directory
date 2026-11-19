@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "fifata",
+  "name": "Fikambanana Fampivoarana ny Tantsaha",
+  "acronym": "FIFATA",
+  "aliases": [],
+  "type": "nonprofit_network",
+  "mission": "Federation of Malagasy farmer organisations that represents producers and helps its members strengthen family farming.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "producer-network",
+      "region_scope": "specified",
+      "region_ids": [
+        "alaotra-mangoro",
+        "amoroni-mania",
+        "analamanga",
+        "bongolava",
+        "haute-matsiatra",
+        "ihorombe",
+        "itasy",
+        "menabe",
+        "sofia",
+        "vakinankaratra"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "agriculture"
+      ],
+      "summary": "Regional producer organisations help farmers organise and access agricultural services. Ask FIFATA which member or service is relevant to your commune.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "fifata@fifata.mg",
+          "href": "mailto:fifata@fifata.mg",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://tranobenytantsaha.mg/fifata-2/",
+      "title": "FIFATA organisational profile and regions",
+      "publisher": "Tranoben’ny Tantsaha Mpamokatra",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.fifata.mg/",
+      "title": "Published organisation contact",
+      "publisher": "Fikambanana Fampivoarana ny Tantsaha",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

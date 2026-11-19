@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "fondation-espoir-education-nosy-be",
+  "name": "Fondation Espoir Éducation Nosy Be",
+  "acronym": "FEEN",
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Supports children’s education on Nosy Be.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "nosy-be-education",
+      "region_scope": "specified",
+      "region_ids": [
+        "diana"
+      ],
+      "localities": [
+        "Nosy Be"
+      ],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "The foundation lists support for school access and education projects on Nosy Be through École ELIMA.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://ecoleelima.com/feen/index.html",
+          "href": "https://ecoleelima.com/feen/index.html",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://ecoleelima.com/feen/index.html",
+      "title": "Foundation programmes and public contact",
+      "publisher": "Fondation Espoir Éducation Nosy Be",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://ecoleelima.com/feen/index.html",
+      "title": "Published organisation contact",
+      "publisher": "Fondation Espoir Éducation Nosy Be",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

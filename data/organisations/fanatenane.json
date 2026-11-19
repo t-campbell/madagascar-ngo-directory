@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "fanatenane",
+  "name": "Fanatenane",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Supports children, families and local health services in Mananjary.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "mananjary-centre",
+      "region_scope": "specified",
+      "region_ids": [
+        "vatovavy"
+      ],
+      "localities": [
+        "Ambatolambo",
+        "Mananjary"
+      ],
+      "sector_ids": [
+        "education",
+        "health",
+        "child-protection"
+      ],
+      "summary": "Supports a social centre with a preschool and a health centre operated in partnership with the Ministry of Health.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "dirfanatenane@gmail.com",
+          "href": "mailto:dirfanatenane@gmail.com",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.fanatenane.fr/page/69003-fanatenane-madagascar",
+      "title": "Mananjary social, preschool and health centre",
+      "publisher": "Fanatenane",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.fanatenane.fr/page/69003-fanatenane-madagascar",
+      "title": "Published organisation contact",
+      "publisher": "Fanatenane",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

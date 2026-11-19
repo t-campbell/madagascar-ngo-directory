@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "nitidae",
+  "name": "Nitidæ",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Nonprofit organisation supporting sustainable agriculture and value chains.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "susvan",
+      "region_scope": "specified",
+      "region_ids": [
+        "sava"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "agriculture"
+      ],
+      "summary": "Supports farmer advisory services for vanilla producers through the Fandriaka 3 project.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "web_form",
+          "value": "https://www.nitidae.org/en/contactez-nous",
+          "href": "https://www.nitidae.org/en/contactez-nous",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.nitidae.org/en/actions/susvan",
+      "title": "SUSVAN vanilla advisory project, 2024–2028",
+      "publisher": "Nitidæ",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.nitidae.org/en/contactez-nous",
+      "title": "Published organisation contact",
+      "publisher": "Nitidæ",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

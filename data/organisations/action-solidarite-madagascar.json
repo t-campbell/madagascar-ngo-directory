@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "id": "action-solidarite-madagascar",
+  "name": "Action Solidarité Madagascar",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "French nonprofit association supporting Malagasy partner organisations in education, health and agriculture.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "ihosy-schools",
+      "region_scope": "specified",
+      "region_ids": [
+        "ihorombe"
+      ],
+      "localities": [
+        "Ihosy"
+      ],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "Documents support for classrooms, an internat and an after-school learning environment near Ihosy.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "ihorombe-farmer-training",
+      "region_scope": "specified",
+      "region_ids": [
+        "ihorombe"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "agriculture"
+      ],
+      "summary": "Supported training of farmer advisers in agroecology and tree crops with the producer group SGM in 2022–2024.",
+      "activity_status": "historical",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "tsiro-schools",
+      "region_scope": "specified",
+      "region_ids": [
+        "bongolava"
+      ],
+      "localities": [
+        "Tsiroanomandidy"
+      ],
+      "sector_ids": [
+        "education",
+        "livelihoods"
+      ],
+      "summary": "Lists support for school facilities and a girls’ residence near Tsiroanomandidy.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "ampefy",
+      "region_scope": "specified",
+      "region_ids": [
+        "itasy"
+      ],
+      "localities": [
+        "Ampefy"
+      ],
+      "sector_ids": [
+        "education",
+        "health"
+      ],
+      "summary": "Lists support to the Association des Amis d’Ampefy for a programme covering teacher and parent training, health and ecology.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "bejofo",
+      "region_scope": "specified",
+      "region_ids": [
+        "alaotra-mangoro"
+      ],
+      "localities": [
+        "Bejofo"
+      ],
+      "sector_ids": [
+        "education",
+        "health"
+      ],
+      "summary": "Lists support for classrooms and a dispensary at Bejofo near Ambatondrazaka.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "andina",
+      "region_scope": "specified",
+      "region_ids": [
+        "amoroni-mania"
+      ],
+      "localities": [
+        "Andina"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "education",
+        "health"
+      ],
+      "summary": "Lists partner support for schooling, agriculture, and health in Andina.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "bezezika",
+      "region_scope": "specified",
+      "region_ids": [
+        "menabe"
+      ],
+      "localities": [
+        "Bezezika"
+      ],
+      "sector_ids": [
+        "agriculture"
+      ],
+      "summary": "Lists support for short agricultural training in the Bezezika area near Morondava.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "web_form",
+          "value": "https://madagascar.groupama.com/formulaire-de-contact/",
+          "href": "https://madagascar.groupama.com/formulaire-de-contact/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://madagascar.groupama.com/localisation-sur-la-carte-de-madagscar/",
+      "title": "Map and description of partner projects",
+      "publisher": "Action Solidarité Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://madagascar.groupama.com/formulaire-de-contact/",
+      "title": "Published organisation contact",
+      "publisher": "Action Solidarité Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

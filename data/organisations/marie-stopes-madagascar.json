@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "id": "marie-stopes-madagascar",
+  "name": "Marie Stopes Madagascar",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Provides sexual and reproductive health services through local centres and outreach.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "antsiranana-centre",
+      "region_scope": "specified",
+      "region_ids": [
+        "diana"
+      ],
+      "localities": [
+        "Antsiranana"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Lists a reproductive health service centre in Antsiranana. Confirm hours and services through the centre finder.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "antsirabe-centre",
+      "region_scope": "specified",
+      "region_ids": [
+        "vakinankaratra"
+      ],
+      "localities": [
+        "Antsirabe"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Lists a reproductive health service centre in Antsirabe.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "msm-antsirabe"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "avaradoha-centre",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Antananarivo",
+        "Avaradoha"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Lists a reproductive health service centre in Avaradoha.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "msm-avaradoha"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.msichoices.org.mg/trouvez-nous/",
+          "href": "https://www.msichoices.org.mg/trouvez-nous/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.msichoices.org.mg/trouvez-nous/service-centres/centre-antsiranana/",
+      "title": "Antsiranana service centre",
+      "publisher": "Marie Stopes Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.msichoices.org.mg/trouvez-nous/",
+      "title": "Published organisation contact",
+      "publisher": "Marie Stopes Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "msm-antsirabe",
+      "url": "https://www.msichoices.org.mg/trouvez-nous/service-centres/centre-antsirabe/",
+      "title": "Antsirabe service centre",
+      "publisher": "Marie Stopes Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "msm-avaradoha",
+      "url": "https://www.msichoices.org.mg/trouvez-nous/service-centres/centre-avaradoha/",
+      "title": "Avaradoha service centre",
+      "publisher": "Marie Stopes Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

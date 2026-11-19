@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "ctas",
+  "name": "Centre Technique Agro-écologique du Sud",
+  "acronym": "CTAS",
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Supports producers in southern Madagascar through agroecology and local seed systems.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "afafi-sud",
+      "region_scope": "specified",
+      "region_ids": [
+        "androy",
+        "anosy"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "agriculture",
+        "nutrition"
+      ],
+      "summary": "Works with seed producers, livestock groups, local advisers and input sellers on food security and resilience.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "contact.infos@ctas.mg",
+          "href": "mailto:contact.infos@ctas.mg",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://ctas.mg/afafi-sud/",
+      "title": "AFAFI Sud project",
+      "publisher": "Centre Technique Agro-écologique du Sud",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://ctas.mg/afafi-sud/",
+      "title": "Published organisation contact",
+      "publisher": "Centre Technique Agro-écologique du Sud",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

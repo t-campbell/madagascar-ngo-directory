@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "id": "fondation-raoul-follereau",
+  "name": "Fondation Raoul Follereau",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Supports leprosy-related care and services for people affected by leprosy.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "sofia-health",
+      "region_scope": "specified",
+      "region_ids": [
+        "sofia"
+      ],
+      "localities": [
+        "Port-Bergé",
+        "Analalava"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "ILEP lists a programme or facility supported by the foundation. Confirm current services before referring patients.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "fianarantsoa-health",
+      "region_scope": "specified",
+      "region_ids": [
+        "haute-matsiatra"
+      ],
+      "localities": [
+        "Fianarantsoa"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "ILEP lists a programme or facility supported by the foundation. Confirm current services before referring patients.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "ambositra-health",
+      "region_scope": "specified",
+      "region_ids": [
+        "amoroni-mania"
+      ],
+      "localities": [
+        "Ambositra"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "ILEP lists a programme or facility supported by the foundation. Confirm current services before referring patients.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "antalaha-health",
+      "region_scope": "specified",
+      "region_ids": [
+        "sava"
+      ],
+      "localities": [
+        "Antalaha"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "ILEP lists a programme or facility supported by the foundation. Confirm current services before referring patients.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "web_form",
+          "value": "https://www.raoul-follereau.org/contactez-nous/",
+          "href": "https://www.raoul-follereau.org/contactez-nous/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://ilepfederation.org/madagascar/",
+      "title": "Madagascar projects and health centres",
+      "publisher": "ILEP Federation",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.raoul-follereau.org/contactez-nous/",
+      "title": "Published organisation contact",
+      "publisher": "Fondation Raoul Follereau",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

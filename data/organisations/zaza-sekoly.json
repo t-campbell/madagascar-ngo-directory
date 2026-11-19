@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "id": "zaza-sekoly",
+  "name": "Zaza Sekoly",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Supports school attendance and learning for children from households facing financial hardship.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "farafangana-schools",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsimo-atsinanana"
+      ],
+      "localities": [
+        "Farafangana"
+      ],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "Lists school enrolment costs, supplies and study support for children in Farafangana in 2025–2026. Check the next school-year cycle.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "morondava-schools",
+      "region_scope": "specified",
+      "region_ids": [
+        "menabe"
+      ],
+      "localities": [
+        "Morondava"
+      ],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "Describes school access work with children in Morondava.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "zaza-morondava"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "zazasekoly@gmail.com",
+          "href": "mailto:zazasekoly@gmail.com",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.helloasso.com/associations/zaza-sekoly/collectes/farafangana",
+      "title": "Farafangana 2025–2026 school support, published by the association",
+      "publisher": "Zaza Sekoly",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://zazasekoly.org/",
+      "title": "Published organisation contact",
+      "publisher": "Zaza Sekoly",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "zaza-morondava",
+      "url": "https://zazasekoly.org/",
+      "title": "School support in Morondava",
+      "publisher": "Zaza Sekoly",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

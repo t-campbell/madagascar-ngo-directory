@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "plateforme-hina",
+  "name": "Plateforme HINA",
+  "acronym": null,
+  "aliases": [],
+  "type": "nonprofit_network",
+  "mission": "Malagasy civil-society network that works on nutrition and health advocacy and accountability.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "gff-health-scorecards",
+      "region_scope": "specified",
+      "region_ids": [
+        "melaky",
+        "menabe",
+        "ihorombe",
+        "vakinankaratra",
+        "analanjirofo",
+        "alaotra-mangoro",
+        "diana",
+        "atsinanana"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "The coalition reports work with local groups on feedback and accountability at primary health facilities. Its published scorecard results cover 2020–2024. Ask HINA to connect you to a current regional partner.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.sun-hina-madagascar.org/",
+          "href": "https://www.sun-hina-madagascar.org/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.sun-hina-madagascar.org/node/603",
+      "title": "2025 report on health system strengthening and community scorecards",
+      "publisher": "Plateforme HINA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.sun-hina-madagascar.org/",
+      "title": "Published organisation contact",
+      "publisher": "Plateforme HINA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

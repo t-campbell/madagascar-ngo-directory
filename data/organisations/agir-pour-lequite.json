@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "agir-pour-lequite",
+  "name": "Agir pour l’Équité",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy NGO focused on preventing gender-based violence and supporting affected people in DIANA.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "diana-prevention",
+      "region_scope": "specified",
+      "region_ids": [
+        "diana"
+      ],
+      "localities": [
+        "Nosy Be"
+      ],
+      "sector_ids": [
+        "gender-inclusion"
+      ],
+      "summary": "Organises prevention and training activities, including community outreach in Nosy Be, and describes support for survivors.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.agirpourlequite.org/",
+          "href": "https://www.agirpourlequite.org/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.agirpourlequite.org/",
+      "title": "DIANA programmes and contact",
+      "publisher": "Agir pour l’Équité",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.agirpourlequite.org/",
+      "title": "Published organisation contact",
+      "publisher": "Agir pour l’Équité",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

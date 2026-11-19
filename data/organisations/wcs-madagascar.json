@@ -35,6 +35,29 @@
       "notes": [
         "official initiative page; date not stated"
       ]
+    },
+    {
+      "id": "maroantsetra-community-health",
+      "region_scope": "specified",
+      "region_ids": [
+        "ambatosoa"
+      ],
+      "localities": [
+        "Maroantsetra area"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "WCS describes mobile clinics, family planning advice and community health training in its MaMaBay landscape programme. Ask which services and communities are currently covered.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "wcs-maroantsetra-community-health"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "offices": [
@@ -148,6 +171,18 @@
       "checked_on": "2026-11-10",
       "supports": [
         "organisation website or partner page"
+      ],
+      "notes": []
+    },
+    {
+      "id": "wcs-maroantsetra-community-health",
+      "url": "https://madagascar.wcs.org/Health-and-Education.aspx",
+      "title": "Health and education in the MaMaBay landscape",
+      "publisher": "Wildlife Conservation Society (Madagascar)",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
       ],
       "notes": []
     }

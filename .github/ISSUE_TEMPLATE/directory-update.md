@@ -1,14 +1,16 @@
 ---
 name: Directory update
-about: Suggest an organisation, correct a contact, or report an inactive programme
+about: Confirm a listing, suggest an organisation, or report a change
 title: 'Directory update for ORGANISATION'
 ---
 
 **Organisation and profile link** (if listed)
 
-**Region and sector**
+**Programme, region, commune and sector**
 
-**What should change?**
+**What is current or what should change?**
+
+**Public organisation contact route, if checked**
 
 **Public source link or date and basis of direct confirmation**
 

@@ -58,11 +58,14 @@ try {
   await page.waitForFunction(() => document.querySelector('#sources').open);
   assert.equal((await page.goto(origin + '/ngo/unknown-org/')).status(), 404);
   await page.goto(origin + '/regions/boeny/');
-  await page.locator('#results').getByText('No organisations documented here yet.', { exact: true }).waitFor();
+  await page.locator('#results').getByRole('heading', { name: 'Vent de Solidarité', exact: true }).waitFor();
+  await page.goto(origin + '/regions/boeny/?region=boeny&q=no-matching-organisation-for-browser-test');
+  await page.locator('#results').getByText('No organisations documented for these filters.', { exact: true }).waitFor();
   await page.goto(origin + '/contribute/');
   await page.getByRole('button', { name: 'Copy template' }).first().waitFor();
+  await page.getByRole('heading', { name: 'Confirm a listing', exact: true }).waitFor();
   const config = JSON.parse(await readFile(new URL('../site.config.json', import.meta.url), 'utf8'));
-  assert.equal(await page.getByRole('link', { name: 'Open email draft' }).count(), config.maintainer_email ? 3 : 0);
+  assert.equal(await page.getByRole('link', { name: 'Open email draft' }).count(), config.maintainer_email ? 4 : 0);
   assert.deepEqual(errors, []);
 
   const noJs = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });

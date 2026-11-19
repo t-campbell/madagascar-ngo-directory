@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "madagascare",
+  "name": "MadagasCARE",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Supports access to care in Menabe through repeat medical missions.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "menabe-missions",
+      "region_scope": "specified",
+      "region_ids": [
+        "menabe"
+      ],
+      "localities": [
+        "Morondava area"
+      ],
+      "sector_ids": [
+        "health",
+        "nutrition"
+      ],
+      "summary": "Runs repeat consultations and screening missions in communities around Morondava and works with local health services.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": [
+        "The latest listed 2026 mission had a defined end date. Ask about the next visit."
+      ]
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://madagascare.fr/",
+          "href": "https://madagascare.fr/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://madagascare.fr/",
+      "title": "Menabe programme and 2026 mission updates",
+      "publisher": "MadagasCARE",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://madagascare.fr/",
+      "title": "Published organisation contact",
+      "publisher": "MadagasCARE",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

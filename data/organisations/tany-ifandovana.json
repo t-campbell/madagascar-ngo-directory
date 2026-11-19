@@ -33,6 +33,31 @@
       "notes": [
         "SMAI start date 1 oct 2024; project page has no end date"
       ]
+    },
+    {
+      "id": "coastal-restoration",
+      "region_scope": "specified",
+      "region_ids": [
+        "boeny",
+        "menabe",
+        "atsinanana",
+        "melaky"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "environment",
+        "livelihoods"
+      ],
+      "summary": "The organisation lists locally managed coastal restoration and community livelihood work. Its regional notes describe mangrove restoration and support in several coastal districts.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "coastal-regions"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "offices": [
@@ -135,6 +160,18 @@
       "checked_on": "2026-11-10",
       "supports": [
         "organisation website or partner page"
+      ],
+      "notes": []
+    },
+    {
+      "id": "coastal-regions",
+      "url": "https://www.tany-ifandovana.org/en/zones-d-intervention",
+      "title": "Coastal project locations",
+      "publisher": "Tany Ifandovana",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
       ],
       "notes": []
     }

@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "vent-de-solidarite",
+  "name": "Vent de Solidarité",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Association in Réunion working with Malagasy partners in Boeny.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "boeny-school-support",
+      "region_scope": "specified",
+      "region_ids": [
+        "boeny"
+      ],
+      "localities": [
+        "Mahajanga",
+        "Mitsinjo"
+      ],
+      "sector_ids": [
+        "education",
+        "health"
+      ],
+      "summary": "Describes school support and health and hygiene activities with local partners in Boeny.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "action@vent-solidarite.re",
+          "href": "mailto:action@vent-solidarite.re",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://vent-solidarite.re/association/",
+      "title": "Organisation and work in Boeny",
+      "publisher": "Vent de Solidarité",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://vent-solidarite.re/association/",
+      "title": "Published organisation contact",
+      "publisher": "Vent de Solidarité",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

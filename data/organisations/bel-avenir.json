@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "bel-avenir",
+  "name": "ONG Bel Avenir",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Supports vulnerable children and families through education and social programmes in southern Madagascar.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "education-south",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsimo-andrefana",
+        "haute-matsiatra"
+      ],
+      "localities": [
+        "Toliara",
+        "Fianarantsoa"
+      ],
+      "sector_ids": [
+        "education",
+        "child-protection"
+      ],
+      "summary": "Runs education and social support programmes for children and families in the Toliara and Fianarantsoa areas.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://ongbelavenir.org/quest-ce-quon-fait/madagascar/",
+          "href": "https://ongbelavenir.org/quest-ce-quon-fait/madagascar/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://ongbelavenir.org/quest-ce-quon-fait/madagascar/",
+      "title": "Madagascar country programme",
+      "publisher": "ONG Bel Avenir",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://ongbelavenir.org/quest-ce-quon-fait/madagascar/",
+      "title": "Published organisation contact",
+      "publisher": "ONG Bel Avenir",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

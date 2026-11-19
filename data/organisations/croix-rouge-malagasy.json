@@ -33,6 +33,131 @@
       "notes": [
         "PPRM regional workshop 28–29 aug 2025"
       ]
+    },
+    {
+      "id": "climate-planning-2026",
+      "region_scope": "specified",
+      "region_ids": [
+        "anosy",
+        "alaotra-mangoro"
+      ],
+      "localities": [
+        "Ambatondrazaka and participating communes",
+        "Participating communes in Anosy"
+      ],
+      "sector_ids": [
+        "disaster-resilience"
+      ],
+      "summary": "Supports local climate adaptation planning and volunteer training.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "projects-2026"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "mpox-2026",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga",
+        "vatovavy",
+        "diana",
+        "haute-matsiatra",
+        "amoroni-mania",
+        "vakinankaratra",
+        "boeny"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Supported health centres and community outreach during a response from January through May 2026.",
+      "activity_status": "historical",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "projects-2026"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "community-preparedness-2026",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsinanana",
+        "boeny",
+        "sofia"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "disaster-resilience"
+      ],
+      "summary": "Lists community preparedness and response work across the three regions.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "projects-2026"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "betsiboka-community-preparedness",
+      "region_scope": "specified",
+      "region_ids": [
+        "betsiboka"
+      ],
+      "localities": [
+        "Maevatanana",
+        "Kandreho",
+        "Tsaratanana"
+      ],
+      "sector_ids": [
+        "disaster-resilience",
+        "health"
+      ],
+      "summary": "The Mahabibo project reports volunteer training and community surveillance to strengthen disaster and epidemic response in Betsiboka.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "projects-2026"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "alaotra-farm-recovery",
+      "region_scope": "specified",
+      "region_ids": [
+        "alaotra-mangoro"
+      ],
+      "localities": [
+        "Ambatondrazaka"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "disaster-resilience"
+      ],
+      "summary": "The 2026 portfolio describes support for farm households recovering from cyclone impacts in Ambatondrazaka.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "projects-2026"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "offices": [
@@ -109,6 +234,30 @@
       "web_reviewed_on": "2026-11-10",
       "direct_confirmed_on": null,
       "notes": []
+    },
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "National office referral",
+      "scope": "national",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "contact@crmada.org",
+          "href": "mailto:contact@crmada.org",
+          "source_ids": [
+            "projects-2026"
+          ]
+        }
+      ],
+      "source_ids": [
+        "projects-2026"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "sources": [
@@ -135,6 +284,18 @@
         "published contact route",
         "office information",
         "organisation website or partner page"
+      ],
+      "notes": []
+    },
+    {
+      "id": "projects-2026",
+      "url": "https://croixrougemalagasy.mg/public/nos-projets",
+      "title": "2026 project portfolio by region",
+      "publisher": "Croix-Rouge Malagasy",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
       ],
       "notes": []
     }

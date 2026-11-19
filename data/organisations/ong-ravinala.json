@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "id": "ong-ravinala",
+  "name": "ONG Ravinala",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy NGO listed for food security, rural development and community health work in southeastern Madagascar.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "south-east",
+      "region_scope": "specified",
+      "region_ids": [
+        "fitovinany",
+        "vatovavy",
+        "atsimo-atsinanana"
+      ],
+      "localities": [
+        "Manakara",
+        "Vohipeno",
+        "Ikongo",
+        "Mananjary",
+        "Ifanadiana",
+        "Nosy Varika",
+        "Farafangana",
+        "Vangaindrano",
+        "Vondrozo"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "nutrition",
+        "health"
+      ],
+      "summary": "The directory lists agriculture, nutrition education and community vaccination work. Contact the organisation to confirm the work available in a specific district.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://innodev.org/organisation/ong-ravinala",
+          "href": "https://innodev.org/organisation/ong-ravinala",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://innodev.org/organisation/ong-ravinala",
+      "title": "Organisation profile and programme districts",
+      "publisher": "African Forum for Agricultural Advisory Services",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://innodev.org/organisation/ong-ravinala",
+      "title": "Published organisation contact",
+      "publisher": "ONG Ravinala",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "fikambanana-bongolava-maitso",
+  "name": "Fikambanana Bongolava Maitso",
+  "acronym": "FBM",
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy association for conserving the Bongolava forest corridor and supporting nearby rural communities.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "forest-corridor",
+      "region_scope": "specified",
+      "region_ids": [
+        "sofia"
+      ],
+      "localities": [
+        "Port-Bergé and the Bongolava forest corridor"
+      ],
+      "sector_ids": [
+        "environment",
+        "livelihoods"
+      ],
+      "summary": "Works with communities around the Bongolava forest corridor in Sofia on forest management and rural development.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://fbm.mg/",
+          "href": "https://fbm.mg/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://fbm.mg/",
+      "title": "Organisation and corridor programmes",
+      "publisher": "Fikambanana Bongolava Maitso",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://fbm.mg/",
+      "title": "Published organisation contact",
+      "publisher": "Fikambanana Bongolava Maitso",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

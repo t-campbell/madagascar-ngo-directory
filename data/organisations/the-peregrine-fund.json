@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "id": "the-peregrine-fund",
+  "name": "The Peregrine Fund",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Conservation nonprofit working with communities around protected areas in Madagascar.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "melaky-conservation",
+      "region_scope": "specified",
+      "region_ids": [
+        "melaky"
+      ],
+      "localities": [
+        "Mandrozo",
+        "Tsimembo-Manambolomaty"
+      ],
+      "sector_ids": [
+        "environment",
+        "livelihoods",
+        "education"
+      ],
+      "summary": "The 2026 update describes conservation and fisheries support at Mandrozo and Tsimembo-Manambolomaty, and school improvements and supplies across its protected-area communities. Ask which schools can receive support.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "sofia-conservation",
+      "region_scope": "specified",
+      "region_ids": [
+        "sofia"
+      ],
+      "localities": [
+        "Bemanevika"
+      ],
+      "sector_ids": [
+        "environment",
+        "agriculture"
+      ],
+      "summary": "The 2026 update reports habitat protection around Bemanevika and work with fishers to stock nursery fish.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://peregrinefund.org/madagascar-program-team",
+          "href": "https://peregrinefund.org/madagascar-program-team",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://peregrinefund.org/news/seedlings-schools-and-fish-eagles-year-tpf-complete-conservationtm-madagascar",
+      "title": "2026 Madagascar programme update",
+      "publisher": "The Peregrine Fund",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://peregrinefund.org/madagascar-program-team",
+      "title": "Published organisation contact",
+      "publisher": "The Peregrine Fund",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

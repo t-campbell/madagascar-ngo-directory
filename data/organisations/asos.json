@@ -34,6 +34,32 @@
       "notes": [
         "pS-Eau regional office listing; record date not stated"
       ]
+    },
+    {
+      "id": "toamasina-mobile-clinics",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsinanana"
+      ],
+      "localities": [
+        "Andondabe",
+        "Andranobolahy",
+        "Ranomena"
+      ],
+      "sector_ids": [
+        "health",
+        "disaster-resilience"
+      ],
+      "summary": "Reports mobile clinics deployed after Cyclone Gezani in Toamasina II. Ask about current coverage before referring people.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "asos-toamasina-cyclone"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "offices": [
@@ -86,6 +112,32 @@
       "notes": [
         "The named directory contact has different published numbers: +261 34 05 664 19 and +261 33 01 790 03. Check via the office first."
       ]
+    },
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "toamasina-mobile-clinics"
+      ],
+      "methods": [
+        {
+          "type": "web_form",
+          "value": "https://www.asosmada.mg/nous-contacter/",
+          "href": "https://www.asosmada.mg/nous-contacter/",
+          "source_ids": [
+            "asos-national-contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "asos-national-contact"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "sources": [
@@ -100,6 +152,30 @@
         "local operation",
         "published contact route",
         "office information"
+      ],
+      "notes": []
+    },
+    {
+      "id": "asos-toamasina-cyclone",
+      "url": "https://www.asosmada.mg/?asos_legacy_id=278",
+      "title": "Mobile clinics after Cyclone Gezani in 2026",
+      "publisher": "ASOS",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "asos-national-contact",
+      "url": "https://www.asosmada.mg/nous-contacter/",
+      "title": "National public contact",
+      "publisher": "ASOS",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
       ],
       "notes": []
     }

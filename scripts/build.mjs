@@ -126,6 +126,7 @@ function directory(path, heading, intro, preset = '') {
 const home = directory('/', title, 'Find organisations by region, sector and name. Coverage varies by region.');
 const regionCounts = new Map(regions.map(({ id }) => [id, published.filter(({ record }) =>
   !['government','un_bilateral'].includes(record.type) && record.operations.some(op => op.region_ids.includes(id))).length]));
+const regionsCovered = [...regionCounts.values()].filter(Boolean).length;
 page('/regions/', 'Browse by region', 'Counts show organisations with documented work, including historical records. Coverage varies by region.',
   `<ul class="listing region-grid">${regions.map(({ id, name }) => `<li><a href="/regions/${id}/">${html(name)}</a> · ${regionCounts.get(id)} listed</li>`).join('')}</ul>
   <h2>Browse by sector</h2><ul class="listing region-grid">${sectors.map(({ id, name }) => `<li><a href="/sectors/${id}/">${html(name)}</a></li>`).join('')}</ul>`);
@@ -165,6 +166,7 @@ for (const { record } of published) {
 }
 const templates = [
   ['suggest','Suggest an organisation','Organisation name and acronym:\nRegion and locality:\nSector:\nWhat they do locally:\nPublic professional contact:\nSource URL or professional confirmation:\n'],
+  ['confirm','Confirm a listing','Organisation name or profile link:\nProgramme, region and commune:\nCurrent activity and service area:\nPublic contact route confirmed, if checked:\nDate and how you confirmed it:\n'],
   ['correct','Correct a contact','Organisation name or profile ID:\nRegion and sector:\nCurrent listing:\nProposed change:\nPublic source URL or professional confirmation:\n'],
   ['inactive','Report an inactive programme','Organisation name or profile ID:\nProgramme, region and sector:\nLast known activity or end date:\nSource URL or professional confirmation:\n']
 ];
@@ -177,7 +179,7 @@ page('/contribute/', 'Contribute', 'A maintainer reviews suggestions before they
   ${config.maintainer_email ? `<a href="${html(methodHref({ type: 'email', value: config.maintainer_email }) + '?subject=' + encodeURIComponent(label) + '&body=' + encodeURIComponent(template))}">Open email draft</a>` : ''}
   <span role="status"></span></div></section>`).join('')}</div>`, links['contribute.mjs']);
 page('/about/', 'About the directory', 'A community-maintained resource for volunteers looking for organisations to work with in Madagascar.',
-  `<div class="readable">${section('Coverage', `<p>The directory began with the Analanjirofo registry and is expanding region by region. <a href="/regions/">Browse current regional coverage</a>. The full island research pass is pending.</p>
+  `<div class="readable">${section('Coverage', `<p>The directory began with the Analanjirofo registry and now documents organisations in ${regionsCovered} of ${regions.length} regions. <a href="/regions/">Browse regional coverage</a>. Volunteers can confirm local programmes and contact routes through the <a href="/contribute/#confirm">contribution page</a>.</p>
   <p>Regions describe documented work. Office locations and contact scope appear on each profile. Ambatosoa includes Maroantsetra and Mananara-Nord under <a href="${html(readJSON('data/regions.json').catalogue_source_url)}">Law 2023-012</a>.</p>`)}
   ${section('Activity and review dates', '<dl><dt>Reported active</dt><dd>A source reports ongoing or recent work.</dd><dt>Activity needs confirmation</dt><dd>The evidence is undated or the current status is unclear.</dd><dt>Historical or planned</dt><dd>The work has ended or was described as planned.</dd></dl><p>A web review records when an editor checked a source. A direct confirmation requires contact with the organisation or other professional verification. Web reviews older than 365 days and direct confirmations older than 180 days are flagged.</p>')}
   ${section('Maintenance', '<p>Maintainers review public sources and contact corrections before publishing updates. <a href="/contribute/">Suggest an update</a>. The directory is independent of the Peace Corps.</p>')}</div>`);

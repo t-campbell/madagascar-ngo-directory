@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "hanitrin-i-ranomafana",
+  "name": "Hanitrin’i Ranomafana",
+  "acronym": "HIRA",
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Supports farming communities and small producers in Madagascar.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "producer-support",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga",
+        "vatovavy"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "agriculture",
+        "livelihoods"
+      ],
+      "summary": "Supports producers of food crops and market crops, including spices and tree crops. The organisation reports work in Analamanga and Vatovavy.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "info@hira-ranomafana.org",
+          "href": "mailto:info@hira-ranomafana.org",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.hira-ranomafana.org/",
+      "title": "Organisation, locations and contact",
+      "publisher": "Hanitrin’i Ranomafana",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.hira-ranomafana.org/",
+      "title": "Published organisation contact",
+      "publisher": "Hanitrin’i Ranomafana",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

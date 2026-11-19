@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "development-and-environmental-law-center",
+  "name": "Development and Environmental Law Center",
+  "acronym": "DELC",
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy NGO working on environmental education, natural resource management and environmental law.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "boeny-forest-and-farm",
+      "region_scope": "specified",
+      "region_ids": [
+        "boeny"
+      ],
+      "localities": [
+        "Boeny"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "environment"
+      ],
+      "summary": "FAO lists DELC as a protected-area partner on a programme for small-scale forest and farm producers in Boeny. Ask which communities it supports directly.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [
+    {
+      "id": "mahajanga-office",
+      "label": "Published Mahajanga address",
+      "town": "Mahajanga",
+      "region_id": "boeny",
+      "country": "MG",
+      "address": "CFA Betamanga, Ambondrona, Mahajanga",
+      "source_ids": [
+        "contact-route"
+      ],
+      "office_type": "other"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.indriconnect.info/fiche-acteur/25?lng=en",
+          "href": "https://www.indriconnect.info/fiche-acteur/25?lng=en",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.fao.org/in-action/afr100/country-profiles/madagascar/en",
+      "title": "Boeny forest and farm producer project collaborators",
+      "publisher": "FAO",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.indriconnect.info/fiche-acteur/25?lng=en",
+      "title": "Published organisation contact",
+      "publisher": "INDRI",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

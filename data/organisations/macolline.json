@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "macolline",
+  "name": "ONG Macolline",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Conservation organisation working around Antalaha in the SAVA region.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "antalaha-forest",
+      "region_scope": "specified",
+      "region_ids": [
+        "sava"
+      ],
+      "localities": [
+        "Antalaha"
+      ],
+      "sector_ids": [
+        "environment"
+      ],
+      "summary": "Manages a conservation and plant collection site in Antalaha with NATURALG Madagascar and promotes ecological projects.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://macolline.org/",
+          "href": "https://macolline.org/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://macolline.org/developpement-durable/",
+      "title": "Sustainable development programme in Antalaha",
+      "publisher": "ONG Macolline",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://macolline.org/",
+      "title": "Published organisation contact",
+      "publisher": "ONG Macolline",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

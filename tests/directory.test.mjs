@@ -37,6 +37,15 @@ test('filter cross-product only accepts region and sector from the same operatio
   assert.deepEqual(ids('q=soakoja&region=analanjirofo&sector=agriculture'), []);
 });
 
+test('every region has at least two nonprofits and default results in each priority sector', () => {
+  for (const { id, name } of regions) {
+    assert.ok(ids('region=' + id).length >= 2, name);
+    for (const sector of ['agriculture', 'education', 'health']) {
+      assert.ok(ids('region=' + id + '&sector=' + sector).length > 0, name + ' · ' + sector);
+    }
+  }
+});
+
 test('work locations, office locations and historical boundaries remain separate', () => {
   assert.deepEqual(ids('q=csb&region=analanjirofo'), ['csb']);
   assert.deepEqual(ids('q=tany&region=analamanga'), []);

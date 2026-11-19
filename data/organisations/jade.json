@@ -35,6 +35,29 @@
       "notes": [
         "Fénérive-specific report 18 may 2022; organisation website has 2026 activities"
       ]
+    },
+    {
+      "id": "toamasina-school-support",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsinanana"
+      ],
+      "localities": [
+        "Ambodisaina"
+      ],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "Documents school-supply and scholarship support at Ambodisaina near Toamasina.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "jade-toamasina-2026"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "offices": [
@@ -111,6 +134,32 @@
       "web_reviewed_on": "2026-11-10",
       "direct_confirmed_on": null,
       "notes": []
+    },
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "JADE public inbox",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "toamasina-school-support"
+      ],
+      "methods": [
+        {
+          "type": "email",
+          "value": "contact.jademadagascar@gmail.com",
+          "href": "mailto:contact.jademadagascar@gmail.com",
+          "source_ids": [
+            "jade-toamasina-2026"
+          ]
+        }
+      ],
+      "source_ids": [
+        "jade-toamasina-2026"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "sources": [
@@ -137,6 +186,18 @@
         "published contact route",
         "office information",
         "organisation website or partner page"
+      ],
+      "notes": []
+    },
+    {
+      "id": "jade-toamasina-2026",
+      "url": "https://jade-madagascar.org/annonce.php?lang=fr&slug=appel-aux-dons-fournitures-scolaires-2026",
+      "title": "2026 school supplies and scholarship update",
+      "publisher": "Jeunes Actifs pour le Développement",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
       ],
       "notes": []
     }

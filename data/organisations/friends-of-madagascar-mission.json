@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "friends-of-madagascar-mission",
+  "name": "Friends of Madagascar Mission",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Supports Malagasy partners on education and community programmes.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "nofy-i-androy",
+      "region_scope": "specified",
+      "region_ids": [
+        "androy"
+      ],
+      "localities": [
+        "Ambovombe"
+      ],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "The Nofy i Androy partner programme supports girls to stay in school around Ambovombe. Ask about its current intake.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://madagascarmission.org/nofy-i-androy/",
+          "href": "https://madagascarmission.org/nofy-i-androy/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://madagascarmission.org/nofy-i-androy/",
+      "title": "Nofy i Androy school support",
+      "publisher": "Friends of Madagascar Mission",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://madagascarmission.org/nofy-i-androy/",
+      "title": "Published organisation contact",
+      "publisher": "Friends of Madagascar Mission",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

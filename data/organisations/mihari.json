@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "mihari",
+  "name": "MIHARI Network",
+  "acronym": null,
+  "aliases": [],
+  "type": "nonprofit_network",
+  "mission": "Network supporting Malagasy communities that manage local marine areas.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "marine-network",
+      "region_scope": "specified",
+      "region_ids": [
+        "diana",
+        "sofia",
+        "boeny",
+        "sava",
+        "analanjirofo",
+        "androy",
+        "anosy",
+        "atsimo-andrefana",
+        "melaky",
+        "menabe"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "environment",
+        "livelihoods"
+      ],
+      "summary": "Connects community organisations that manage coastal resources and small-scale fisheries. Ask the network for the regional coordinator or local member.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://mihari-network.org/zones-dinterventions/",
+          "href": "https://mihari-network.org/zones-dinterventions/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://mihari-network.org/zones-dinterventions/",
+      "title": "Regional areas of operation",
+      "publisher": "MIHARI Network",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://mihari-network.org/zones-dinterventions/",
+      "title": "Published organisation contact",
+      "publisher": "MIHARI Network",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

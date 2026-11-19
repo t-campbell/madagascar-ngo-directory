@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "id": "apdra",
+  "name": "APDRA Pisciculture Paysanne",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Supports farmer-led fish farming and rice–fish production.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "rice-fish",
+      "region_scope": "specified",
+      "region_ids": [
+        "vakinankaratra",
+        "haute-matsiatra",
+        "itasy",
+        "amoroni-mania",
+        "analamanga"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "agriculture"
+      ],
+      "summary": "The country programme describes support for farmer-led rice–fish production in the central highlands. Ask which communes have current programmes.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "ampiana",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "agriculture",
+        "livelihoods"
+      ],
+      "summary": "AMPIANA phase 3 supports fish farming and market development in Analamanga.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "east-coast-fish-farming",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo",
+        "atsinanana",
+        "atsimo-atsinanana"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "agriculture"
+      ],
+      "summary": "The country programme describes pond-based fish farming on the east coast. Ask APDRA about current local projects and participating communes.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://apdra.org/index.php/fr-fr/nos-actions/madagascar",
+          "href": "https://apdra.org/index.php/fr-fr/nos-actions/madagascar",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://apdra.org/index.php/fr-fr/nos-actions/madagascar",
+      "title": "Madagascar programme",
+      "publisher": "APDRA Pisciculture Paysanne",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://apdra.org/index.php/fr-fr/nos-actions/madagascar",
+      "title": "Published organisation contact",
+      "publisher": "APDRA Pisciculture Paysanne",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "id": "association-tetezana-mada",
+  "name": "Association Tetezana Mada",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy association supporting education, local solidarity and some producer projects.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "ambalanjanakomby",
+      "region_scope": "specified",
+      "region_ids": [
+        "betsiboka"
+      ],
+      "localities": [
+        "Ambalanjanakomby"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "gender-inclusion"
+      ],
+      "summary": "Supported a farmer association, technical training and a storage facility in Ambalanjanakomby with the regional agriculture service. Facility works were handed over in 2025. Ask what follow-on support is available.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "alasora-community",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Alasora"
+      ],
+      "sector_ids": [
+        "education",
+        "youth"
+      ],
+      "summary": "Describes local activities for children and young people around its Alasora base.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "tetezana-alasora"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://tetezanamada.org/",
+          "href": "https://tetezanamada.org/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://tetezanamada.org/nos-projets/le-projet-cooperative-4-female-empowerment-in-madagascar-step-2/",
+      "title": "Farmers’ association and storage project in Betsiboka",
+      "publisher": "Association Tetezana Mada",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://tetezanamada.org/",
+      "title": "Published organisation contact",
+      "publisher": "Association Tetezana Mada",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "tetezana-alasora",
+      "url": "https://tetezanamada.org/nos-projets/les-projets-communautaires/",
+      "title": "Community programmes in Alasora",
+      "publisher": "Association Tetezana Mada",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

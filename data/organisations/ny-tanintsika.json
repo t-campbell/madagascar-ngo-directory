@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "id": "ny-tanintsika",
+  "name": "Ny Tanintsika",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy association working on community development and rural livelihoods.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "school-meals",
+      "region_scope": "specified",
+      "region_ids": [
+        "haute-matsiatra",
+        "amoroni-mania",
+        "vatovavy",
+        "fitovinany"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "education",
+        "nutrition"
+      ],
+      "summary": "Works with schools on meals to encourage attendance and support children’s nutrition.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "ifanadiana-teachers",
+      "region_scope": "specified",
+      "region_ids": [
+        "vatovavy"
+      ],
+      "localities": [
+        "Ifanadiana"
+      ],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "Describes support for teachers whose salaries are paid through parent associations.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "nytanintsika.madagascar@gmail.com",
+          "href": "mailto:nytanintsika.madagascar@gmail.com",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.nytanintsika.org/en/education",
+      "title": "Education programmes and school meals",
+      "publisher": "Ny Tanintsika",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.nytanintsika.org/en/about",
+      "title": "Published organisation contact",
+      "publisher": "Ny Tanintsika",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

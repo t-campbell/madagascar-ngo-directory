@@ -13,7 +13,7 @@ export const scopeNames = {
   referral_international: 'International referral'
 };
 const coordinationTypes = new Set(['government', 'un_bilateral']);
-const defaultTypes = new Set(['ngo_association', 'nonprofit_network', 'red_cross_society']);
+const defaultTypes = new Set(['ngo_association', 'nonprofit_network', 'red_cross_society', 'other_nonprofit']);
 const collator = new Intl.Collator('en', { sensitivity: 'base' });
 
 export function normalise(value) {

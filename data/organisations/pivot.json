@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "pivot",
+  "name": "Pivot",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Works with Madagascar’s Ministry of Public Health to strengthen the public health system in Vatovavy.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "vatovavy-health",
+      "region_scope": "specified",
+      "region_ids": [
+        "vatovavy"
+      ],
+      "localities": [
+        "Ranomafana",
+        "Ifanadiana district"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Supports community and facility-based care, referral systems and health system strengthening with public partners.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://pivotworks.org/where-we-work/",
+          "href": "https://pivotworks.org/where-we-work/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://pivotworks.org/where-we-work/",
+      "title": "Vatovavy programme and Madagascar office",
+      "publisher": "Pivot",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://pivotworks.org/where-we-work/",
+      "title": "Published organisation contact",
+      "publisher": "Pivot",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

@@ -34,6 +34,150 @@
       "notes": [
         "current country page reports regional WASH work; pS-Eau project begins jun 2025"
       ]
+    },
+    {
+      "id": "atsimo-atsinanana-health",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsimo-atsinanana"
+      ],
+      "localities": [
+        "Farafangana",
+        "Vondrozo",
+        "Vangaindrano"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Supports public partners and community health services in Farafangana, Vondrozo and Vangaindrano.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "inter-aide-sante"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "vohipeno-health",
+      "region_scope": "specified",
+      "region_ids": [
+        "fitovinany"
+      ],
+      "localities": [
+        "Vohipeno"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Supports community and public-sector health services in Vohipeno district.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "inter-aide-sante"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "manakara-farms",
+      "region_scope": "specified",
+      "region_ids": [
+        "fitovinany"
+      ],
+      "localities": [
+        "Manakara"
+      ],
+      "sector_ids": [
+        "agriculture"
+      ],
+      "summary": "Supports farm families and producer organisations in Manakara district.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "inter-aide-agriculture"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "mananjary-farms",
+      "region_scope": "specified",
+      "region_ids": [
+        "vatovavy"
+      ],
+      "localities": [
+        "Mananjary"
+      ],
+      "sector_ids": [
+        "agriculture"
+      ],
+      "summary": "Supports farm families and producer organisations in Mananjary district.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "inter-aide-agriculture"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "atsimo-atsinanana-farms",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsimo-atsinanana"
+      ],
+      "localities": [
+        "Farafangana",
+        "Vangaindrano",
+        "Vondrozo"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "wash"
+      ],
+      "summary": "Lists agriculture and water, hygiene and sanitation work in the southeastern districts of Farafangana, Vangaindrano and Vondrozo.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "inter-aide-national-expansion"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "analamanga-wash",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Manjakandriana",
+        "Ambohidratrimo"
+      ],
+      "sector_ids": [
+        "wash"
+      ],
+      "summary": "Lists work in water, sanitation and hygiene in Manjakandriana and Ambohidratrimo.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "inter-aide-national-expansion"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "offices": [
@@ -102,6 +246,30 @@
       "web_reviewed_on": "2026-11-10",
       "direct_confirmed_on": null,
       "notes": []
+    },
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation referral",
+      "scope": "international",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "interaide@interaide.org",
+          "href": "mailto:interaide@interaide.org",
+          "source_ids": [
+            "inter-aide-agriculture"
+          ]
+        }
+      ],
+      "source_ids": [
+        "inter-aide-agriculture"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "sources": [
@@ -139,6 +307,42 @@
       "checked_on": "2026-11-10",
       "supports": [
         "organisation website or partner page"
+      ],
+      "notes": []
+    },
+    {
+      "id": "inter-aide-national-expansion",
+      "url": "https://interaide.org/en/our-intervention-areas/madagascar/",
+      "title": "Madagascar districts and programmes",
+      "publisher": "Inter Aide",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "inter-aide-agriculture",
+      "url": "https://interaide.org/pages-cross/madagascar-agriculture/",
+      "title": "Madagascar agriculture programmes",
+      "publisher": "Inter Aide",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "inter-aide-sante",
+      "url": "https://interaide.org/pages-cross/madagascar-sante/",
+      "title": "Madagascar health programme and districts",
+      "publisher": "Inter Aide",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
       ],
       "notes": []
     }

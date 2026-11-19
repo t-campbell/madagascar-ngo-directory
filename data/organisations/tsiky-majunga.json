@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "tsiky-majunga",
+  "name": "Association Tsiky Majunga",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Improves access to care for schoolchildren in Mahajanga.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "school-health",
+      "region_scope": "specified",
+      "region_ids": [
+        "boeny"
+      ],
+      "localities": [
+        "Mahajanga"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Works through public primary schools in Mahajanga to provide children with access to basic care and follow-up.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://tsiky.org/",
+          "href": "https://tsiky.org/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://tsiky.org/",
+      "title": "School health programme and activity updates",
+      "publisher": "Association Tsiky Majunga",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://tsiky.org/",
+      "title": "Published organisation contact",
+      "publisher": "Association Tsiky Majunga",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}
