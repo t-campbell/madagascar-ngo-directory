@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "id": "inter-aide",
+  "name": "Inter Aide",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "supports rural water access, sanitation and hygiene, commune water services and local maintenance systems with Soakoja.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Fénérive-Est",
+        "Vavatenina",
+        "Soanierana Ivongo"
+      ],
+      "sector_ids": [
+        "wash"
+      ],
+      "summary": "supports rural water access, sanitation and hygiene, commune water services and local maintenance systems with Soakoja.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "current country page reports regional WASH work; pS-Eau project begins jun 2025"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Field office or centre",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "analanjirofo",
+      "town": "Fénérive-Est",
+      "address": "Fénérive field base listed; exact street address not located",
+      "source_ids": [
+        "contact"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "Local field contact",
+      "scope": "local",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 33 07 665 33",
+          "href": "tel:+261330766533",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation contact page",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://interaide.org/",
+          "href": "https://interaide.org/",
+          "source_ids": [
+            "site"
+          ]
+        }
+      ],
+      "source_ids": [
+        "site"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://interaide.org/nos-zones-dintervention/madagascar/",
+      "title": "Inter Aide — programme evidence",
+      "publisher": "interaide.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact",
+      "url": "https://bdd.pseau.org/outils/organismes/organisme_detail.php?org_organisme_id=16552",
+      "title": "Inter Aide — contact listing",
+      "publisher": "pS-Eau",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    },
+    {
+      "id": "site",
+      "url": "https://interaide.org/",
+      "title": "Inter Aide — website",
+      "publisher": "interaide.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "national agriculture and child-health activities are mainly in other regions. Analanjirofo evidence here is WASH. phone listing undated."
+  ],
+  "relationships": []
+}

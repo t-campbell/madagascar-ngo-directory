@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "id": "mateza",
+  "name": "MATEZA",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy NGO with documented community-led sanitation work and partnerships with regional water authorities and UNICEF.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Fénérive-Est"
+      ],
+      "sector_ids": [
+        "wash"
+      ],
+      "summary": "Malagasy NGO with documented community-led sanitation work and partnerships with regional water authorities and UNICEF.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "pS-Eau organisation listing; record date not stated"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Field office or centre",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "analanjirofo",
+      "town": "Fénérive-Est",
+      "address": "Lot 85 A, Parcelle IV, Ambataria, Fenoarivo Atsinanana",
+      "source_ids": [
+        "work"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "Local office",
+      "scope": "local",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 33 11 144 72",
+          "href": "tel:+261331114472",
+          "source_ids": [
+            "work"
+          ]
+        }
+      ],
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Director, as listed",
+      "scope": "local",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 34 18 184 29",
+          "href": "tel:+261341818429",
+          "source_ids": [
+            "work"
+          ]
+        }
+      ],
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://bdd.pseau.org/outils/organismes/organisme_detail.php?org_organisme_id=76590",
+      "title": "MATEZA — programme evidence",
+      "publisher": "pS-Eau",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation",
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "confirm current programmes and contact role; directory alone does not establish 2026 activity."
+  ],
+  "relationships": []
+}

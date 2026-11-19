@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "id": "medair",
+  "name": "Medair",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "humanitarian NGO supporting disaster response and resilience. current regional evidence is a pilot for locally made cyclone/flood shelters and community preparedness.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "disaster-resilience"
+      ],
+      "summary": "humanitarian NGO supporting disaster response and resilience. current regional evidence is a pilot for locally made cyclone/flood shelters and community preparedness.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "REPIC-funded Analanjirofo pilot dated 2025–2026"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "International headquarters",
+      "office_type": "international",
+      "country": "CH",
+      "region_id": null,
+      "town": "Ecublens",
+      "address": "current regional office not established; international HQ in Ecublens, Switzerland",
+      "source_ids": [
+        "contact"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "International HQ referral",
+      "scope": "referral_international",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "email",
+          "value": "info@medair.org",
+          "href": "mailto:info@medair.org",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation website",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://medair.org/countries/madagascar",
+          "href": "https://medair.org/countries/madagascar",
+          "source_ids": [
+            "site"
+          ]
+        }
+      ],
+      "source_ids": [
+        "site"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://www.repic.ch/en/medair-madagascar/",
+      "title": "Medair — programme evidence",
+      "publisher": "repic.ch",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact",
+      "url": "https://medair.org/contact",
+      "title": "Medair — contact listing",
+      "publisher": "medair.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    },
+    {
+      "id": "site",
+      "url": "https://medair.org/countries/madagascar",
+      "title": "Medair — website",
+      "publisher": "medair.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "do not infer a standing regional clinical-health programme. older Maroantsetra WASH listings now concern Ambatosoa."
+  ],
+  "relationships": []
+}

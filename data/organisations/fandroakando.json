@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "id": "fandroakando",
+  "name": "Fandroakando",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "protects northeast Madagascar’s forests and wildlife through community partnerships, forest restoration and ecotourism. adjacent to education/agriculture interests rather than a core health provider.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "ambatosoa"
+      ],
+      "localities": [
+        "Farankaraina forest",
+        "Maroantsetra"
+      ],
+      "sector_ids": [
+        "environment"
+      ],
+      "summary": "protects northeast Madagascar’s forests and wildlife through community partnerships, forest restoration and ecotourism. adjacent to education/agriculture interests rather than a core health provider.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "official mission and office pages; dates not stated"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Field office or centre",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "ambatosoa",
+      "town": "Maroantsetra",
+      "address": "Maroantsetra office; street address not given",
+      "source_ids": [
+        "contact"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "Local office",
+      "scope": "local",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 38 08 910 89",
+          "href": "tel:+261380891089",
+          "source_ids": [
+            "contact"
+          ]
+        },
+        {
+          "type": "email",
+          "value": "info@fandroakando.ngo",
+          "href": "mailto:info@fandroakando.ngo",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation website",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://fandroakando.ngo/index.html",
+          "href": "https://fandroakando.ngo/index.html",
+          "source_ids": [
+            "work"
+          ]
+        }
+      ],
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://fandroakando.ngo/index.html",
+      "title": "Fandroakando — programme evidence",
+      "publisher": "fandroakando.ngo",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation",
+        "organisation website or partner page"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact",
+      "url": "https://fandroakando.ngo/office.html",
+      "title": "Fandroakando — contact listing",
+      "publisher": "fandroakando.ngo",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "Maroantsetra is now Ambatosoa. confirm active education / livelihood partnerships."
+  ],
+  "relationships": []
+}

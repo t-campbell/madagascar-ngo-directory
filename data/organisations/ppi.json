@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "id": "ppi",
+  "name": "People Power Inclusion",
+  "acronym": "PPI",
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "uses savings groups, financial education, gardening and income activities to improve household resilience and nutrition. partner in cyclone-resilience work with women.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo",
+        "atsinanana"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "disaster-resilience",
+        "gender-inclusion"
+      ],
+      "summary": "VIAVY-CC works with women to reduce vulnerability to cyclones and floods.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "nutrition programme 2019–2024; VIAVY-CC listed 2025–ongoing"
+      ]
+    },
+    {
+      "id": "nutrition-2019-2024",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Fénérive-Est",
+        "Vavatenina",
+        "Soanierana Ivongo"
+      ],
+      "sector_ids": [
+        "nutrition",
+        "livelihoods"
+      ],
+      "summary": "Used savings groups, financial education and gardening to improve household nutrition and resilience.",
+      "activity_status": "historical",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work-2"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "Project period 2019–2024."
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Organisation office",
+      "office_type": "national",
+      "country": "MG",
+      "region_id": "analamanga",
+      "town": "Antananarivo",
+      "address": "Madagascar platform: Lot 2W4 Ambodirotra, Antananarivo 101; contact below is HQ",
+      "source_ids": [
+        "contact"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "International HQ referral",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [
+        "local-work",
+        "nutrition-2019-2024"
+      ],
+      "methods": [
+        {
+          "type": "email",
+          "value": "contact@ppi-groupesos.org",
+          "href": "mailto:contact@ppi-groupesos.org",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation website",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work",
+        "nutrition-2019-2024"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.ppi-groupesos.org/",
+          "href": "https://www.ppi-groupesos.org/",
+          "source_ids": [
+            "site"
+          ]
+        }
+      ],
+      "source_ids": [
+        "site"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://www.greenmadagascar.org/projets/",
+      "title": "People Power Inclusion — programme evidence",
+      "publisher": "GREEN Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "work-2",
+      "url": "https://fr.linkedin.com/posts/people-power-inclusion-ppi_analanjirofo-madagascar-gec-activity-7244289670937808896-NziV",
+      "title": "People Power Inclusion — programme evidence",
+      "publisher": "People Power Inclusion (LinkedIn)",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact",
+      "url": "https://www.ppi-groupesos.org/contact/",
+      "title": "People Power Inclusion — contact listing",
+      "publisher": "ppi-groupesos.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    },
+    {
+      "id": "site",
+      "url": "https://www.ppi-groupesos.org/",
+      "title": "People Power Inclusion — website",
+      "publisher": "ppi-groupesos.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "older nutrition project ended. confirm present communes and field office for the newer programme."
+  ],
+  "relationships": []
+}

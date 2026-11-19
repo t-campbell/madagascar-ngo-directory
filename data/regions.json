@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "catalogue_source_url": "https://cnlegis.gov.mg/uploads/L2023-012-VF.pdf",
+  "reviewed_on": "2026-11-11",
+  "implementation_note": "24-region baseline. confirm no later administrative change at deployment. no automatic mapping of historical Vatovavy-Fitovinany.",
+  "regions": [
+    {
+      "id": "alaotra-mangoro",
+      "name": "Alaotra-Mangoro",
+      "aliases": [
+        "Alaotra Mangoro"
+      ]
+    },
+    {
+      "id": "ambatosoa",
+      "name": "Ambatosoa",
+      "aliases": []
+    },
+    {
+      "id": "amoroni-mania",
+      "name": "Amoron’i Mania",
+      "aliases": [
+        "Amoron'i Mania",
+        "Amoroni Mania"
+      ]
+    },
+    {
+      "id": "analamanga",
+      "name": "Analamanga",
+      "aliases": []
+    },
+    {
+      "id": "analanjirofo",
+      "name": "Analanjirofo",
+      "aliases": []
+    },
+    {
+      "id": "androy",
+      "name": "Androy",
+      "aliases": []
+    },
+    {
+      "id": "anosy",
+      "name": "Anosy",
+      "aliases": []
+    },
+    {
+      "id": "atsimo-andrefana",
+      "name": "Atsimo-Andrefana",
+      "aliases": [
+        "Atsimo Andrefana"
+      ]
+    },
+    {
+      "id": "atsimo-atsinanana",
+      "name": "Atsimo-Atsinanana",
+      "aliases": [
+        "Atsimo Atsinanana"
+      ]
+    },
+    {
+      "id": "atsinanana",
+      "name": "Atsinanana",
+      "aliases": []
+    },
+    {
+      "id": "betsiboka",
+      "name": "Betsiboka",
+      "aliases": []
+    },
+    {
+      "id": "boeny",
+      "name": "Boeny",
+      "aliases": []
+    },
+    {
+      "id": "bongolava",
+      "name": "Bongolava",
+      "aliases": []
+    },
+    {
+      "id": "diana",
+      "name": "DIANA",
+      "aliases": [
+        "Diana"
+      ]
+    },
+    {
+      "id": "fitovinany",
+      "name": "Fitovinany",
+      "aliases": []
+    },
+    {
+      "id": "haute-matsiatra",
+      "name": "Haute Matsiatra",
+      "aliases": [
+        "Haute-Matsiatra"
+      ]
+    },
+    {
+      "id": "ihorombe",
+      "name": "Ihorombe",
+      "aliases": []
+    },
+    {
+      "id": "itasy",
+      "name": "Itasy",
+      "aliases": []
+    },
+    {
+      "id": "melaky",
+      "name": "Melaky",
+      "aliases": []
+    },
+    {
+      "id": "menabe",
+      "name": "Menabe",
+      "aliases": []
+    },
+    {
+      "id": "sava",
+      "name": "SAVA",
+      "aliases": [
+        "Sava"
+      ]
+    },
+    {
+      "id": "sofia",
+      "name": "Sofia",
+      "aliases": []
+    },
+    {
+      "id": "vakinankaratra",
+      "name": "Vakinankaratra",
+      "aliases": []
+    },
+    {
+      "id": "vatovavy",
+      "name": "Vatovavy",
+      "aliases": []
+    }
+  ],
+  "locality_aliases": [
+    {
+      "names": [
+        "Fénérive-Est",
+        "Fenerive Est",
+        "Fenoarivo Atsinanana"
+      ],
+      "region_id": "analanjirofo"
+    },
+    {
+      "names": [
+        "Sainte-Marie",
+        "Sainte Marie",
+        "Nosy Boraha"
+      ],
+      "region_id": "analanjirofo"
+    },
+    {
+      "names": [
+        "Maroantsetra"
+      ],
+      "region_id": "ambatosoa"
+    },
+    {
+      "names": [
+        "Mananara-Nord",
+        "Mananara Nord",
+        "Mananara Avaratra"
+      ],
+      "region_id": "ambatosoa"
+    },
+    {
+      "names": [
+        "Antananarivo",
+        "Tana"
+      ],
+      "region_id": "analamanga"
+    },
+    {
+      "names": [
+        "Toamasina",
+        "Tamatave"
+      ],
+      "region_id": "atsinanana"
+    }
+  ]
+}

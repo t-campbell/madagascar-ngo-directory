@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "id": "tany-ifandovana",
+  "name": "Tany Ifandovana",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Sainte Marie Agroforesterie Initiative promotes agroecology and alternatives to slash-and-burn, aiming to conserve forests and sustain local incomes.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Sainte-Marie (Nosy Boraha)"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "environment"
+      ],
+      "summary": "Sainte Marie Agroforesterie Initiative promotes agroecology and alternatives to slash-and-burn, aiming to conserve forests and sustain local incomes.",
+      "activity_status": "unknown",
+      "starts_on": "2024-10-01",
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "SMAI start date 1 oct 2024; project page has no end date"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Organisation office",
+      "office_type": "national",
+      "country": "MG",
+      "region_id": "analamanga",
+      "town": "Antananarivo",
+      "address": "HQ: Lot H 72 Bis C Ampangabe Alasora, Antananarivo 103",
+      "source_ids": [
+        "work"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "National office",
+      "scope": "national",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 34 85 249 92",
+          "href": "tel:+261348524992",
+          "source_ids": [
+            "work"
+          ]
+        },
+        {
+          "type": "email",
+          "value": "contact.tanyifandovana@gmail.com",
+          "href": "mailto:contact.tanyifandovana@gmail.com",
+          "source_ids": [
+            "work"
+          ]
+        }
+      ],
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation website",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.tany-ifandovana.org/",
+          "href": "https://www.tany-ifandovana.org/",
+          "source_ids": [
+            "site"
+          ]
+        }
+      ],
+      "source_ids": [
+        "site"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://www.tany-ifandovana.org/fr/nos-projets/12-sainte-marie-agroforesterie-initiative-smai",
+      "title": "Tany Ifandovana — programme evidence",
+      "publisher": "tany-ifandovana.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation",
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    },
+    {
+      "id": "site",
+      "url": "https://www.tany-ifandovana.org/",
+      "title": "Tany Ifandovana — website",
+      "publisher": "tany-ifandovana.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "confirm whether SMAI is still operating and accepting community partnerships."
+  ],
+  "relationships": []
+}

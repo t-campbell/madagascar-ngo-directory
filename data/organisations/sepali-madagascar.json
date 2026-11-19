@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "id": "sepali-madagascar",
+  "name": "SEPALI Madagascar",
+  "acronym": "SEPALI",
+  "aliases": [
+    "SEPALI Madagascar / CPALI"
+  ],
+  "type": "ngo_association",
+  "mission": "SEPALI is the local NGO; CPALI provides technical and financial support and market access. works with farmers on native trees, wild silk, raffia and income-generating textiles.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "ambatosoa"
+      ],
+      "localities": [
+        "Maroantsetra",
+        "Makira and Masoala border communities"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "livelihoods"
+      ],
+      "summary": "SEPALI is the local NGO; CPALI provides technical and financial support and market access. works with farmers on native trees, wild silk, raffia and income-generating textiles.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "official CPALI programme page; dates not stated"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Field office or centre",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "ambatosoa",
+      "town": "Maroantsetra",
+      "address": "Varingohatra, Maroantsetra, CP 512, Ambatosoa",
+      "source_ids": [
+        "work"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "CPALI partner referral",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "email",
+          "value": "info@cpali.org",
+          "href": "mailto:info@cpali.org",
+          "source_ids": [
+            "work"
+          ]
+        }
+      ],
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Partner website",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.cpali.org/",
+          "href": "https://www.cpali.org/",
+          "source_ids": [
+            "site"
+          ]
+        }
+      ],
+      "source_ids": [
+        "site"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://www.cpali.org/about-us",
+      "title": "SEPALI Madagascar — programme evidence",
+      "publisher": "cpali.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation",
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    },
+    {
+      "id": "site",
+      "url": "https://www.cpali.org/",
+      "title": "SEPALI Madagascar — website",
+      "publisher": "cpali.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "Ambatosoa since 2023. not present-day Analanjirofo. CPALI and SEPALI are partners, not interchangeable legal entities."
+  ],
+  "relationships": [
+    {
+      "name": "CPALI",
+      "kind": "implementing partner",
+      "description": "A separate organisation providing technical, financial and market-access support to SEPALI.",
+      "source_ids": [
+        "work"
+      ]
+    }
+  ]
+}

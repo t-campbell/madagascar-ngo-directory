@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "id": "jmdd",
+  "name": "Jeunesse Malgache de Demain",
+  "acronym": "JMDD",
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "provides boarding, study support and sponsorship to disadvantaged rural secondary-school students. Fénérive centre reports about 40 boarders.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Fénérive-Est"
+      ],
+      "sector_ids": [
+        "education",
+        "youth"
+      ],
+      "summary": "provides boarding, study support and sponsorship to disadvantaged rural secondary-school students. Fénérive centre reports about 40 boarders.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "official centre page and organisation site; pages undated"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Field office or centre",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "analanjirofo",
+      "town": "Fénérive-Est",
+      "address": "Village JDD Itendro, route de Soanierana-Ivongo, Fénérive-Est 509",
+      "source_ids": [
+        "contact"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "Association inbox routing to local centre",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "email",
+          "value": "info@jeunessemalgachededemain.org",
+          "href": "mailto:info@jeunessemalgachededemain.org",
+          "source_ids": [
+            "contact"
+          ]
+        },
+        {
+          "type": "email",
+          "value": "contact@jeunessemalgachededemain.org",
+          "href": "mailto:contact@jeunessemalgachededemain.org",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation website",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.jeunessemalgachededemain.org/",
+          "href": "https://www.jeunessemalgachededemain.org/",
+          "source_ids": [
+            "site"
+          ]
+        }
+      ],
+      "source_ids": [
+        "site"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://www.jeunessemalgachededemain.org/f%C3%A9n%C3%A9rive",
+      "title": "Jeunesse Malgache de Demain — programme evidence",
+      "publisher": "jeunessemalgachededemain.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact",
+      "url": "https://www.jeunessemalgachededemain.org/jeunessemalgachededemain",
+      "title": "Jeunesse Malgache de Demain — contact listing",
+      "publisher": "jeunessemalgachededemain.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    },
+    {
+      "id": "site",
+      "url": "https://www.jeunessemalgachededemain.org/",
+      "title": "Jeunesse Malgache de Demain — website",
+      "publisher": "jeunessemalgachededemain.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "ask association to connect you to Fénérive centre. no local phone found."
+  ],
+  "relationships": []
+}

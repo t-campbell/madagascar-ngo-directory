@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "id": "amadese",
+  "name": "AMADESE",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy development association supporting livelihoods and responsible natural-resource use. co-implementer of farmer-organisation support with AVSF.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Analanjirofo"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "livelihoods"
+      ],
+      "summary": "Co-implemented the 2022–2025 VAGNONO farmer-organisation project with AVSF.",
+      "activity_status": "historical",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "AVSF project 2022–2025; HINA member contact undated"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Organisation office",
+      "office_type": "national",
+      "country": "MG",
+      "region_id": "analamanga",
+      "town": "Antananarivo",
+      "address": "Antananarivo; local office not established",
+      "source_ids": [
+        "contact"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "National organisation contact",
+      "scope": "national",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "email",
+          "value": "amadese@gmail.com",
+          "href": "mailto:amadese@gmail.com",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation website",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.sun-hina-madagascar.org/OSC/amadese",
+          "href": "https://www.sun-hina-madagascar.org/OSC/amadese",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://www.avsf.org/projets/des-organisations-de-producteurs-performantes/",
+      "title": "AMADESE — programme evidence",
+      "publisher": "avsf.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact",
+      "url": "https://www.sun-hina-madagascar.org/OSC/amadese",
+      "title": "AMADESE — contact listing",
+      "publisher": "sun-hina-madagascar.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "published contact route",
+        "office information",
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "confirm current regional programme and ask for the Analanjirofo team."
+  ],
+  "relationships": []
+}

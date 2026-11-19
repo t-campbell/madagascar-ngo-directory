@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "id": "avsf",
+  "name": "Agronomes & Vétérinaires Sans Frontières",
+  "acronym": "AVSF",
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "strengthens farmer groups, production and marketing in rice, fishing, fish farming, poultry and cattle. also has national expertise in community animal health.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Analanjirofo"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "livelihoods"
+      ],
+      "summary": "VAGNONO supported farmer organisations and production and marketing in rice, fisheries, aquaculture and livestock from 2022 to 2025.",
+      "activity_status": "historical",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "VAGNONO dated 2022–2025; contact publication nov 2025"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Organisation office",
+      "office_type": "national",
+      "country": "MG",
+      "region_id": "analamanga",
+      "town": "Antananarivo",
+      "address": "national coordination: Lot VG 25 Antsahabe, BP 3649, Antananarivo 101",
+      "source_ids": [
+        "contact"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "National coordination",
+      "scope": "national",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 34 72 684 97",
+          "href": "tel:+261347268497",
+          "source_ids": [
+            "contact"
+          ]
+        },
+        {
+          "type": "email",
+          "value": "g.parizet@avsf.org",
+          "href": "mailto:g.parizet@avsf.org",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation website",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.avsf.org/pays-action/madagascar/",
+          "href": "https://www.avsf.org/pays-action/madagascar/",
+          "source_ids": [
+            "site"
+          ]
+        }
+      ],
+      "source_ids": [
+        "site"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://www.avsf.org/projets/des-organisations-de-producteurs-performantes/",
+      "title": "Agronomes & Vétérinaires Sans Frontières — programme evidence",
+      "publisher": "avsf.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact",
+      "url": "https://www.avsf.org/app/uploads/2026/02/AVSF_Capitalisation_APPSA_VF_compressed.pdf",
+      "title": "Agronomes & Vétérinaires Sans Frontières — contact listing",
+      "publisher": "avsf.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    },
+    {
+      "id": "site",
+      "url": "https://www.avsf.org/pays-action/madagascar/",
+      "title": "Agronomes & Vétérinaires Sans Frontières — website",
+      "publisher": "avsf.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "VAGNONO end date has passed. ask which Analanjirofo activities and field staff remain active."
+  ],
+  "relationships": []
+}

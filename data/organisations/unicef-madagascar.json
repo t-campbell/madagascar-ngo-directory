@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "id": "unicef-madagascar",
+  "name": "UNICEF Madagascar",
+  "acronym": "UNICEF",
+  "aliases": [],
+  "type": "un_bilateral",
+  "mission": "UN children’s agency supporting education, child health, nutrition and WASH. local listing provides a field WASH programme contact who may refer you to implementing NGOs.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Fénérive-Est"
+      ],
+      "sector_ids": [
+        "wash"
+      ],
+      "summary": "A field listing identifies a WASH contact who can refer volunteers to implementing partners.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "pS-Eau field listing; date not stated"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Field office or centre",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "analanjirofo",
+      "town": "Fénérive-Est",
+      "address": "Fenoarivo Atsinanana",
+      "source_ids": [
+        "work"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "Field WASH programme contact",
+      "scope": "local",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 32 23 025 00",
+          "href": "tel:+261322302500",
+          "source_ids": [
+            "work"
+          ]
+        }
+      ],
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation contact page",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.unicef.org/madagascar/",
+          "href": "https://www.unicef.org/madagascar/",
+          "source_ids": [
+            "site"
+          ]
+        }
+      ],
+      "source_ids": [
+        "site"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://bdd.pseau.org/outils/organismes/organisme_detail.php?org_organisme_id=76496",
+      "title": "UNICEF Madagascar — programme evidence",
+      "publisher": "pS-Eau",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation",
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    },
+    {
+      "id": "site",
+      "url": "https://www.unicef.org/madagascar/",
+      "title": "UNICEF Madagascar — website",
+      "publisher": "unicef.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "UN agency, not an NGO. confirm officer and local coverage; national office may be needed if number fails."
+  ],
+  "relationships": []
+}

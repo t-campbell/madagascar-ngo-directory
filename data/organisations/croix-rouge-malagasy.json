@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "id": "croix-rouge-malagasy",
+  "name": "Croix-Rouge Malagasy",
+  "acronym": "CRM",
+  "aliases": [],
+  "type": "red_cross_society",
+  "mission": "volunteer humanitarian society supporting community health, WASH, disaster preparedness and resilient livelihoods. local vulnerability study guides community interventions.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Fénérive-Est",
+        "Soanierana Ivongo"
+      ],
+      "sector_ids": [
+        "disaster-resilience"
+      ],
+      "summary": "The PPRM project documented community vulnerability and preparedness needs in 12 fokontany.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "PPRM regional workshop 28–29 aug 2025"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Organisation office",
+      "office_type": "national",
+      "country": "MG",
+      "region_id": "analamanga",
+      "town": "Antananarivo",
+      "address": "regional team documented; HQ: 1 rue Patrice Lumumba, Tsaralalana, Antananarivo 101",
+      "source_ids": [
+        "contact"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "National office routing to regional branch",
+      "scope": "national",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 20 22 221 11",
+          "href": "tel:+261202222111",
+          "source_ids": [
+            "contact"
+          ]
+        },
+        {
+          "type": "email",
+          "value": "contact@crmada.org",
+          "href": "mailto:contact@crmada.org",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation website",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://croixrougemalagasy.mg/",
+          "href": "https://croixrougemalagasy.mg/",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://www.raneau.org/fr/atelier-restitution-levca-et-lenquete-baseline-du-pprm-renforcer-resilience-communautaire-dans",
+      "title": "Croix-Rouge Malagasy — programme evidence",
+      "publisher": "raneau.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact",
+      "url": "https://croixrougemalagasy.mg/",
+      "title": "Croix-Rouge Malagasy — contact listing",
+      "publisher": "croixrougemalagasy.mg",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "published contact route",
+        "office information",
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "Red Cross national society, a distinct humanitarian category. regional direct contact not found; confirm 2026 coverage."
+  ],
+  "relationships": []
+}

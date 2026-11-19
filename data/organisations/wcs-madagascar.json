@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "id": "wcs-madagascar",
+  "name": "Wildlife Conservation Society (Madagascar)",
+  "acronym": "WCS",
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "integrates school and youth environmental education with community nutrition and reproductive-health work. maintains an environmental education campus in Maroantsetra.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "ambatosoa"
+      ],
+      "localities": [
+        "Maroantsetra",
+        "MaMaBay landscape",
+        "Antongil Bay"
+      ],
+      "sector_ids": [
+        "education",
+        "environment"
+      ],
+      "summary": "Provides environmental education for schools and young people, with a campus in Maroantsetra.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "official initiative page; date not stated"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Field office or centre",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "ambatosoa",
+      "town": "Maroantsetra",
+      "address": "Living Environmental Campus, Maroantsetra",
+      "source_ids": [
+        "work"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "National office routing to regional team",
+      "scope": "national",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 20 22 597 89",
+          "href": "tel:+261202259789",
+          "source_ids": [
+            "contact"
+          ]
+        },
+        {
+          "type": "email",
+          "value": "wcsmad@wcsmad.org",
+          "href": "mailto:wcsmad@wcsmad.org",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation website",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://madagascar.wcs.org/",
+          "href": "https://madagascar.wcs.org/",
+          "source_ids": [
+            "site"
+          ]
+        }
+      ],
+      "source_ids": [
+        "site"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://madagascar.wcs.org/Initiatives/Environmental-Education.aspx",
+      "title": "Wildlife Conservation Society (Madagascar) — programme evidence",
+      "publisher": "madagascar.wcs.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact",
+      "url": "https://madagascar.wcs.org/About-Us/Contact-Us.aspx",
+      "title": "Wildlife Conservation Society (Madagascar) — contact listing",
+      "publisher": "madagascar.wcs.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    },
+    {
+      "id": "site",
+      "url": "https://madagascar.wcs.org/",
+      "title": "Wildlife Conservation Society (Madagascar) — website",
+      "publisher": "madagascar.wcs.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "Maroantsetra is now Ambatosoa. specific current programme coverage needs confirmation."
+  ],
+  "relationships": []
+}

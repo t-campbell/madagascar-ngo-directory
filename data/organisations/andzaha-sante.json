@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "id": "andzaha-sante",
+  "name": "Andzaha Santé",
+  "acronym": null,
+  "aliases": [
+    "Pôle Santé Solidaire"
+  ],
+  "type": "ngo_association",
+  "mission": "association supporting a maternal-and-child healthcare centre with a Malagasy operating team. 2026 update documents an audit and continued support for the centre.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Ambodifotatra, Sainte-Marie"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "association supporting a maternal-and-child healthcare centre with a Malagasy operating team. 2026 update documents an audit and continued support for the centre.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "local activity update mar 2026; referral email published in 2023"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Field office or centre",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "analanjirofo",
+      "town": "Sainte-Marie",
+      "address": "Pôle Santé Solidaire, Ambodifotatra, Sainte-Marie",
+      "source_ids": [
+        "contact"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "Association webmaster referral",
+      "scope": "referral",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "email",
+          "value": "webmaster@andzaha.com",
+          "href": "mailto:webmaster@andzaha.com",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation website",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.andzaha.com/",
+          "href": "https://www.andzaha.com/",
+          "source_ids": [
+            "site"
+          ]
+        }
+      ],
+      "source_ids": [
+        "site"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://www.andzaha.com/news-2026",
+      "title": "Andzaha Santé — programme evidence",
+      "publisher": "andzaha.com",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact",
+      "url": "https://www.andzaha.com/news-2023",
+      "title": "Andzaha Santé — contact listing",
+      "publisher": "andzaha.com",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    },
+    {
+      "id": "site",
+      "url": "https://www.andzaha.com/",
+      "title": "Andzaha Santé — website",
+      "publisher": "andzaha.com",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "email is the association webmaster, not a clinical contact. ask for current PSS administration details; no direct centre phone found."
+  ],
+  "relationships": [
+    {
+      "name": "Pôle Santé Solidaire",
+      "kind": "supported centre",
+      "description": "Local healthcare centre supported by the association.",
+      "source_ids": [
+        "work"
+      ]
+    }
+  ]
+}

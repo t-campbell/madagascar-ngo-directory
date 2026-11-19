@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "asos",
+  "name": "ASOS",
+  "acronym": "ASOS",
+  "aliases": [
+    "ASOS Analanjirofo"
+  ],
+  "type": "ngo_association",
+  "mission": "promotes community health, hygiene and sanitation, including community-led sanitation and safe waste/sludge management.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Fénérive-Est"
+      ],
+      "sector_ids": [
+        "wash"
+      ],
+      "summary": "Supports community-led sanitation, hygiene and safe sludge management.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "pS-Eau regional office listing; record date not stated"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Field office or centre",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "analanjirofo",
+      "town": "Fénérive-Est",
+      "address": "Lot 215 C, Ampasimpotsy, Fénérive-Est",
+      "source_ids": [
+        "work"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "Local office",
+      "scope": "local",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 34 65 664 19",
+          "href": "tel:+261346566419",
+          "source_ids": [
+            "work"
+          ]
+        },
+        {
+          "type": "phone",
+          "value": "+261 34 81 722 52",
+          "href": "tel:+261348172252",
+          "source_ids": [
+            "work"
+          ]
+        }
+      ],
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "The named directory contact has different published numbers: +261 34 05 664 19 and +261 33 01 790 03. Check via the office first."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://bdd.pseau.org/outils/organismes/organisme_detail.php?org_organisme_id=20050",
+      "title": "ASOS — programme evidence",
+      "publisher": "pS-Eau",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation",
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "directory contact is undated. named contact has different listed numbers: +261 34 05 664 19 / +261 33 01 790 03. verify before travel."
+  ],
+  "relationships": []
+}

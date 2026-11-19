@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "id": "pfsce",
+  "name": "Plateforme de la Société Civile pour l’Enfance",
+  "acronym": "PFSCE",
+  "aliases": [],
+  "type": "nonprofit_network",
+  "mission": "child-rights civil-society network. current regional project helps families register births, removing an important barrier to legal identity and access to education.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Fénérive-Est"
+      ],
+      "sector_ids": [
+        "child-protection"
+      ],
+      "summary": "Helps families in Fénérive-Est register births and obtain legal identity.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "project page updated 29 sep 2026; marked ongoing"
+      ]
+    },
+    {
+      "id": "soanierana-planned",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Soanierana Ivongo"
+      ],
+      "sector_ids": [
+        "child-protection"
+      ],
+      "summary": "Birth registration activities were planned for Soanierana Ivongo.",
+      "activity_status": "planned",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Organisation office",
+      "office_type": "national",
+      "country": "MG",
+      "region_id": "analamanga",
+      "town": "Antananarivo",
+      "address": "national coordination: Lot VM 06 DJ Androndra, Antananarivo",
+      "source_ids": [
+        "contact"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "National coordination",
+      "scope": "national",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work",
+        "soanierana-planned"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 34 38 387 41",
+          "href": "tel:+261343838741",
+          "source_ids": [
+            "contact"
+          ]
+        },
+        {
+          "type": "web_form",
+          "value": "https://pfsce.org/contact",
+          "href": "https://pfsce.org/contact",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "The project footer shows +261 34 38 397 42. The phone here comes from the contact page. Try the web form if needed."
+      ]
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation website",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work",
+        "soanierana-planned"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://pfsce.org/",
+          "href": "https://pfsce.org/",
+          "source_ids": [
+            "site"
+          ]
+        }
+      ],
+      "source_ids": [
+        "site"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://pfsce.org/projets/cmumfrd3200bgb8fbw8dae3lo",
+      "title": "Plateforme de la Société Civile pour l’Enfance — programme evidence",
+      "publisher": "pfsce.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact",
+      "url": "https://pfsce.org/contact",
+      "title": "Plateforme de la Société Civile pour l’Enfance — contact listing",
+      "publisher": "pfsce.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    },
+    {
+      "id": "site",
+      "url": "https://pfsce.org/",
+      "title": "Plateforme de la Société Civile pour l’Enfance — website",
+      "publisher": "pfsce.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "contact page phone used. project footer gives a different number (+261 34 38 397 42). confirm by web form if needed."
+  ],
+  "relationships": []
+}

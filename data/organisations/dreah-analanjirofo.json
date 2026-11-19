@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "id": "dreah-analanjirofo",
+  "name": "DREAH Analanjirofo",
+  "acronym": "DREAH",
+  "aliases": [],
+  "type": "government",
+  "mission": "regional water, sanitation and hygiene authority. useful for the latest implementing-partner list, permissions and coordination.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Fénérive-Est"
+      ],
+      "sector_ids": [
+        "wash"
+      ],
+      "summary": "regional water, sanitation and hygiene authority. useful for the latest implementing-partner list, permissions and coordination.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "contact records reference aug 2026"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Field office or centre",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "analanjirofo",
+      "town": "Fénérive-Est",
+      "address": "Terrain Mayer Itendro, BP 42, Fénérive-Est 509",
+      "source_ids": [
+        "work"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "Regional government office",
+      "scope": "local",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 34 20 511 38",
+          "href": "tel:+261342051138",
+          "source_ids": [
+            "work"
+          ]
+        }
+      ],
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Hydraulic engineer, as listed",
+      "scope": "local",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 38 01 000 47",
+          "href": "tel:+261380100047",
+          "source_ids": [
+            "work"
+          ]
+        }
+      ],
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://bdd.pseau.org/outils/organismes/organisme_detail.php?org_organisme_id=20178",
+      "title": "DREAH Analanjirofo — programme evidence",
+      "publisher": "pS-Eau",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation",
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "not an NGO. directory leadership may change. use office rather than assuming a named official still has the role."
+  ],
+  "relationships": []
+}

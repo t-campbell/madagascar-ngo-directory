@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "id": "raneau",
+  "name": "Ran’Eau",
+  "acronym": null,
+  "aliases": [
+    "Ran Eau",
+    "Ran’Eau Analanjirofo"
+  ],
+  "type": "nonprofit_network",
+  "mission": "connects water, sanitation and hygiene organisations, shares technical resources and convenes regional coordination. useful for identifying smaller local partners.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Fénérive-Est"
+      ],
+      "sector_ids": [
+        "wash"
+      ],
+      "summary": "connects water, sanitation and hygiene organisations, shares technical resources and convenes regional coordination. useful for identifying smaller local partners.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "regional meetings aug 2025; regional newsletter sep 2026"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Field office or centre",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "analanjirofo",
+      "town": "Fénérive-Est",
+      "address": "Fénérive-Est; street address not published",
+      "source_ids": [
+        "work"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "Regional antenna",
+      "scope": "local",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 34 42 765 77",
+          "href": "tel:+261344276577",
+          "source_ids": [
+            "work"
+          ]
+        }
+      ],
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation website",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.raneau.org/",
+          "href": "https://www.raneau.org/",
+          "source_ids": [
+            "site"
+          ]
+        }
+      ],
+      "source_ids": [
+        "site"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://bdd.pseau.org/outils/organismes/organisme_detail.php?org_organisme_id=76887",
+      "title": "Ran’Eau — programme evidence",
+      "publisher": "pS-Eau",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation",
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    },
+    {
+      "id": "site",
+      "url": "https://www.raneau.org/",
+      "title": "Ran’Eau — website",
+      "publisher": "raneau.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "network and technical-support NGO; ask for its latest regional directory and an introduction to relevant field teams."
+  ],
+  "relationships": []
+}

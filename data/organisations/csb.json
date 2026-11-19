@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "id": "csb",
+  "name": "Centre de promotion rurale Saint-Benoît",
+  "acronym": "CSB",
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "supports farmer organisations, agroecology, food sovereignty and rural livelihoods. partner reports support for 80 farmer groups.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Fénérive-Est"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "education"
+      ],
+      "summary": "supports farmer organisations, agroecology, food sovereignty and rural livelihoods. partner reports support for 80 farmer groups.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "partner profile updated 30 apr 2024; follow-up article nov 2024"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Field office or centre",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "analanjirofo",
+      "town": "Fénérive-Est",
+      "address": "Fénérive-Est; exact street address not located",
+      "source_ids": [
+        "contact"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "Belgium partner referral",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+32 2 227 66 80",
+          "href": "tel:+3222276680",
+          "source_ids": [
+            "contact"
+          ]
+        },
+        {
+          "type": "web_form",
+          "value": "https://entraide.be/a-propos/equipe/contact/",
+          "href": "https://entraide.be/a-propos/equipe/contact/",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Partner website",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://entraide.be/partenaire/le-centre-de-promotion-rurale-saint-benoit/",
+          "href": "https://entraide.be/partenaire/le-centre-de-promotion-rurale-saint-benoit/",
+          "source_ids": [
+            "work"
+          ]
+        }
+      ],
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://entraide.be/partenaire/le-centre-de-promotion-rurale-saint-benoit/",
+      "title": "Centre de promotion rurale Saint-Benoît — programme evidence",
+      "publisher": "entraide.be",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation",
+        "organisation website or partner page"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact",
+      "url": "https://entraide.be/a-propos/equipe/",
+      "title": "Centre de promotion rurale Saint-Benoît — contact listing",
+      "publisher": "entraide.be",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "direct local phone/email and current village coverage need confirmation. partner contact is Entraide et Fraternité."
+  ],
+  "relationships": []
+}

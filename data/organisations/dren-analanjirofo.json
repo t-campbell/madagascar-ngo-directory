@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "dren-analanjirofo",
+  "name": "DREN Analanjirofo",
+  "acronym": "DREN",
+  "aliases": [],
+  "type": "government",
+  "mission": "regional education authority. listed contact handles school health, food and WASH; useful for referrals to NGOs working in schools.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Fénérive-Est"
+      ],
+      "sector_ids": [
+        "education",
+        "wash"
+      ],
+      "summary": "The regional education authority has a contact for school health, food and hygiene.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "pS-Eau contact listing; date not stated"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Field office or centre",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "analanjirofo",
+      "town": "Fénérive-Est",
+      "address": "Fénérive-Est 509",
+      "source_ids": [
+        "work"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "Regional government contact",
+      "scope": "local",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 34 18 115 11",
+          "href": "tel:+261341811511",
+          "source_ids": [
+            "work"
+          ]
+        },
+        {
+          "type": "whatsapp",
+          "value": "+261 34 18 115 11",
+          "href": "https://wa.me/261341811511",
+          "source_ids": [
+            "work"
+          ]
+        }
+      ],
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://bdd.pseau.org/outils/organismes/organisme_detail.php?org_organisme_id=79428",
+      "title": "DREN Analanjirofo — programme evidence",
+      "publisher": "pS-Eau",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation",
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "not an NGO. confirm role before relying on it as the regional education contact."
+  ],
+  "relationships": []
+}

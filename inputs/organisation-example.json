@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "id": "soakoja",
+  "name": "Soakoja",
+  "aliases": [
+    "Soa Koja"
+  ],
+  "type": "ngo_association",
+  "mission": "supports rural communities and communes in sustainable drinking-water access, maintenance, sanitation and hygiene.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "soakoja-analanjirofo-wash",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Fénérive-Est district",
+        "Vavatenina district"
+      ],
+      "sector_ids": [
+        "wash"
+      ],
+      "summary": "supports communes and communities to monitor, maintain and manage rural water systems, in partnership with Inter Aide.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "interaide-madagascar",
+        "pseau-soakoja"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "Inter Aide reports regional WASH work. pS-Eau lists a regional project beginning June 2025. programme status is reported by sources, not directly confirmed."
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "soakoja-fenerive",
+      "label": "Fénérive field location",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "analanjirofo",
+      "town": "Fénérive-Est",
+      "address": "Sahavola",
+      "source_ids": [
+        "pseau-soakoja"
+      ]
+    },
+    {
+      "id": "soakoja-vavatenina",
+      "label": "Vavatenina field location",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "analanjirofo",
+      "town": "Vavatenina",
+      "address": "Bemasoandro",
+      "source_ids": [
+        "pseau-soakoja"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "soakoja-general",
+      "person_name": null,
+      "role": "organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "soakoja-analanjirofo-wash"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 34 85 214 08",
+          "href": "tel:+261348521408",
+          "source_ids": [
+            "pseau-soakoja"
+          ]
+        }
+      ],
+      "source_ids": [
+        "pseau-soakoja"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "directory-published number; not called."
+      ]
+    },
+    {
+      "id": "soakoja-technical",
+      "person_name": "Onjanandrianina Jean Réné Rakotoelinoro",
+      "role": "technical lead (infrastructure), as listed",
+      "scope": "programme",
+      "office_id": null,
+      "operation_ids": [
+        "soakoja-analanjirofo-wash"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 34 68 392 75",
+          "href": "tel:+261346839275",
+          "source_ids": [
+            "pseau-soakoja"
+          ]
+        },
+        {
+          "type": "whatsapp",
+          "value": "+261 34 68 392 75",
+          "href": "https://wa.me/261346839275",
+          "source_ids": [
+            "pseau-soakoja"
+          ]
+        }
+      ],
+      "source_ids": [
+        "pseau-soakoja"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "WhatsApp explicitly identified in directory. name, role and number not directly confirmed."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "pseau-soakoja",
+      "url": "https://bdd.pseau.org/outils/organismes/organisme_detail.php?org_organisme_id=73640",
+      "title": "Soakoja organisation record",
+      "publisher": "pS-Eau",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local offices",
+        "published general phone",
+        "technical contact and WhatsApp",
+        "regional WASH activities"
+      ],
+      "notes": [
+        "contact record references January 2025; exact source publication date unknown. directory coordinates appear incorrect and are not imported."
+      ]
+    },
+    {
+      "id": "interaide-madagascar",
+      "url": "https://interaide.org/nos-zones-dintervention/madagascar/",
+      "title": "Madagascar intervention areas",
+      "publisher": "Inter Aide",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "Soakoja partnership",
+        "Fénérive and Vavatenina WASH operations"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "illustrative canonical record for implementing the schema; review before production publication. example aliases normalise the organisation name, not a separate legal entity."
+  ]
+}

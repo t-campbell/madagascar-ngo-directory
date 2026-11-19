@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "id": "saf-fjkm",
+  "name": "SAF/FJKM",
+  "acronym": null,
+  "aliases": [
+    "SAF FJKM"
+  ],
+  "type": "ngo_association",
+  "mission": "FJKM development department works on food security, basic health, WASH and disaster resilience. regional evidence includes a programme reducing women’s vulnerability to cyclones and floods.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo",
+        "atsinanana"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "disaster-resilience",
+        "gender-inclusion"
+      ],
+      "summary": "Works with partners on VIAVY-CC to reduce women’s vulnerability to cyclones and floods.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "partner lists VIAVY-CC as 2025–ongoing"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Organisation office",
+      "office_type": "national",
+      "country": "MG",
+      "region_id": "analamanga",
+      "town": "Antananarivo",
+      "address": "HQ: Lot II K 2 Ambohijatovo Avaratra, BP 623, Antananarivo 101",
+      "source_ids": [
+        "contact"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "National office",
+      "scope": "national",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 20 76 227 78",
+          "href": "tel:+261207622778",
+          "source_ids": [
+            "contact"
+          ]
+        },
+        {
+          "type": "email",
+          "value": "contact@saf-fjkm.org",
+          "href": "mailto:contact@saf-fjkm.org",
+          "source_ids": [
+            "contact"
+          ]
+        },
+        {
+          "type": "email",
+          "value": "saf@moov.mg",
+          "href": "mailto:saf@moov.mg",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation website",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://saf-fjkm.org/",
+          "href": "https://saf-fjkm.org/",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://www.greenmadagascar.org/projets/",
+      "title": "SAF/FJKM — programme evidence",
+      "publisher": "GREEN Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact",
+      "url": "https://saf-fjkm.org/",
+      "title": "SAF/FJKM — contact listing",
+      "publisher": "saf-fjkm.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "published contact route",
+        "office information",
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "current regional field office and exact communes not established. Maroantsetra branch listings refer to Ambatosoa."
+  ],
+  "relationships": []
+}

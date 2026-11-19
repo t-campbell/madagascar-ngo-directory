@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "id": "cetamada",
+  "name": "Cétamada",
+  "acronym": null,
+  "aliases": [
+    "Centre Anjaranay"
+  ],
+  "type": "ngo_association",
+  "mission": "Cétamada combines marine conservation, environmental education and community development. its Anjaranay initiative provides practical training, including agricultural activities, and a community training/health centre.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Sainte-Marie (Nosy Boraha)"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "education",
+        "environment"
+      ],
+      "summary": "The Anjaranay initiative offers environmental education and practical training, including agriculture. Confirm the current training schedule.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "official centre and Cétamada contact pages; dates not stated"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Field office or centre",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "analanjirofo",
+      "town": "Sainte-Marie",
+      "address": "Centre Anjaranay, Ambodiforaha, BP 5, Sainte-Marie 515",
+      "source_ids": [
+        "contact"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "Anjaranay centre",
+      "scope": "local",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 32 12 090 35",
+          "href": "tel:+261321209035",
+          "source_ids": [
+            "contact"
+          ]
+        },
+        {
+          "type": "email",
+          "value": "info@anjaranay.org",
+          "href": "mailto:info@anjaranay.org",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 32 12 090 30",
+          "href": "tel:+261321209030",
+          "source_ids": [
+            "contact"
+          ]
+        },
+        {
+          "type": "email",
+          "value": "info@cetamada.org",
+          "href": "mailto:info@cetamada.org",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-3",
+      "person_name": null,
+      "role": "Organisation website",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.cetamada.org/",
+          "href": "https://www.cetamada.org/",
+          "source_ids": [
+            "site"
+          ]
+        }
+      ],
+      "source_ids": [
+        "site"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://www.anjaranay.org/",
+      "title": "Cétamada — programme evidence",
+      "publisher": "anjaranay.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact",
+      "url": "https://www.cetamada.org/contact-cetamada",
+      "title": "Cétamada — contact listing",
+      "publisher": "cetamada.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    },
+    {
+      "id": "site",
+      "url": "https://www.cetamada.org/",
+      "title": "Cétamada — website",
+      "publisher": "cetamada.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "one combined entry: Anjaranay is an initiative of Cétamada and Solférino. confirm actual current health-service and training schedule."
+  ],
+  "relationships": [
+    {
+      "name": "Centre Anjaranay",
+      "kind": "initiative",
+      "description": "An initiative of Cétamada and Solférino.",
+      "source_ids": [
+        "work"
+      ]
+    }
+  ]
+}

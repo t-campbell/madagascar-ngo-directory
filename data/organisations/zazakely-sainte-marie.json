@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "id": "zazakely-sainte-marie",
+  "name": "Zazakely Sainte-Marie",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "runs a children’s centre, schooling and a medical centre serving residents and nearby villages. 2026 updates document medical staffing and school rehabilitation.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Anivorano and neighbouring villages"
+      ],
+      "sector_ids": [
+        "health",
+        "education",
+        "child-protection"
+      ],
+      "summary": "runs a children’s centre, schooling and a medical centre serving residents and nearby villages. 2026 updates document medical staffing and school rehabilitation.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "medical and school updates mar–aug 2026; new email announced 30 jul 2026"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Field office or centre",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "analanjirofo",
+      "town": "Sainte-Marie",
+      "address": "centre: Anivorano; postal address: Ambodifotatra 515, Sainte-Marie",
+      "source_ids": [
+        "contact"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "Local centre",
+      "scope": "local",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 34 60 325 03",
+          "href": "tel:+261346032503",
+          "source_ids": [
+            "contact"
+          ]
+        },
+        {
+          "type": "email",
+          "value": "orphelinatzazakelystemarie@googlegroups.com",
+          "href": "mailto:orphelinatzazakelystemarie@googlegroups.com",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation website",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://orphelinatzazakely.wordpress.com/",
+          "href": "https://orphelinatzazakely.wordpress.com/",
+          "source_ids": [
+            "site"
+          ]
+        }
+      ],
+      "source_ids": [
+        "site"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://orphelinatzazakely.wordpress.com/le-dispensiare/",
+      "title": "Zazakely Sainte-Marie — programme evidence",
+      "publisher": "orphelinatzazakely.wordpress.com",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact",
+      "url": "https://orphelinatzazakely.wordpress.com/contact/",
+      "title": "Zazakely Sainte-Marie — contact listing",
+      "publisher": "orphelinatzazakely.wordpress.com",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    },
+    {
+      "id": "site",
+      "url": "https://orphelinatzazakely.wordpress.com/",
+      "title": "Zazakely Sainte-Marie — website",
+      "publisher": "orphelinatzazakely.wordpress.com",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "use the new group email. old @live.fr address is explicitly discontinued. confirm phone remains current."
+  ],
+  "relationships": []
+}

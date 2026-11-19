@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "id": "jade",
+  "name": "Jeunes Actifs pour le Développement",
+  "acronym": "JADE",
+  "aliases": [
+    "ONG JADE"
+  ],
+  "type": "ngo_association",
+  "mission": "supports schooling, youth entrepreneurship, digital skills and environmental education. Fénérive activity involved local secondary schools and a beach-cleaning/education session.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Fénérive-Est"
+      ],
+      "sector_ids": [
+        "education",
+        "environment"
+      ],
+      "summary": "Organised a beach cleanup and environmental learning activity with secondary schools in 2022.",
+      "activity_status": "historical",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "Fénérive-specific report 18 may 2022; organisation website has 2026 activities"
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Organisation office",
+      "office_type": "national",
+      "country": "MG",
+      "region_id": "atsinanana",
+      "town": "Toamasina",
+      "address": "Lot E170, parcelle 11/46, Mangarano, Toamasina 501",
+      "source_ids": [
+        "contact"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "Toamasina office",
+      "scope": "referral",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 34 09 713 75",
+          "href": "tel:+261340971375",
+          "source_ids": [
+            "contact"
+          ]
+        },
+        {
+          "type": "email",
+          "value": "contact.jademadagascar@gmail.com",
+          "href": "mailto:contact.jademadagascar@gmail.com",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation website",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://jade-madagascar.org/",
+          "href": "https://jade-madagascar.org/",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://jade-madagascar.org/nos-activites/protection-de-lenvironnement/initiatives-oceanes-2022-fenerive-est/",
+      "title": "Jeunes Actifs pour le Développement — programme evidence",
+      "publisher": "jade-madagascar.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact",
+      "url": "https://jade-madagascar.org/",
+      "title": "Jeunes Actifs pour le Développement — contact listing",
+      "publisher": "jade-madagascar.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "published contact route",
+        "office information",
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "regional work is historical evidence, not proof of a permanent Fénérive office or current local programme."
+  ],
+  "relationships": []
+}

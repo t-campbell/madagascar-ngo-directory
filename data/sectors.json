@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "sectors": [
+    {
+      "id": "agriculture",
+      "name": "agriculture and food production"
+    },
+    {
+      "id": "education",
+      "name": "education"
+    },
+    {
+      "id": "health",
+      "name": "health"
+    },
+    {
+      "id": "nutrition",
+      "name": "nutrition and food security"
+    },
+    {
+      "id": "wash",
+      "name": "water, sanitation and hygiene"
+    },
+    {
+      "id": "livelihoods",
+      "name": "livelihoods and financial inclusion"
+    },
+    {
+      "id": "environment",
+      "name": "environment and conservation"
+    },
+    {
+      "id": "disaster-resilience",
+      "name": "disaster preparedness and response"
+    },
+    {
+      "id": "child-protection",
+      "name": "child protection"
+    },
+    {
+      "id": "gender-inclusion",
+      "name": "gender and inclusion"
+    },
+    {
+      "id": "youth",
+      "name": "youth development"
+    },
+    {
+      "id": "energy",
+      "name": "energy"
+    },
+    {
+      "id": "digital",
+      "name": "digital access and skills"
+    }
+  ]
+}

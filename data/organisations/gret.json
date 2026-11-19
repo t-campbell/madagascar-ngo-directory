@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "id": "gret",
+  "name": "Gret",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "local team works on drinking water, waste and hygiene. Sainte-Marie programme improved health access and financial protection with AFAFI, the health ministry and WHO.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Fénérive-Est"
+      ],
+      "sector_ids": [
+        "wash"
+      ],
+      "summary": "The Fénérive team is listed for drinking water, waste and hygiene work.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "local office listing undated; Sainte-Marie health project sep 2020–may 2025"
+      ]
+    },
+    {
+      "id": "sainte-marie-health",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Sainte-Marie"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Worked with AFAFI, the health ministry and WHO on access to care and financial protection.",
+      "activity_status": "historical",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "work"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": [
+        "September 2020–May 2025. Completed."
+      ]
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Field office or centre",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "analanjirofo",
+      "town": "Fénérive-Est",
+      "address": "Mahavelonkely, Fenoarivo Atsinanana",
+      "source_ids": [
+        "contact"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-1",
+      "person_name": null,
+      "role": "Fénérive WASH office",
+      "scope": "local",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "phone",
+          "value": "+261 32 03 010 62",
+          "href": "tel:+261320301062",
+          "source_ids": [
+            "contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-2",
+      "person_name": null,
+      "role": "Organisation contact page",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work",
+        "sainte-marie-health"
+      ],
+      "methods": [
+        {
+          "type": "web_form",
+          "value": "https://gret.org/contact/",
+          "href": "https://gret.org/contact/",
+          "source_ids": [
+            "site"
+          ]
+        }
+      ],
+      "source_ids": [
+        "site"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "contact-3",
+      "person_name": null,
+      "role": "Organisation website",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [
+        "local-work",
+        "sainte-marie-health"
+      ],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://gret.org/",
+          "href": "https://gret.org/",
+          "source_ids": [
+            "site"
+          ]
+        }
+      ],
+      "source_ids": [
+        "site"
+      ],
+      "web_reviewed_on": "2026-11-10",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "work",
+      "url": "https://gret.org/projet/mise-en-oeuvre-de-la-couverture-sante-universelle-a-sainte-marie-madagascar/",
+      "title": "Gret — programme evidence",
+      "publisher": "gret.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact",
+      "url": "https://bdd.pseau.org/outils/organismes/organisme_detail.php?org_organisme_id=76050",
+      "title": "Gret — contact listing",
+      "publisher": "pS-Eau",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "published contact route",
+        "office information"
+      ],
+      "notes": []
+    },
+    {
+      "id": "site",
+      "url": "https://gret.org/",
+      "title": "Gret — website",
+      "publisher": "gret.org",
+      "published_on": null,
+      "checked_on": "2026-11-10",
+      "supports": [
+        "organisation website or partner page"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [
+    "health project is marked completed. confirm current health work separately from the Fénérive WASH team."
+  ],
+  "relationships": []
+}
