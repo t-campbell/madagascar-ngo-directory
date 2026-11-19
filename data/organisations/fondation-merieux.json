@@ -37,15 +37,15 @@
     {
       "id": "national-contact",
       "person_name": null,
-      "role": "Madagascar country programme page",
+      "role": "Fondation Mérieux contact and Madagascar office address",
       "scope": "organisation",
       "office_id": null,
       "operation_ids": [],
       "methods": [
         {
-          "type": "website",
-          "value": "https://www.fondation-merieux.org/sur-le-terrain/carte-de-pays-d-intervention/madagascar/",
-          "href": "https://www.fondation-merieux.org/sur-le-terrain/carte-de-pays-d-intervention/madagascar/",
+          "type": "web_form",
+          "value": "https://www.fondation-merieux.org/la-fondation/contactez-nous/",
+          "href": "https://www.fondation-merieux.org/la-fondation/contactez-nous/",
           "source_ids": [
             "contact-route"
           ]
@@ -53,6 +53,32 @@
       ],
       "source_ids": [
         "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "cicm-referral",
+      "person_name": null,
+      "role": "Antananarivo partner laboratory",
+      "scope": "referral",
+      "office_id": null,
+      "operation_ids": [
+        "local-programme"
+      ],
+      "methods": [
+        {
+          "type": "email",
+          "value": "contact@cicm-madagascar.org",
+          "href": "mailto:contact@cicm-madagascar.org",
+          "source_ids": [
+            "cicm-contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "cicm-contact"
       ],
       "web_reviewed_on": "2026-11-19",
       "direct_confirmed_on": null,
@@ -74,9 +100,21 @@
     },
     {
       "id": "contact-route",
-      "url": "https://www.fondation-merieux.org/sur-le-terrain/carte-de-pays-d-intervention/madagascar/",
+      "url": "https://www.fondation-merieux.org/la-fondation/contactez-nous/",
       "title": "Published organisation contact",
       "publisher": "Fondation Mérieux",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "cicm-contact",
+      "url": "https://www.cicm-madagascar.org/en/contact-form/",
+      "title": "Centre d’Infectiologie Charles Mérieux contact",
+      "publisher": "Centre d’Infectiologie Charles Mérieux",
       "published_on": null,
       "checked_on": "2026-11-19",
       "supports": [
