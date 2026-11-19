@@ -1,6 +1,6 @@
 # Madagascar NGO directory
 
-A small static directory for volunteers in Madagascar. Search by organisation name and filter by where an organisation works and what it does there. Profiles carry the underlying sources, contact scope and verification dates. Initial data comes from the Analanjirofo registry and adjacent regions.
+A small static directory for volunteers in Madagascar. Search by organisation name and filter by where an organisation works and what it does there. Profiles carry the underlying sources, contact scope and verification dates. The directory began with the Analanjirofo registry and is expanding region by region.
 
 ## Run locally
 
@@ -27,4 +27,4 @@ Run `npm run review-due` to list published entries with overdue web reviews or a
 - `site.config.json` sets the public HTTPS origin and contribution channel.
 - `docs/` contains the [import report](docs/IMPORT_REPORT.md), [coverage tracker](docs/coverage.csv), [maintainer guide](docs/MAINTAINER_GUIDE.md), [deployment instructions](docs/DEPLOYMENT.md) and [verification notes](docs/STATUS.md).
 
-GitHub and Cloudflare Pages are the intended deployment route. Keep generated `dist/` and installed `node_modules/` out of Git. The source repository is public. Treat tracked records and notes as public material. Original research inputs and the two held draft records are retained in the saved handoff archive.
+The public site runs on Cloudflare Workers Static Assets. See the deployment instructions for publishing changes. Keep generated `dist/` and installed `node_modules/` out of Git. The source repository is public. Treat tracked records and notes as public material. Original research inputs and the two held draft records are retained in the saved handoff archive.

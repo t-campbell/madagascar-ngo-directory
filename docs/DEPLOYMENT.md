@@ -1,40 +1,38 @@
-# Deploy through GitHub and Cloudflare Pages
+# Deploy the Madagascar NGO directory
 
-The source repository is https://github.com/t-campbell/madagascar-ngo-directory on branch main. The local build is ready. The Pages project, custom domain, public submission address and deployed commit are pending.
+The directory runs as the `madagascar-ngo-directory` Worker with static assets. The [current site](https://madagascar-ngo-directory.mada-tools.workers.dev/) is on the `mada-tools` account subdomain. Source changes go through the [GitHub repository](https://github.com/t-campbell/madagascar-ngo-directory) on `main`.
 
-## Configuration
+## Build and deploy
 
-1. Use the dedicated public GitHub repository above. All tracked fields are public. The original workbook, raw registry, SOW and held draft records are retained in the saved handoff archive. Share maintainer access through GitHub and keep credentials out of source and archives.
-2. Set `site.config.json` → `maintainer_email` to the public inbox. A public GitHub issues URL is optional. Keep `public_issue_url` null for a private repository. Run validation, tests and build from the proposed production commit.
-3. In the intended Cloudflare account, open **Workers & Pages → Create application → Pages → Connect to Git**. Authorise the selected repository and leave other repositories outside the integration if possible. Connect the repo using these settings. [Cloudflare Git integration](https://developers.cloudflare.com/pages/get-started/git-integration/)
+Run the checks with Node 24.22.1 from `.node-version`.
 
-| Setting | Value |
+```sh
+npm ci
+npm run validate
+npm test
+npm run build
+```
+
+The build writes `dist/`. The committed `wrangler.jsonc` specifies the Worker name, asset directory and 404 behavior. To deploy through GitHub, connect the existing Worker under **Settings → Builds** and select this repository.
+
+| Workers Builds setting | Value |
 | --- | --- |
-| Production branch | `main`, unless the selected repository uses a different convention |
-| Root directory | Repository root for a dedicated repository |
-| Framework preset | None |
-| Build image | Current default |
-| Node | `24.22.1` from `.node-version` or `NODE_VERSION` |
+| Production branch | `main` |
+| Root directory | Repository root |
 | Build command | `npm run build` |
-| Build output directory | `dist` |
+| Deploy command | `npx wrangler deploy` |
+| Build variable if needed | `NODE_VERSION=24.22.1` |
 
-The standard Pages build installs dependencies before running the command. If automatic installation is disabled in the selected project, use `npm ci && npm run build` as its build command. The repository has a lockfile and the build validates the data before writing output. Pages Free supports this project’s build and asset sizes. [Build image](https://developers.cloudflare.com/pages/configuration/build-image/) · [Build configuration](https://developers.cloudflare.com/pages/configuration/build-configuration/) · [Pages limits](https://developers.cloudflare.com/pages/platform/limits/)
+If the Worker already has a Git connection, check the existing commands before changing them. For a terminal deployment, run `npx wrangler deploy` after building and signing in to the Cloudflare account that owns the Worker. The original research workbook and draft records are retained in the handoff archive. Use the generated `dist/` for a direct asset upload. [Workers Builds](https://developers.cloudflare.com/workers/ci-cd/builds/) · [Static assets](https://developers.cloudflare.com/workers/static-assets/get-started/)
 
-4. On the assigned `pages.dev` URL, verify that the home page, profile refresh, empty region, missing profile, exports, evidence links and maintainer email work. Preview deployments are accessible to anyone with the URL unless the account restricts them. Only records marked `listed` go into any build.
-5. In **Workers & Pages → selected project → Custom domains**, associate the agreed hostname first, then apply the DNS record Cloudflare requests. Keep unrelated records intact. Confirm TLS and both home and profile URLs at the new hostname. [Custom domains](https://developers.cloudflare.com/pages/configuration/custom-domains/)
-6. Set `site.config.json` → `site_url` to the final HTTPS origin without a trailing slash, rebuild and verify canonical URLs, robots.txt and the sitemap. Keep the preview origin null until the launch URL is chosen. Review the [24-region catalogue source](https://cnlegis.gov.mg/uploads/L2023-012-VF.pdf) for any later administrative changes before launch.
-7. Protect the production branch with PR checks where the repository plan allows. Preview a contact edit on a branch and verify production changes only after merging. Record the tested commit and URLs below.
+After deployment, check the homepage, a direct profile URL, a missing profile returning HTTP 404, the full CSV, and the correction link. GitHub's `Directory checks` workflow includes a mobile browser test.
+
+## Custom domain at handoff
+
+1. In the Cloudflare dashboard, open **Workers & Pages → madagascar-ngo-directory → Settings → Domains & Routes → Add → Custom Domain**. Choose an unused hostname in a Cloudflare zone controlled by the new maintainer. Cloudflare creates the DNS record and issues the certificate. [Workers custom domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/)
+2. Verify HTTPS and a direct profile URL at the chosen hostname. Set `site_url` in `site.config.json` to that HTTPS origin without a trailing slash, then redeploy. That publishes canonical URLs and enables indexing. Keep the public issue link current if the repository moves.
+3. Record the primary and backup maintainers, who owns domain renewal, and the first verified release at the custom hostname. Give the successor access to both GitHub and the Cloudflare account. If the account subdomain changes at any point, check other Workers and replace shared links.
 
 ## Recovery
 
-For a bad production deployment, use **Deployments → the action menu on a known-good production deployment → Rollback to this deployment**. Then revert or repair the offending Git commit and merge through the normal review workflow so the next build does not reintroduce the problem. Verify recovery at both hostnames. Test rollback once there are two successful production builds. [Cloudflare rollbacks](https://developers.cloudflare.com/pages/configuration/rollbacks/)
-
-| Deployment record | Value |
-| --- | --- |
-| GitHub repository / production branch | https://github.com/t-campbell/madagascar-ngo-directory / `main` |
-| Cloudflare account and Pages project | Pending |
-| Pages hostname | Pending |
-| Custom HTTPS origin | Pending |
-| Published commit and date | Pending |
-| Last verified rollback | Pending |
-| Domain renewal owner and successor maintainer | Pending |
+Open **Workers & Pages → madagascar-ngo-directory → Deployments**. Open the menu for a known-good version and select **Rollback**. Then repair or revert the Git commit so the next deployment includes the correction. Verify the homepage and an affected profile at the public address. [Workers rollbacks](https://developers.cloudflare.com/workers/versions-and-deployments/rollbacks/)

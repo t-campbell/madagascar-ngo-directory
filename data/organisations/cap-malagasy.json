@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "cap-malagasy",
+  "name": "CAP Malagasy",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Provides agricultural advice and helps farmers organise locally.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "vakinankaratra"
+      ],
+      "localities": [
+        "Antsirabe II",
+        "Betafo",
+        "Manandona",
+        "Alakamisy Anativato"
+      ],
+      "sector_ids": [
+        "agriculture"
+      ],
+      "summary": "Works with farmers through commune-based advisers, training, crop and livestock demonstrations, and visits between producer groups.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "epariaka-cap"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Antsirabe office",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "vakinankaratra",
+      "town": "Antsirabe",
+      "address": "Résidence sociale Mahazoarivo Nord",
+      "source_ids": [
+        "epariaka-cap"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "local",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "email",
+          "value": "capmalagasy@gmail.com",
+          "href": "mailto:capmalagasy@gmail.com",
+          "source_ids": [
+            "epariaka-cap"
+          ]
+        }
+      ],
+      "source_ids": [
+        "epariaka-cap"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "epariaka-cap",
+      "url": "https://e-pariaka.co.mg/fr/annuaire/cap-malagasy",
+      "title": "CAP Malagasy — annuaire des acteurs",
+      "publisher": "MIASA e-pariaka",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "districts and communes",
+        "agricultural advisory work",
+        "office address",
+        "public email"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

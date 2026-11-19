@@ -65,9 +65,9 @@ sava,health,not_started,,0,,National research pass pending
 sofia,agriculture,not_started,,0,,National research pass pending
 sofia,education,not_started,,0,,National research pass pending
 sofia,health,not_started,,0,,National research pass pending
-vakinankaratra,agriculture,not_started,,0,,National research pass pending
-vakinankaratra,education,not_started,,0,,National research pass pending
-vakinankaratra,health,not_started,,0,,National research pass pending
+vakinankaratra,agriculture,in_progress,2026-11-19,2,https://e-pariaka.co.mg/fr/annuaire/cap-malagasy | https://e-pariaka.co.mg/fr/annuaire/ceffel | https://www.fert.fr/v2/wp-content/uploads/2025/01/fifata-livre-version-numerique-format-pdf-v2.pdf,First pass covers farmer advisory and horticulture training. Check organisations based outside Antsirabe.
+vakinankaratra,education,in_progress,2026-11-19,1,https://www.oscape.org/grandir-a-antsirabe/ | https://www.grandiraantsirabe.org/contact/,One child-focused association documented. Check standalone education organisations and rural districts.
+vakinankaratra,health,in_progress,2026-11-19,1,https://www.oscape.org/actions/commission-sante/ | https://www.oscape.org/contact/,A health coordination network is documented. Check organisations that deliver services directly and verify current programmes.
 vatovavy,agriculture,not_started,,0,,National research pass pending
 vatovavy,education,not_started,,0,,National research pass pending
 vatovavy,health,not_started,,0,,National research pass pending

@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "oscape",
+  "name": "Organisation de la Société Civile d’Antsirabe Pour l’Enfance",
+  "acronym": "OSCAPE",
+  "aliases": [],
+  "type": "nonprofit_network",
+  "mission": "Coordinates and supports Antsirabe associations working with children in vulnerable situations.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "vakinankaratra"
+      ],
+      "localities": [
+        "Antsirabe"
+      ],
+      "sector_ids": [
+        "health",
+        "child-protection"
+      ],
+      "summary": "Its health commission trains member organisations on topics including first aid and hygiene, and develops partnerships with healthcare providers.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "oscape-sante"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Antsirabe office",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "vakinankaratra",
+      "town": "Antsirabe",
+      "address": "Lot 0310 A 28 Ampatana, Antsirabe 110",
+      "source_ids": [
+        "oscape-contact"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "local",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "email",
+          "value": "coordination@oscape.org",
+          "href": "mailto:coordination@oscape.org",
+          "source_ids": [
+            "oscape-contact"
+          ]
+        },
+        {
+          "type": "phone",
+          "value": "+261 34 81 662 59",
+          "href": "tel:+261348166259",
+          "source_ids": [
+            "oscape-contact"
+          ]
+        }
+      ],
+      "source_ids": [
+        "oscape-contact"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "oscape-sante",
+      "url": "https://www.oscape.org/actions/commission-sante/",
+      "title": "Commission Santé",
+      "publisher": "OSCAPE",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "member training",
+        "health partnerships and child protection in Antsirabe"
+      ],
+      "notes": []
+    },
+    {
+      "id": "oscape-contact",
+      "url": "https://www.oscape.org/contact/",
+      "title": "Contact — OSCAPE",
+      "publisher": "OSCAPE",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "office address",
+        "coordination email and phone"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

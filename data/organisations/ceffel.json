@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "ceffel",
+  "name": "Conseil, Expérimentation, Formation en Fruit et Légume",
+  "acronym": "CEFFEL",
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Helps farmers develop fruit and vegetable production through training, experiments, and technical advice.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "local-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "vakinankaratra"
+      ],
+      "localities": [
+        "Antsirabe I",
+        "Andranobe"
+      ],
+      "sector_ids": [
+        "agriculture"
+      ],
+      "summary": "Runs practical horticulture courses and trials at its training farm in Andranobe.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "epariaka-ceffel",
+        "fert-ceffel"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [
+    {
+      "id": "office",
+      "label": "Antsirabe office",
+      "office_type": "field",
+      "country": "MG",
+      "region_id": "vakinankaratra",
+      "town": "Antsirabe",
+      "address": "Lot 27 E 10, Mahazoarivo, Résidence sociale d’Antsirabe, Route d’Antananarivo",
+      "source_ids": [
+        "epariaka-ceffel"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "local",
+      "office_id": "office",
+      "operation_ids": [
+        "local-work"
+      ],
+      "methods": [
+        {
+          "type": "email",
+          "value": "ceffel.ida@gmail.com",
+          "href": "mailto:ceffel.ida@gmail.com",
+          "source_ids": [
+            "epariaka-ceffel"
+          ]
+        }
+      ],
+      "source_ids": [
+        "epariaka-ceffel"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "epariaka-ceffel",
+      "url": "https://e-pariaka.co.mg/fr/annuaire/ceffel",
+      "title": "CEFFEL — annuaire des acteurs",
+      "publisher": "MIASA e-pariaka",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "Antsirabe operation",
+        "horticulture training and trials",
+        "office address",
+        "public email"
+      ],
+      "notes": []
+    },
+    {
+      "id": "fert-ceffel",
+      "url": "https://www.fert.fr/v2/wp-content/uploads/2025/01/fifata-livre-version-numerique-format-pdf-v2.pdf",
+      "title": "35 ans d’engagements paysans pour l’agriculture familiale à Madagascar",
+      "publisher": "Fifata and Fert",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "Andranobe training location",
+        "training farm and hands-on courses"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

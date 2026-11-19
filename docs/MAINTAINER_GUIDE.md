@@ -1,6 +1,6 @@
 # Maintain the directory
 
-Use the contribution templates for new organisations, contact corrections and ended programmes. The maintainer reviews the evidence, edits a branch, checks the preview and merges the approved change. Browse and downloads are public. People can submit a correction without having write access to the records.
+Use the contribution templates for new organisations, contact corrections and ended programmes. The maintainer reviews the evidence, edits a branch, checks the preview and merges the approved change. Browse and downloads are public. People can submit a correction through the public GitHub issue template without having write access to the records. Review the source and respond on the issue if more evidence is needed.
 
 ## Add or correct a record
 
@@ -16,4 +16,4 @@ Run `npm run review-due` when reviewing corrections. Aim for quarterly review of
 
 For national research, complete a source pass in every region for agriculture, education and health. Record dates, sources and gaps in `coverage.csv`. Count organisations once per region, and count national organisations separately across the collection. Require at least two supported NGO or nonprofit listings in each region for the national milestone. A completed search with no suitable source should remain visible as a gap.
 
-Before handover, give the successor access to the GitHub repository, Cloudflare account/project, public contribution inbox and domain renewal account through the providers' access controls. Record primary and backup maintainers, billing and renewal ownership, production settings and the last tested rollback in the deployment notes. Verify that the successor can edit a record and inspect a preview before relying on the transfer.
+Before handover, give the successor access to the GitHub repository, Cloudflare account/project, public correction queue and domain renewal account through the providers' access controls. Record primary and backup maintainers, billing and renewal ownership, production settings and the last tested rollback in the deployment notes. Verify that the successor can edit a record and inspect a preview before relying on the transfer.
