@@ -62,9 +62,10 @@ try {
   await page.goto(origin + '/regions/boeny/?region=boeny&q=no-matching-organisation-for-browser-test');
   await page.locator('#results').getByText('No organisations documented for these filters.', { exact: true }).waitFor();
   await page.goto(origin + '/ngo/soakoja/');
-  await page.getByRole('link', { name: 'Suggest a correction' }).first().click();
+  await page.getByRole('main').getByRole('link', { name: 'Suggest a correction' }).click();
   const suggestion = page.locator('#submission-form');
   await suggestion.getByRole('button', { name: 'Send suggestion' }).waitFor();
+  await page.waitForLoadState('domcontentloaded');
   assert.equal(await suggestion.getByLabel('Organisation name').inputValue(), 'Soakoja');
   assert.equal(await suggestion.getByLabel('What would you like to do?').inputValue(), 'correction');
   assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth));
