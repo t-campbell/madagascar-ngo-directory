@@ -1,15 +1,31 @@
-for (const button of document.querySelectorAll('[data-copy]')) {
-  button.hidden = false;
-  button.addEventListener('click', async () => {
-    const field = document.getElementById(button.dataset.copy);
-    const status = button.parentElement.querySelector('[role=status]');
+const form = document.querySelector('#submission-form');
+if (form) {
+  const button = form.querySelector('button[type=submit]');
+  const status = document.querySelector('#submission-status');
+  const params = new URLSearchParams(location.search);
+  const kind = form.elements.namedItem('kind');
+  const organisation = form.elements.namedItem('organisation');
+  const requestedKind = params.get('kind') ?? (location.hash === '#confirm' ? 'confirmation' : '');
+  if (!kind.value && [...kind.options].some(option => option.value === requestedKind)) kind.value = requestedKind;
+  if (!organisation.value) organisation.value = (params.get('organisation') ?? '').slice(0, organisation.maxLength);
+
+  form.addEventListener('submit', async event => {
+    event.preventDefault();
+    button.disabled = true;
+    status.textContent = 'Sending…';
     try {
-      await navigator.clipboard.writeText(field.value);
-      status.textContent = 'Template copied.';
+      const response = await fetch(form.action, {
+        method: 'POST',
+        headers: { Accept: 'application/json' },
+        body: new URLSearchParams(new FormData(form))
+      });
+      const { message } = await response.json();
+      status.textContent = message;
+      if (response.status === 202) form.reset();
     } catch {
-      field.focus();
-      field.select();
-      status.textContent = 'Template selected. Use your device’s copy command.';
+      status.textContent = 'Could not send the suggestion. Please try again.';
+    } finally {
+      button.disabled = false;
     }
   });
 }

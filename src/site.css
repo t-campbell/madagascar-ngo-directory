@@ -44,7 +44,11 @@ nav a[aria-current="page"] { text-decoration-thickness: .14em; }
 .filters, .card, .profile-section, .empty { border: 1px solid var(--line); border-radius: .6rem; background: var(--panel); padding: 1rem; }
 .filters { display: grid; gap: .7rem; }
 .filters label[for], .filters summary { font-weight: 650; }
-.filters input[type="search"], .filters select, textarea { display: block; width: 100%; padding: .4rem .55rem; border: 1px solid #769185; background: white; color: var(--ink); border-radius: .35rem; }
+.filters input[type="search"], .filters select, .submission-form input, .submission-form select, textarea { display: block; width: 100%; padding: .4rem .55rem; border: 1px solid #769185; background: white; color: var(--ink); border-radius: .35rem; }
+.submission-form { display: grid; gap: 1rem; }
+.submission-form label { display: block; margin-bottom: .2rem; font-weight: 650; }
+.submission-form label .muted { font-weight: 400; }
+.submission-form input { min-height: 44px; }
 .filters details { border-block-end: 1px solid var(--line); }
 summary { cursor: pointer; min-height: 44px; padding-block: .6rem; }
 fieldset { min-width: 0; border: 0; padding: 0; margin: 0; }

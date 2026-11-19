@@ -1,6 +1,26 @@
 # Maintain the directory
 
-Use the contribution templates for confirmations, new organisations, contact corrections and ended programmes. The maintainer reviews the evidence, edits a branch, checks the preview and merges the approved change. Browse and downloads are public. People can submit an update through the public GitHub issue template without having write access to the records. Review the source and respond on the issue if more evidence is needed.
+People can use the public contribution form for confirmations, new organisations, corrections and ended programmes. No account is required. The form adds suggestions to a private review queue and leaves publication to the maintainer. A public GitHub issue is also available.
+
+## Review submissions
+
+1. In Cloudflare, open [Durable Objects](https://dash.cloudflare.com/?to=/:account/workers/durable-objects), select the directory Worker's `SubmissionQueue` namespace and open **Data Studio**.
+2. Enter the object name `directory-submissions`. Open `suggestions` in the table browser or run the query below. The table appears when the first suggestion is received.
+3. Verify the organisation, activity and contact evidence before editing a profile. Treat URLs and messages as unverified until you check them. If you need more information on a GitHub issue, respond there.
+4. Once handled, set `reviewed_at` to the current date and time for that row. Cloudflare Data Studio requires Editor access to the Worker. [Cloudflare Data Studio guide](https://developers.cloudflare.com/durable-objects/observability/data-studio/)
+
+```sql
+SELECT id, submitted_at, kind, organisation, locality, details, source
+FROM suggestions
+WHERE reviewed_at IS NULL
+ORDER BY id;
+```
+
+For example, to close suggestion 42 after reviewing it:
+
+```sql
+UPDATE suggestions SET reviewed_at = CURRENT_TIMESTAMP WHERE id = 42;
+```
 
 ## Add or correct a record
 
@@ -16,6 +36,6 @@ Run `npm run review-due` when reviewing corrections. Aim for quarterly review of
 
 For national research, complete a source pass in every region for agriculture, education and health. Record dates, sources and gaps in `coverage.csv`. Count organisations once per region, and count national organisations separately across the collection. Require at least two supported NGO or nonprofit listings in each region for the national milestone. A completed search with no suitable source should remain visible as a gap.
 
-For volunteer checks, begin with the listings in the volunteer's region. Ask for the programme name, commune, whether the work is still active, the best public contact route, and the date and method of confirmation. A volunteer can submit these through **Confirm a listing**. Update the programme and contact confirmation dates separately, according to what the volunteer actually checked.
+For volunteer checks, begin with the listings in the volunteer's region. Ask for the programme name, commune, whether the work is still active, the best public contact route, and the date and method of confirmation. A volunteer can choose **Confirm a listing** on the contribution form. Update the programme and contact confirmation dates separately, according to what the volunteer actually checked.
 
 Before handover, give the successor access to the GitHub repository, Cloudflare account/project, public correction queue and domain renewal account through the providers' access controls. Record primary and backup maintainers, billing and renewal ownership, production settings and the last tested rollback in the deployment notes. Verify that the successor can edit a record and inspect a preview before relying on the transfer.

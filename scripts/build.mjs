@@ -5,6 +5,7 @@ import { gzipSync } from 'node:zlib';
 import { methodHref, safeWeb } from '../src/links.mjs';
 import { csv, freshness, html, methodLink, nameOf, operationTags, profileUrl, renderCards } from '../src/render.mjs';
 import { labelMap, prepare, readState, scopeNames, search, typeNames } from '../src/search.mjs';
+import { fieldLimits, suggestionTypes } from '../src/submissions.mjs';
 import { readJSON, root, validateData } from './validate.mjs';
 
 const { records, regions, sectors, date } = validateData();
@@ -161,25 +162,32 @@ for (const { record } of published) {
     ${section('Work in Madagascar', operationList)}${section('Public contacts', contactList)}${section('Offices and addresses', officeList)}
     ${section('Relationships', relationships)}${section('What to confirm', notes(record.notes))}
     <details class="profile-section" id="sources"><summary>Sources and evidence (${record.sources.length})</summary>${sourceList}</details>
-    <p>Freshness shown as of ${date}. <a href="/contribute/">Suggest a correction</a></p></div>`,
+    <p>Freshness shown as of ${date}. <a href="/contribute/?kind=correction&amp;organisation=${html(encodeURIComponent(record.name))}#submission-form">Suggest a correction</a></p></div>`,
     links['contribute.mjs']);
 }
-const templates = [
-  ['suggest','Suggest an organisation','Organisation name and acronym:\nRegion and locality:\nSector:\nWhat they do locally:\nPublic professional contact:\nSource URL or professional confirmation:\n'],
-  ['confirm','Confirm a listing','Organisation name or profile link:\nProgramme, region and commune:\nCurrent activity and service area:\nPublic contact route confirmed, if checked:\nDate and how you confirmed it:\n'],
-  ['correct','Correct a contact','Organisation name or profile ID:\nRegion and sector:\nCurrent listing:\nProposed change:\nPublic source URL or professional confirmation:\n'],
-  ['inactive','Report an inactive programme','Organisation name or profile ID:\nProgramme, region and sector:\nLast known activity or end date:\nSource URL or professional confirmation:\n']
-];
-page('/contribute/', 'Contribute', 'A maintainer reviews suggestions before they appear. Use public professional details. Your contact information is optional.',
-  `<div class="readable">${!config.maintainer_email && !config.public_issue_url ? '<p>The submission address is pending. You can prepare a suggestion using the templates below.</p>' : ''}
-  ${config.public_issue_url ? `<p><a href="${html(config.public_issue_url)}">Open a GitHub issue</a>. GitHub submissions are public and require an account.</p>` : ''}
-  ${templates.map(([id,label,template]) => `<section class="profile-section"><h2>${label}</h2>
-  <label for="${id}">Template</label><textarea id="${id}" rows="6" readonly>${html(template)}</textarea>
-  <div class="actions"><button type="button" data-copy="${id}" hidden>Copy template</button>
-  ${config.maintainer_email ? `<a href="${html(methodHref({ type: 'email', value: config.maintainer_email }) + '?subject=' + encodeURIComponent(label) + '&body=' + encodeURIComponent(template))}">Open email draft</a>` : ''}
-  <span role="status"></span></div></section>`).join('')}</div>`, links['contribute.mjs']);
+page('/contribute/', 'Contribute', 'Suggest a new organisation or update a listing. No account needed. A maintainer reviews each suggestion.',
+  `<div class="readable">
+    <form id="submission-form" class="profile-section submission-form" action="/api/submissions" method="post">
+      <div><label for="kind">What would you like to do?</label>
+        <select id="kind" name="kind" required><option value="">Choose an option</option>${Object.entries(suggestionTypes).map(([value, label]) => `<option value="${value}">${html(label)}</option>`).join('')}</select></div>
+      <div><label for="organisation">Organisation name</label>
+        <input id="organisation" name="organisation" maxlength="${fieldLimits.organisation}" required></div>
+      <div><label for="locality">Region and commune <span class="muted">(optional)</span></label>
+        <input id="locality" name="locality" maxlength="${fieldLimits.locality}" placeholder="e.g. Androy, Ambovombe"></div>
+      <div><label for="details">What should we know?</label>
+        <p id="details-help" class="muted">Describe the local programme or what needs to change. If you confirmed it directly, tell us how and when. Share only public organisation contact details.</p>
+        <textarea id="details" name="details" rows="5" maxlength="${fieldLimits.details}" aria-describedby="details-help" required></textarea></div>
+      <div><label for="source">Public source link <span class="muted">(optional)</span></label>
+        <input id="source" name="source" type="url" inputmode="url" maxlength="${fieldLimits.source}" placeholder="https://"></div>
+      <div hidden><label for="company-url">Leave this field empty</label>
+        <input id="company-url" name="company_url" tabindex="-1" autocomplete="off"></div>
+      <div class="actions"><button type="submit">Send suggestion</button><span id="submission-status" role="status"></span></div>
+    </form>
+    ${config.public_issue_url ? `<p>You can also <a href="${html(config.public_issue_url)}">open a public GitHub issue</a>.</p>` : ''}
+    ${config.maintainer_email ? `<p><a href="${html(methodHref({ type: 'email', value: config.maintainer_email }))}">Email the maintainer</a></p>` : ''}
+  </div>`, links['contribute.mjs']);
 page('/about/', 'About the directory', 'A community-maintained resource for volunteers looking for organisations to work with in Madagascar.',
-  `<div class="readable">${section('Coverage', `<p>The directory began with the Analanjirofo registry and now documents organisations in ${regionsCovered} of ${regions.length} regions. <a href="/regions/">Browse regional coverage</a>. Volunteers can confirm local programmes and contact routes through the <a href="/contribute/#confirm">contribution page</a>.</p>
+  `<div class="readable">${section('Coverage', `<p>The directory began with the Analanjirofo registry and now documents organisations in ${regionsCovered} of ${regions.length} regions. <a href="/regions/">Browse regional coverage</a>. Volunteers can confirm local programmes and contact routes through the <a href="/contribute/?kind=confirmation#submission-form">contribution page</a>.</p>
   <p>Coverage is still growing. Some regions have had a deeper research pass than others, and organisations with little public information may be missing. A regional listing requires a documented programme or service in that region. Office locations and contact scope appear on each profile. Ambatosoa includes Maroantsetra and Mananara-Nord under <a href="${html(readJSON('data/regions.json').catalogue_source_url)}">Law 2023-012</a>.</p>`)}
   ${section('Activity and review dates', '<dl><dt>Reported active</dt><dd>A source reports ongoing or recent work.</dd><dt>Activity needs confirmation</dt><dd>The evidence is undated or the current status is unclear.</dd><dt>Historical or planned</dt><dd>The work has ended or was described as planned.</dd></dl><p>A web review records when an editor checked a source. A direct confirmation requires contact with the organisation or other professional verification. Web reviews older than 365 days and direct confirmations older than 180 days are flagged.</p>')}
   ${section('Maintenance', '<p>Maintainers review public sources and contact corrections before publishing updates. <a href="/contribute/">Suggest an update</a>. The directory is independent of the Peace Corps.</p>')}</div>`);

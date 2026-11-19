@@ -1,6 +1,6 @@
 # Deploy the Madagascar NGO directory
 
-The directory runs as the `madagascar-ngo-directory` Worker with static assets. The [current site](https://madagascar-ngo-directory.mada-tools.workers.dev/) is on the `mada-tools` account subdomain. Source changes go through the [GitHub repository](https://github.com/t-campbell/madagascar-ngo-directory) on `main`.
+The directory runs as the `madagascar-ngo-directory` Worker with static assets and a submission endpoint. The [current site](https://madagascar-ngo-directory.mada-tools.workers.dev/) is on the `mada-tools` account subdomain. Source changes go through the [GitHub repository](https://github.com/t-campbell/madagascar-ngo-directory) on `main`.
 
 ## Build and deploy
 
@@ -25,7 +25,7 @@ The build writes `dist/`. The committed `wrangler.jsonc` specifies the Worker na
 
 If the Worker already has a Git connection, check the existing commands before changing them. For a terminal deployment, run `npx wrangler deploy` after building and signing in to the Cloudflare account that owns the Worker. The original research workbook and draft records are retained in the handoff archive. Use the generated `dist/` for a direct asset upload. [Workers Builds](https://developers.cloudflare.com/workers/ci-cd/builds/) · [Static assets](https://developers.cloudflare.com/workers/static-assets/get-started/)
 
-After deployment, check the homepage, a direct profile URL, a missing profile returning HTTP 404, the full CSV, and the correction link. GitHub's `Directory checks` workflow includes a mobile browser test.
+After deployment, check the homepage, a direct profile URL, a missing profile returning HTTP 404, the full CSV, and the contribution form. The Worker creates the SQLite-backed `SubmissionQueue` namespace on the first deployment of the `submissions-v1` migration. The form uses a Workers rate limit and a hidden spam field. Staff review suggestions in Cloudflare Data Studio. The static Node preview serves the form UI, and Wrangler's local preview runs the Worker and queue as well. [Maintainer guide](MAINTAINER_GUIDE.md)
 
 ## Custom domain at handoff
 

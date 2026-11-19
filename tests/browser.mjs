@@ -61,11 +61,32 @@ try {
   await page.locator('#results').getByRole('heading', { name: 'Vent de Solidarité', exact: true }).waitFor();
   await page.goto(origin + '/regions/boeny/?region=boeny&q=no-matching-organisation-for-browser-test');
   await page.locator('#results').getByText('No organisations documented for these filters.', { exact: true }).waitFor();
-  await page.goto(origin + '/contribute/');
-  await page.getByRole('button', { name: 'Copy template' }).first().waitFor();
-  await page.getByRole('heading', { name: 'Confirm a listing', exact: true }).waitFor();
+  await page.goto(origin + '/ngo/soakoja/');
+  await page.getByRole('link', { name: 'Suggest a correction' }).first().click();
+  const suggestion = page.locator('#submission-form');
+  await suggestion.getByRole('button', { name: 'Send suggestion' }).waitFor();
+  assert.equal(await suggestion.getByLabel('Organisation name').inputValue(), 'Soakoja');
+  assert.equal(await suggestion.getByLabel('What would you like to do?').inputValue(), 'correction');
+  assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth));
+  await suggestion.getByLabel('What should we know?').fill('Please update the published contact.');
+  let submitAttempts = 0;
+  await page.route('**/api/submissions', route => {
+    const body = new URLSearchParams(route.request().postData());
+    assert.equal(body.get('organisation'), 'Soakoja');
+    assert.equal(body.get('kind'), 'correction');
+    submitAttempts++;
+    return route.fulfill(submitAttempts === 1
+      ? { status: 429, json: { message: 'Too many attempts. Wait a minute and try again.' } }
+      : { status: 202, json: { message: 'Suggestion received. A maintainer will review it.' } });
+  });
+  await suggestion.getByRole('button', { name: 'Send suggestion' }).click();
+  await suggestion.getByText('Too many attempts.', { exact: false }).waitFor();
+  assert.equal(await suggestion.getByLabel('What should we know?').inputValue(), 'Please update the published contact.');
+  await suggestion.getByRole('button', { name: 'Send suggestion' }).click();
+  await suggestion.getByText('Suggestion received.', { exact: false }).waitFor();
+  assert.equal(await suggestion.getByLabel('What should we know?').inputValue(), '');
   const config = JSON.parse(await readFile(new URL('../site.config.json', import.meta.url), 'utf8'));
-  assert.equal(await page.getByRole('link', { name: 'Open email draft' }).count(), config.maintainer_email ? 4 : 0);
+  assert.equal(await page.getByRole('link', { name: 'Email the maintainer' }).count(), config.maintainer_email ? 1 : 0);
   assert.deepEqual(errors, []);
 
   const noJs = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });

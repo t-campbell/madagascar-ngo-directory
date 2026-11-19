@@ -1,9 +1,21 @@
 {
   "name": "madagascar-ngo-directory",
+  "main": "./src/worker.mjs",
   "compatibility_date": "2026-11-19",
   "workers_dev": true,
   "assets": {
     "directory": "./dist",
-    "not_found_handling": "404-page"
-  }
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/api/submissions"]
+  },
+  "durable_objects": {
+    "bindings": [{ "name": "SUBMISSIONS", "class_name": "SubmissionQueue" }]
+  },
+  "migrations": [
+    { "tag": "submissions-v1", "new_sqlite_classes": ["SubmissionQueue"] }
+  ],
+  "ratelimits": [
+    { "name": "SUBMISSION_LIMIT", "namespace_id": "391401", "simple": { "limit": 12, "period": 60 } }
+  ]
 }
