@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "fama",
+  "name": "Association FAMA",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy association supporting farming and natural resource management in Alaotra-Mangoro.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "alaotra-mangoro"
+      ],
+      "localities": [
+        "Moramanga area"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "environment"
+      ],
+      "summary": "Supports farmers with rice production, market gardening and other income-generating work in the Moramanga area. Confirm currently available training.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "fama.ambahibe@yahoo.fr",
+          "href": "mailto:fama.ambahibe@yahoo.fr",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://famamada.wixsite.com/fama",
+      "title": "Regional programme evidence",
+      "publisher": "Association FAMA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.programmeppi.org/beneficiaire/fama/",
+      "title": "Published organisation contact",
+      "publisher": "Association FAMA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

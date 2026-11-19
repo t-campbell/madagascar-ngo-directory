@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "id": "friends-of-mandritsara",
+  "name": "Friends of Mandritsara Trust",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Charity supporting the Good News Project and its Madagascar partners.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "sofia"
+      ],
+      "localities": [
+        "Mandritsara"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Supports the locally operated Good News Hospital in Mandritsara, including access to clinical care, training and outreach.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "school",
+      "region_scope": "specified",
+      "region_ids": [
+        "sofia"
+      ],
+      "localities": [
+        "Mandritsara"
+      ],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "Supports the Good News School, which serves hospital staff families and other local children as places allow.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "good-news-school"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Trust referral to the Good News Project",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.mandritsara.org.uk/",
+          "href": "https://www.mandritsara.org.uk/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.mandritsara.org.uk/hospital",
+      "title": "Regional programme evidence",
+      "publisher": "Friends of Mandritsara Trust",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.mandritsara.org.uk/",
+      "title": "Published organisation contact",
+      "publisher": "Friends of Mandritsara Trust",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "good-news-school",
+      "url": "https://www.mandritsara.org.uk/school",
+      "title": "Good News School in Mandritsara",
+      "publisher": "Friends of Mandritsara Trust",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "id": "medicaero",
+  "name": "Médicaéro",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Medical NGO organising time-limited visits with health professionals in remote areas.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "melaky"
+      ],
+      "localities": [
+        "Maintirano"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Its schedule lists eye-care missions in Maintirano in October 2026 and planned visits in April and October 2027. Confirm dates and referral arrangements directly with the NGO.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "ampanihy-medical",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsimo-andrefana"
+      ],
+      "localities": [
+        "Ampanihy"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Schedules periodic outreach in Ampanihy district, with 2026 activities and dates proposed for 2027. Ask about the next mission and referral arrangements.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "menabe-medical",
+      "region_scope": "specified",
+      "region_ids": [
+        "menabe"
+      ],
+      "localities": [
+        "Belo sur Tsiribihina",
+        "Manja"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Schedules periodic outreach in Belo sur Tsiribihina and Manja, with 2026 activities and dates proposed for 2027. Ask about the next mission and referral arrangements.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "morafenobe-planned",
+      "region_scope": "specified",
+      "region_ids": [
+        "melaky"
+      ],
+      "localities": [
+        "Morafenobe"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "The schedule proposes an ophthalmology mission in Morafenobe in November 2027. Confirm dates and eligibility closer to the visit.",
+      "activity_status": "planned",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "web_form",
+          "value": "https://www.medicaero-ong.org/contact/",
+          "href": "https://www.medicaero-ong.org/contact/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.medicaero-ong.org/missions-2026/",
+      "title": "Regional programme evidence",
+      "publisher": "Médicaéro",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.medicaero-ong.org/contact/",
+      "title": "Published organisation contact",
+      "publisher": "Médicaéro",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

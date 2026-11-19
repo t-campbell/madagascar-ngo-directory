@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "ensemble-enfants-madagascar",
+  "name": "Ensemble pour les enfants de Madagascar",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Association supporting education projects around Manakara.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "fitovinany"
+      ],
+      "localities": [
+        "Ambodimanga near Manakara"
+      ],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "Opened a school at Ambodimanga in 2024 and reports continued schooling there. Ask about the current teaching and school support needs.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://ensemblepourlesenfantsdemadagascar.org/",
+          "href": "https://ensemblepourlesenfantsdemadagascar.org/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://ensemblepourlesenfantsdemadagascar.org/7-et-8-octobre-2024-inauguration-et-ouverture-de-lecole-dambodimanga/",
+      "title": "Regional programme evidence",
+      "publisher": "Ensemble pour les enfants de Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://ensemblepourlesenfantsdemadagascar.org/",
+      "title": "Published organisation contact",
+      "publisher": "Ensemble pour les enfants de Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

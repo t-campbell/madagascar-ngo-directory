@@ -31,6 +31,30 @@
       "web_reviewed_on": "2026-11-19",
       "direct_confirmed_on": null,
       "notes": []
+    },
+    {
+      "id": "ampitafa-maternity-and-training",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsimo-atsinanana"
+      ],
+      "localities": [
+        "Ampitafa, Vangaindrano district"
+      ],
+      "sector_ids": [
+        "health",
+        "education"
+      ],
+      "summary": "A funding partner documents work in Ampitafa on maternity care and training for young people. Ask about ongoing services, training places and referral details.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "ampitafa-maternity-and-training"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "offices": [],
@@ -82,6 +106,18 @@
       "checked_on": "2026-11-19",
       "supports": [
         "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ampitafa-maternity-and-training",
+      "url": "https://www.fefp.uk/projects/7",
+      "title": "Ampitafa maternity and training partnership",
+      "publisher": "Foundation for Education to Improve Family Planning",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
       ],
       "notes": []
     }

@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "id": "medecins-du-monde",
+  "name": "Médecins du Monde",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Medical NGO assisting local services with access to care and emergency health response.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "fitovinany"
+      ],
+      "localities": [
+        "Ikongo district"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Reports a December 2025 malaria response in Ikongo that included support to primary health facilities and training. Ask about current support.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "southern-nutrition",
+      "region_scope": "specified",
+      "region_ids": [
+        "androy",
+        "anosy"
+      ],
+      "localities": [],
+      "sector_ids": [
+        "health",
+        "nutrition"
+      ],
+      "summary": "Reports emergency health and nutrition work in Anosy and Androy. Confirm whether mobile activities continue locally and ask for the current referral partner.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Madagascar programme page and contact links",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.medecinsdumonde.org/pays/afrique/madagascar/",
+          "href": "https://www.medecinsdumonde.org/pays/afrique/madagascar/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.medecinsdumonde.org/pays/afrique/madagascar/",
+      "title": "Regional programme evidence",
+      "publisher": "Médecins du Monde",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.medecinsdumonde.org/pays/afrique/madagascar/",
+      "title": "Published organisation contact",
+      "publisher": "Médecins du Monde",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

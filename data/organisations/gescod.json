@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "gescod",
+  "name": "Gescod",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Nonprofit regional cooperation network supporting Malagasy and French municipal partnerships.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "betsiboka"
+      ],
+      "localities": [
+        "Maevatanana"
+      ],
+      "sector_ids": [
+        "education",
+        "environment"
+      ],
+      "summary": "Supported the Maevatanana school library and education and environment work with local partners. Ask the Madagascar office about work since the 2024 report.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity",
+        "library-renovation"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Madagascar office",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "madagascar@gescod.org",
+          "href": "mailto:madagascar@gescod.org",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.gescod.org/projet/?pt=projet&to=education-de-qualite",
+      "title": "Regional programme evidence",
+      "publisher": "Gescod",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.gescod.org/nous-contacter/",
+      "title": "Published organisation contact",
+      "publisher": "Gescod",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "library-renovation",
+      "url": "https://www.gescod.org/wp-content/uploads/sites/16/2025/06/Rapport-dactivite-2024-en-ligne_compressed.pdf",
+      "title": "2024 activity report and Maevatanana school library",
+      "publisher": "Gescod",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "id": "ong-saha",
+  "name": "ONG SAHA",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy NGO helping local communities and rural groups improve services and livelihoods.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "itasy"
+      ],
+      "localities": [
+        "Arivonimamo district",
+        "Miarinarivo district"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "livelihoods",
+        "gender-inclusion"
+      ],
+      "summary": "The EFAMIRA project describes support for young people and women in agricultural and other local livelihoods around Arivonimamo and Miarinarivo. Ask about current groups.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "mamafi-food-security",
+      "region_scope": "specified",
+      "region_ids": [
+        "amoroni-mania"
+      ],
+      "localities": [
+        "Ambositra",
+        "Fandriana",
+        "Manandriana"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "nutrition"
+      ],
+      "summary": "The MAMAFI programme page identifies work on food security and nutrition with vulnerable households in these districts. Ask the NGO about current activities.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "mamafi-food-security"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "contact@saha.mg",
+          "href": "mailto:contact@saha.mg",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://saha.mg/projets/efamira/",
+      "title": "Regional programme evidence",
+      "publisher": "ONG SAHA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://saha.mg/contact/",
+      "title": "Published organisation contact",
+      "publisher": "ONG SAHA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "mamafi-food-security",
+      "url": "https://www.saha.mg/projets/mamafi/",
+      "title": "MAMAFI food security programme",
+      "publisher": "ONG SAHA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "id": "lcdm-solimad",
+  "name": "ONG LCDM SOLIMAD",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy NGO working with referral centres on sickle cell screening, care and follow-up.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsinanana"
+      ],
+      "localities": [
+        "Toamasina"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Lists a sickle cell referral centre in Toamasina. Contact LCDM for current services and referral directions.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "haute-matsiatra-referral",
+      "region_scope": "specified",
+      "region_ids": [
+        "haute-matsiatra"
+      ],
+      "localities": [
+        "Fianarantsoa"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "LCDM lists a sickle cell reference service in this area. Ask its referral desk about access and availability.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "vakinankaratra-referral",
+      "region_scope": "specified",
+      "region_ids": [
+        "vakinankaratra"
+      ],
+      "localities": [
+        "Betafo"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "LCDM lists a sickle cell reference service in this area. Ask its referral desk about access and availability.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "boeny-referral",
+      "region_scope": "specified",
+      "region_ids": [
+        "boeny"
+      ],
+      "localities": [
+        "Mahajanga"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "LCDM lists a sickle cell reference service in this area. Ask its referral desk about access and availability.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "sava-referral",
+      "region_scope": "specified",
+      "region_ids": [
+        "sava"
+      ],
+      "localities": [
+        "Sambava"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "LCDM lists a sickle cell reference service in this area. Ask its referral desk about access and availability.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "diana-referral",
+      "region_scope": "specified",
+      "region_ids": [
+        "diana"
+      ],
+      "localities": [
+        "Antsiranana",
+        "Nosy Be"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "LCDM lists a sickle cell reference service in this area. Ask its referral desk about access and availability.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "atsimo-andrefana-referral",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsimo-andrefana"
+      ],
+      "localities": [
+        "Toliara"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "LCDM lists a sickle cell reference service in this area. Ask its referral desk about access and availability.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "atsimo-atsinanana-referral",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsimo-atsinanana"
+      ],
+      "localities": [
+        "Vangaindrano"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "LCDM lists a sickle cell reference service in this area. Ask its referral desk about access and availability.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "ambatosoa-2022",
+      "region_scope": "specified",
+      "region_ids": [
+        "ambatosoa"
+      ],
+      "localities": [
+        "Maroantsetra",
+        "Mananara Nord"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "A 2022 report identifies Maroantsetra and Mananara Nord as intended recipients of medicine distributed through Toamasina. Confirm present-day services with the national referral desk.",
+      "activity_status": "historical",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "north-east-distribution"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "LCDM national referral desk",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "info@ong-lcdm.org",
+          "href": "mailto:info@ong-lcdm.org",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://ong-lcdm.org/centres-de-sante-de-reference-drepanoctyose-ong-lcdm/",
+      "title": "Regional programme evidence",
+      "publisher": "ONG LCDM SOLIMAD",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://ong-lcdm.org/centres-de-sante-de-reference-drepanoctyose-ong-lcdm/",
+      "title": "Published organisation contact",
+      "publisher": "ONG LCDM SOLIMAD",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "north-east-distribution",
+      "url": "https://ong-lcdm.org/drepanocytose-toamasina-ong-lcdm/",
+      "title": "2022 report on supplies for north-east referral services",
+      "publisher": "ONG LCDM SOLIMAD",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

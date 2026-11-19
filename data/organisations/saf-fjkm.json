@@ -34,6 +34,80 @@
       "notes": [
         "partner lists VIAVY-CC as 2025–ongoing"
       ]
+    },
+    {
+      "id": "maintirano-food-security",
+      "region_scope": "specified",
+      "region_ids": [
+        "melaky"
+      ],
+      "localities": [
+        "Maintirano"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "livelihoods",
+        "environment"
+      ],
+      "summary": "Works with women’s groups such as FIVEMI around Maintirano on food security, livelihoods and land restoration. Ask about available support and participating communities.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "maintirano-food-security"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "fagnanko",
+      "region_scope": "specified",
+      "region_ids": [
+        "sava"
+      ],
+      "localities": [
+        "Vohémar",
+        "Sambava"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "nutrition"
+      ],
+      "summary": "Runs Fagnanko farmer field schools that test sustainable farming practices and share them with neighbouring producers.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "fagnanko"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "dio-tafa",
+      "region_scope": "specified",
+      "region_ids": [
+        "fitovinany"
+      ],
+      "localities": [
+        "Manakara"
+      ],
+      "sector_ids": [
+        "wash",
+        "nutrition"
+      ],
+      "summary": "Leads DIO-TAFA, launched in Manakara in July 2025, to improve water, sanitation, hygiene and nutrition in communities, schools and health centres.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "dio-tafa"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "offices": [
@@ -144,6 +218,42 @@
         "published contact route",
         "office information",
         "organisation website or partner page"
+      ],
+      "notes": []
+    },
+    {
+      "id": "maintirano-food-security",
+      "url": "https://moneyformadagascar.org/our-programmes/forests-and-livelihoods/saf-melaky/",
+      "title": "Maintirano partnership and women’s groups",
+      "publisher": "Money for Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "fagnanko",
+      "url": "https://saf-fjkm.org/fagnanko-quand-les-communautes-reinventent-leur-agriculture-dans-la-region-de-la-sava/",
+      "title": "Fagnanko farmer field schools",
+      "publisher": "SAF/FJKM",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "dio-tafa",
+      "url": "https://www.raneau.org/fr/projet-dio-tafa-manakara-pour-acces-durable-leah-et-nutrition",
+      "title": "DIO-TAFA launch in Fitovinany",
+      "publisher": "Ran’Eau",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
       ],
       "notes": []
     }

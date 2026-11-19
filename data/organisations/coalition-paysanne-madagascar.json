@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "id": "coalition-paysanne-madagascar",
+  "name": "Coalition Paysanne de Madagascar",
+  "acronym": "CPM",
+  "aliases": [],
+  "type": "nonprofit_network",
+  "mission": "Malagasy farmer-led network representing local producers and their organisations.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "betsiboka"
+      ],
+      "localities": [
+        "Betsiboka"
+      ],
+      "sector_ids": [
+        "agriculture"
+      ],
+      "summary": "The coalition publishes a Betsiboka branch with local producer unions. Ask the network about local contacts, membership and current services.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "haute-matsiatra-producers",
+      "region_scope": "specified",
+      "region_ids": [
+        "haute-matsiatra"
+      ],
+      "localities": [
+        "Fianarantsoa"
+      ],
+      "sector_ids": [
+        "agriculture"
+      ],
+      "summary": "The coalition publishes a regional farmers’ branch with a physical address in Fianarantsoa. Ask about local groups and the services they offer.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "haute-matsiatra-producers"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "amoroni-producers",
+      "region_scope": "specified",
+      "region_ids": [
+        "amoroni-mania"
+      ],
+      "localities": [
+        "Ambositra",
+        "Fandriana",
+        "Manandriana",
+        "Ambatofinandrahana"
+      ],
+      "sector_ids": [
+        "agriculture"
+      ],
+      "summary": "The regional coalition brings farmer groups together across the four districts. Ask the network for current membership and district contacts.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "amoroni-producers"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "National federation inbox",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "cpm@moov.mg",
+          "href": "mailto:cpm@moov.mg",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.cpm.mg/activites-dans-les-regions/betsiboka/",
+      "title": "Regional programme evidence",
+      "publisher": "Coalition Paysanne de Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.landcoalition.org/en/our-network/coalition-paysanne-de-madagascar/",
+      "title": "Published organisation contact",
+      "publisher": "International Land Coalition",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "haute-matsiatra-producers",
+      "url": "https://www.cpm.mg/activites-dans-les-regions/haute-matsiatra/",
+      "title": "Haute Matsiatra farmers’ branch and address",
+      "publisher": "Coalition Paysanne de Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "amoroni-producers",
+      "url": "https://www.cpm.mg/activites-dans-les-regions/amoronimania/",
+      "title": "Amoron’i Mania farmers’ branch",
+      "publisher": "Coalition Paysanne de Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

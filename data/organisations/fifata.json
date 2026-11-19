@@ -17,7 +17,6 @@
         "analamanga",
         "bongolava",
         "haute-matsiatra",
-        "ihorombe",
         "itasy",
         "menabe",
         "sofia",
@@ -33,6 +32,30 @@
       "ends_on": null,
       "source_ids": [
         "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "ihorombe-producer-unions",
+      "region_scope": "specified",
+      "region_ids": [
+        "ihorombe"
+      ],
+      "localities": [
+        "Ihorombe"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "livelihoods"
+      ],
+      "summary": "Supports producer networks in Ihorombe. The 2024 group history documents member unions in local poultry, onion and potato production, and fish farming.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "ihorombe-producer-unions"
       ],
       "web_reviewed_on": "2026-11-19",
       "direct_confirmed_on": null,
@@ -88,6 +111,18 @@
       "checked_on": "2026-11-19",
       "supports": [
         "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ihorombe-producer-unions",
+      "url": "https://www.fert.fr/v2/wp-content/uploads/2025/01/fifata-livre-version-numerique-format-pdf-v2.pdf",
+      "title": "Fifata member unions in Ihorombe",
+      "publisher": "Fert and Groupe Fifata",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
       ],
       "notes": []
     }

@@ -32,6 +32,33 @@
       "web_reviewed_on": "2026-11-19",
       "direct_confirmed_on": null,
       "notes": []
+    },
+    {
+      "id": "sava-farmers",
+      "region_scope": "specified",
+      "region_ids": [
+        "sava"
+      ],
+      "localities": [
+        "Ambodimanga",
+        "Befamatra",
+        "Androfiabe"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "livelihoods",
+        "environment"
+      ],
+      "summary": "The 2025–29 programme supports agroforestry, producer organisations and market access for vanilla, coffee and other crops.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "sava-farmers"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "offices": [],
@@ -83,6 +110,18 @@
       "checked_on": "2026-11-19",
       "supports": [
         "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sava-farmers",
+      "url": "https://www.helvetas.org/fr/madagascar/ce-qu-on-fait/comment-on-travaille/nos-projets/afrique/madagascar/madagascar-protection-de-la-foret",
+      "title": "SAVA farmer livelihoods and forest programme",
+      "publisher": "Helvetas",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
       ],
       "notes": []
     }

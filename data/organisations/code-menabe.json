@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "code-menabe",
+  "name": "ONG CODE MENABE",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Local NGO supporting livelihoods, public services and civic participation in Menabe.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "menabe"
+      ],
+      "localities": [
+        "Tsihamavokely, Morondava"
+      ],
+      "sector_ids": [
+        "education",
+        "wash",
+        "gender-inclusion"
+      ],
+      "summary": "Its 2025–26 school project at the Tsihamavokely collège documents a partnership on water, hygiene and sanitation to support girls staying in school. Ask about follow-up support.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Morondava office contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.code-menabe.mg/contact/",
+          "href": "https://www.code-menabe.mg/contact/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.code-menabe.mg/projet/",
+      "title": "Regional programme evidence",
+      "publisher": "ONG CODE MENABE",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.code-menabe.mg/contact/",
+      "title": "Published organisation contact",
+      "publisher": "ONG CODE MENABE",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

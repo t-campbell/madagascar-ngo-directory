@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "association-3m",
+  "name": "Association 3M",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy association working with communities in Fandriana.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "amoroni-mania"
+      ],
+      "localities": [
+        "Fandriana district"
+      ],
+      "sector_ids": [
+        "education",
+        "health",
+        "agriculture",
+        "nutrition"
+      ],
+      "summary": "Its 2024–25 activity account describes school kits and teacher support, prevention and screening work with basic health centres, and assistance with irrigation, seed and rural production.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "contact@mifanandratra3m.com",
+          "href": "mailto:contact@mifanandratra3m.com",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://mifanandratra3m.com/",
+      "title": "Regional programme evidence",
+      "publisher": "Association 3M",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://mifanandratra3m.com/",
+      "title": "Published organisation contact",
+      "publisher": "Association 3M",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

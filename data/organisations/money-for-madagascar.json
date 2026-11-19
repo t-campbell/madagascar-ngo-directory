@@ -32,6 +32,31 @@
       "web_reviewed_on": "2026-11-19",
       "direct_confirmed_on": null,
       "notes": []
+    },
+    {
+      "id": "maintirano-farming-partners",
+      "region_scope": "specified",
+      "region_ids": [
+        "melaky"
+      ],
+      "localities": [
+        "Maintirano"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "livelihoods",
+        "environment"
+      ],
+      "summary": "Supports SAF and women’s groups around Maintirano to improve food security and reduce pressure on local land. Ask about current project access.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "maintirano-farming-partners"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "offices": [],
@@ -83,6 +108,18 @@
       "checked_on": "2026-11-19",
       "supports": [
         "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "maintirano-farming-partners",
+      "url": "https://moneyformadagascar.org/our-programmes/forests-and-livelihoods/saf-melaky/",
+      "title": "Maintirano partnership and women’s groups",
+      "publisher": "Money for Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
       ],
       "notes": []
     }

@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "terres-en-melees",
+  "name": "Terres en Mêlées",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Association using rugby to support education, inclusion and environmental awareness.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "ihorombe"
+      ],
+      "localities": [
+        "Ihorombe"
+      ],
+      "sector_ids": [
+        "education",
+        "youth",
+        "environment"
+      ],
+      "summary": "Operates the Ihorombe Rugby Academy. The project includes school retention work and training through sport.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "contact@terresenmelees.org",
+          "href": "mailto:contact@terresenmelees.org",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://terresenmelees.org/projets/rugby-academy-ihorombe/",
+      "title": "Regional programme evidence",
+      "publisher": "Terres en Mêlées",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://terresenmelees.org/fiches-projets/terres-en-melees-projet-rugby-academy-ihorombe.pdf",
+      "title": "Published organisation contact",
+      "publisher": "Terres en Mêlées",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

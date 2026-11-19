@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "kukula",
+  "name": "Kukula ODV",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Italian volunteer organisation working with Malagasy partners.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "diana"
+      ],
+      "localities": [
+        "Ambanja district"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "livelihoods"
+      ],
+      "summary": "The 2025–27 Taninketsa project supports training for women farmers in organic horticulture and the development of a women-led cooperative.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "International programme referral",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "info@kukula.it",
+          "href": "mailto:info@kukula.it",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://kukula.it/en/taninketsa_en/",
+      "title": "Regional programme evidence",
+      "publisher": "Kukula ODV",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://kukula.it/en/support-us/",
+      "title": "Published organisation contact",
+      "publisher": "Kukula ODV",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

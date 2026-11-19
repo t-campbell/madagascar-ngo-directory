@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "association-mitsinjo",
+  "name": "Association Mitsinjo",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy association based in Andasibe, working with communities on conservation and land management.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "alaotra-mangoro"
+      ],
+      "localities": [
+        "Andasibe, Moramanga district"
+      ],
+      "sector_ids": [
+        "environment",
+        "agriculture"
+      ],
+      "summary": "The association describes conservation and restoration work in the Andasibe area and work with partners on sustainable agriculture. Ask about currently available support.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity",
+        "agriculture"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "mitsinjomadagascar@gmail.com",
+          "href": "mailto:mitsinjomadagascar@gmail.com",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://associationmitsinjo.wordpress.com/projects/",
+      "title": "Regional programme evidence",
+      "publisher": "Association Mitsinjo",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://associationmitsinjo.wordpress.com/2021/01/22/change-of-email-address/",
+      "title": "Published organisation contact",
+      "publisher": "Association Mitsinjo",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "agriculture",
+      "url": "https://associationmitsinjo.wordpress.com/category/news/page/2/",
+      "title": "Andasibe agriculture and conservation partner updates",
+      "publisher": "Association Mitsinjo",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

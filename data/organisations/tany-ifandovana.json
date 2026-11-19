@@ -58,6 +58,32 @@
       "web_reviewed_on": "2026-11-19",
       "direct_confirmed_on": null,
       "notes": []
+    },
+    {
+      "id": "brickaville-fsrp",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsinanana"
+      ],
+      "localities": [
+        "Mahatsara",
+        "Brickaville",
+        "Antsapanana"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "environment"
+      ],
+      "summary": "Carries out reforestation and degraded-land restoration with the Food Systems Resilience Program to strengthen rural production landscapes.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "brickaville-fsrp"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "offices": [
@@ -167,6 +193,18 @@
       "id": "coastal-regions",
       "url": "https://www.tany-ifandovana.org/en/zones-d-intervention",
       "title": "Coastal project locations",
+      "publisher": "Tany Ifandovana",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "brickaville-fsrp",
+      "url": "https://www.tany-ifandovana.org/fr/nos-projets/13-conduite-et-mise-en-place-des-activit%C3%A9s-de-reboisement-et-restauration-du-paysage",
+      "title": "Brickaville FSRP restoration",
       "publisher": "Tany Ifandovana",
       "published_on": null,
       "checked_on": "2026-11-19",

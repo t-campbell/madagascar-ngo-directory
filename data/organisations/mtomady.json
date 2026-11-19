@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "mtomady",
+  "name": "mTOMADY",
+  "acronym": null,
+  "aliases": [],
+  "type": "other_nonprofit",
+  "mission": "Nonprofit social enterprise reducing financial and practical barriers to health care.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Fénérive-Est",
+        "Ampasina Maningory",
+        "Ambodimanga II",
+        "Ambatoharanana"
+      ],
+      "sector_ids": [
+        "health",
+        "wash"
+      ],
+      "summary": "Launched the MIASA partnership with ASOS in 2026 to work on health information, sanitation and health access across four communes.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Madagascar programme enquiries",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "web_form",
+          "value": "https://www.mtomady.com/contact",
+          "href": "https://www.mtomady.com/contact",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.linkedin.com/company/mtomady",
+      "title": "Regional programme evidence",
+      "publisher": "mTOMADY",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.mtomady.com/contact",
+      "title": "Published organisation contact",
+      "publisher": "mTOMADY",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

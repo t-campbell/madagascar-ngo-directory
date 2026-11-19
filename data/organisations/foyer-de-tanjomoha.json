@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "id": "foyer-de-tanjomoha",
+  "name": "Foyer de Tanjomoha",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Nonprofit social and care centre providing education and health support near Vohipeno.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "fitovinany"
+      ],
+      "localities": [
+        "Vohipeno"
+      ],
+      "sector_ids": [
+        "health",
+        "education",
+        "gender-inclusion"
+      ],
+      "summary": "Provides care and rehabilitation through a dispensary and specialist centres, and supports education for local children and young people including those with disabilities.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity",
+        "education"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "farafangana-specialist-education",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsimo-atsinanana"
+      ],
+      "localities": [
+        "Farafangana"
+      ],
+      "sector_ids": [
+        "education",
+        "gender-inclusion"
+      ],
+      "summary": "The centre lists schooling or training arrangements in Farafangana for some young people with disabilities. Ask about the partner school and eligibility.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "education"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.tanjomoha.com/contact",
+          "href": "https://www.tanjomoha.com/contact",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.tanjomoha.com/le-foyer-description",
+      "title": "Regional programme evidence",
+      "publisher": "Foyer de Tanjomoha",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.tanjomoha.com/contact",
+      "title": "Published organisation contact",
+      "publisher": "Foyer de Tanjomoha",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "education",
+      "url": "https://www.tanjomoha.com/eduquer",
+      "title": "Regional education and partner schools",
+      "publisher": "Foyer de Tanjomoha",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

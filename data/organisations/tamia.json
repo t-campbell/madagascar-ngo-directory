@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "tamia",
+  "name": "Association TAMIA",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Community association working with coastal producers and local resource managers.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsimo-andrefana"
+      ],
+      "localities": [
+        "Saint-Augustin, Toliara II"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "livelihoods",
+        "environment"
+      ],
+      "summary": "Partners with ADRA on MIATRIKA in Saint-Augustin, which includes climate-resilient livelihoods and production. Its directory profile describes community seaweed and fish products.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity",
+        "partnership"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "tamia.tsinjoriake@gmail.com",
+          "href": "mailto:tamia.tsinjoriake@gmail.com",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://adra.mg/miatrika/",
+      "title": "Regional programme evidence",
+      "publisher": "ADRA Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://region-anosy.mg/associations/association-tamia/",
+      "title": "Published organisation contact",
+      "publisher": "Association TAMIA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "partnership",
+      "url": "https://adra.mg/wp-content/uploads/2025/09/TDR_OFFRES_D_EMPLOI_COMBINEES_CEPF_MIATRIKA.pdf",
+      "title": "ADRA and TAMIA implementation partnership",
+      "publisher": "ADRA Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

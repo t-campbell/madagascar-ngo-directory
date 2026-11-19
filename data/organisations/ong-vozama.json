@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "id": "ong-vozama",
+  "name": "ONG VOZAMA",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Malagasy nonprofit supporting inclusive education and rural schools.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "haute-matsiatra"
+      ],
+      "localities": [
+        "Fianarantsoa"
+      ],
+      "sector_ids": [
+        "education",
+        "gender-inclusion"
+      ],
+      "summary": "Reports helping schools and families include children with disabilities through the TADY project in Fianarantsoa.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "ambositra-rural-schools",
+      "region_scope": "specified",
+      "region_ids": [
+        "amoroni-mania"
+      ],
+      "localities": [
+        "Ambositra area"
+      ],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "A partner reports VOZAMA operates rural learning sites around Ambositra. Ask about which sites and classes are currently operating.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "ambositra-rural-schools"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Published Haute Matsiatra office listing",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://bdd.pseau.org/outils/organismes/organisme_detail.php?org_organisme_id=20234",
+          "href": "https://bdd.pseau.org/outils/organismes/organisme_detail.php?org_organisme_id=20234",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.vozama.org/Encart/actu/detail/141/",
+      "title": "Regional programme evidence",
+      "publisher": "ONG VOZAMA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://bdd.pseau.org/outils/organismes/organisme_detail.php?org_organisme_id=20234",
+      "title": "Published organisation contact",
+      "publisher": "ONG VOZAMA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ambositra-rural-schools",
+      "url": "https://madagascar.groupama.com/association-vozama/",
+      "title": "Amoron’i Mania rural education partner profile",
+      "publisher": "Action Solidarité Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

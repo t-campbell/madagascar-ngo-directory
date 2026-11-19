@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "amicale-razanamanga",
+  "name": "Amicale Razanamanga",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Association working with village partners on education and basic services.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "vatovavy"
+      ],
+      "localities": [
+        "Mahela",
+        "Amboanato",
+        "Ankatafana",
+        "Manakana",
+        "Andranomitéka"
+      ],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "Its 2025 report documents school improvements and supplies at sites including Mahela, Amboanato, Ankatafana, Manakana and Andranomitéka.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Association public page",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.helloasso.com/associations/amicale-razanamanga",
+          "href": "https://www.helloasso.com/associations/amicale-razanamanga",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.amicale-razanamanga.org/app/download/5815474609/Rapport%2Bactivit%C3%A9s%2B%2BVB%2B2025%2BRAZANAMANGA.pdf",
+      "title": "Regional programme evidence",
+      "publisher": "Amicale Razanamanga",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.helloasso.com/associations/amicale-razanamanga",
+      "title": "Published organisation contact",
+      "publisher": "Amicale Razanamanga",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

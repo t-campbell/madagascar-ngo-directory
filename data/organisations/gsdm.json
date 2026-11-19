@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "gsdm",
+  "name": "GSDM Professionnels de l’Agroécologie",
+  "acronym": null,
+  "aliases": [],
+  "type": "nonprofit_network",
+  "mission": "Malagasy nonprofit network supporting agroecology research and farmer training.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsimo-atsinanana"
+      ],
+      "localities": [
+        "Vondrozo",
+        "Farafangana",
+        "Vangaindrano"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "nutrition"
+      ],
+      "summary": "Published ProSAR activities include farmer training and food security work in Vondrozo, Farafangana and Vangaindrano. Ask which activities are continuing.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "web_form",
+          "value": "https://gsdm-mg.org/contact/",
+          "href": "https://gsdm-mg.org/contact/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://gsdm-mg.org/wp-content/files/Rapport_annuel_2023_VF_.pdf",
+      "title": "Regional programme evidence",
+      "publisher": "GSDM Professionnels de l’Agroécologie",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://gsdm-mg.org/contact/",
+      "title": "Published organisation contact",
+      "publisher": "GSDM Professionnels de l’Agroécologie",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "health-in-harmony",
+  "name": "Health In Harmony",
+  "acronym": null,
+  "aliases": [
+    "HIH-FAMI"
+  ],
+  "type": "ngo_association",
+  "mission": "Nonprofit working with its Madagascar affiliate HIH-FAMI and communities around the Manombo rainforest.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsimo-atsinanana"
+      ],
+      "localities": [
+        "Manombo",
+        "Farafangana area"
+      ],
+      "sector_ids": [
+        "health",
+        "agriculture",
+        "livelihoods"
+      ],
+      "summary": "The Madagascar team works with Manombo communities on access to health care and sustainable food and livelihoods. Ask the programme about participating communities and clinic schedules.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "International programme referral",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "info@healthinharmony.org",
+          "href": "mailto:info@healthinharmony.org",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.healthinharmony.org/madagascar",
+      "title": "Regional programme evidence",
+      "publisher": "Health In Harmony",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.healthinharmony.org/contact",
+      "title": "Published organisation contact",
+      "publisher": "Health In Harmony",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

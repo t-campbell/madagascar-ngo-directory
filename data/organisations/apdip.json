@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "apdip",
+  "name": "Association des Paysans pour le Développement Interprofessionnel",
+  "acronym": "APDIP",
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Producer organisation working on access to seed and agricultural development.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "bongolava"
+      ],
+      "localities": [
+        "Tsiroanomandidy",
+        "Fenoarivobe"
+      ],
+      "sector_ids": [
+        "agriculture"
+      ],
+      "summary": "Listed by Madagascar’s seed certification service as producing certified seed for crops including rice, maize and beans in the region. Ask about availability.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Regional member directory and referral",
+      "scope": "referral",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.sun-hina-madagascar.org/regions/bongolava",
+          "href": "https://www.sun-hina-madagascar.org/regions/bongolava",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://soc-semences.mg/etablissement-semencier/apdip/",
+      "title": "Regional programme evidence",
+      "publisher": "Madagascar Official Seed Certification Service",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.sun-hina-madagascar.org/regions/bongolava",
+      "title": "Published organisation contact",
+      "publisher": "Association des Paysans pour le Développement Interprofessionnel",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "consortium-vonona",
+  "name": "Consortium des Jeunes VONONA",
+  "acronym": null,
+  "aliases": [],
+  "type": "nonprofit_network",
+  "mission": "Maintirano-based network of youth associations working on environmental education and local participation.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "melaky"
+      ],
+      "localities": [
+        "Maintirano"
+      ],
+      "sector_ids": [
+        "education",
+        "environment",
+        "youth"
+      ],
+      "summary": "Runs environmental outreach in Maintirano, including activities with local partners. INDRI lists education and awareness among its work areas.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity",
+        "earth-hour"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Published Maintirano office and contact details",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://indriconnect.info/fiche-acteur/97?lng=en",
+          "href": "https://indriconnect.info/fiche-acteur/97?lng=en",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://indriconnect.info/fiche-acteur/97?lng=en",
+      "title": "Regional programme evidence",
+      "publisher": "INDRI",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://indriconnect.info/fiche-acteur/97?lng=en",
+      "title": "Published organisation contact",
+      "publisher": "Consortium des Jeunes VONONA",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "earth-hour",
+      "url": "https://fr.linkedin.com/posts/wwf-madagascar_earth-hour-%C3%A0-maintirano-une-journ%C3%A9e-enti%C3%A8re-activity-7443874316745707521-XyZX",
+      "title": "2026 Earth Hour outreach in Maintirano",
+      "publisher": "WWF Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

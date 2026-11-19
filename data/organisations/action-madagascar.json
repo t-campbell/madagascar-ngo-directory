@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "action-madagascar",
+  "name": "Fondation Action Madagascar",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Swiss nonprofit foundation supporting health care in northern Madagascar.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "diana"
+      ],
+      "localities": [
+        "Ambanja"
+      ],
+      "sector_ids": [
+        "health"
+      ],
+      "summary": "Supports the Saint-Damien medical and surgical centre in Ambanja through equipment, technical assistance and medical partnerships.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Foundation and Saint-Damien referral",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://actionmadagascar.ch/fr/",
+          "href": "https://actionmadagascar.ch/fr/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.actionmadagascar.ch/fr/cmc/",
+      "title": "Regional programme evidence",
+      "publisher": "Fondation Action Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://actionmadagascar.ch/fr/",
+      "title": "Published organisation contact",
+      "publisher": "Fondation Action Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

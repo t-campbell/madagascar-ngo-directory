@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "caritas-antsirabe",
+  "name": "Caritas Antsirabe",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Diocesan NGO supporting rural communities and vulnerable young people.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "vakinankaratra"
+      ],
+      "localities": [
+        "Antsirabe diocese"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "environment"
+      ],
+      "summary": "The APTES programme supports agroecology and works with farmers’ organisations on family farming in the Antsirabe diocese.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Organisation contact",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.caritasantsirabe.org/",
+          "href": "https://www.caritasantsirabe.org/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.caritasantsirabe.org/appui-aux-initiatives-villageoises/aptes/",
+      "title": "Regional programme evidence",
+      "publisher": "Caritas Antsirabe",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.caritasantsirabe.org/",
+      "title": "Published organisation contact",
+      "publisher": "Caritas Antsirabe",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

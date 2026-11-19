@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "fekama",
+  "name": "Fédération des Collèges Agricoles de Madagascar",
+  "acronym": "FeKAMa",
+  "aliases": [],
+  "type": "nonprofit_network",
+  "mission": "Federation of agricultural colleges teaching and mentoring young farmers.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "sofia"
+      ],
+      "localities": [
+        "Befandriana Avaratra"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "education"
+      ],
+      "summary": "Runs a member agricultural college in Befandriana Avaratra with classroom learning and practical training. Ask about enrolment or outreach.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Federation public contact details",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.fekama.mg/",
+          "href": "https://www.fekama.mg/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.synergierenouvelable.org/fr/projet/madagro-assurer-un-acces-perenne-a-lelectricite-et-a-leau-au-college-agricole-de-befandriana/",
+      "title": "Regional programme evidence",
+      "publisher": "Synergie Renouvelable",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.fekama.mg/",
+      "title": "Published organisation contact",
+      "publisher": "Fédération des Collèges Agricoles de Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "id": "ecoles-du-monde",
+  "name": "Écoles du Monde",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Association supporting education and rural development in Madagascar.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "boeny"
+      ],
+      "localities": [
+        "Besely",
+        "Mahajanga II"
+      ],
+      "sector_ids": [
+        "education",
+        "agriculture"
+      ],
+      "summary": "Works with rural schools in Boeny. Its Besely site pairs schooling and vocational learning with agricultural training and local food production.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "sofia-education",
+      "region_scope": "specified",
+      "region_ids": [
+        "sofia"
+      ],
+      "localities": [
+        "Sofia"
+      ],
+      "sector_ids": [
+        "education"
+      ],
+      "summary": "The association identifies Sofia among its rural school and vocational education areas. Ask the Madagascar team about currently supported schools.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "sofia-education"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Association referral to Madagascar team",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "contact@ecolesdumonde.org",
+          "href": "mailto:contact@ecolesdumonde.org",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://ecolesdumonde.org/association/",
+      "title": "Regional programme evidence",
+      "publisher": "Écoles du Monde",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://ecolesdumonde.org/contact/",
+      "title": "Published organisation contact",
+      "publisher": "Écoles du Monde",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sofia-education",
+      "url": "https://ecolesdumonde.org/association/",
+      "title": "Rural education in Boeny and Sofia",
+      "publisher": "Écoles du Monde",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

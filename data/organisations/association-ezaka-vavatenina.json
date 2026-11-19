@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "association-ezaka-vavatenina",
+  "name": "Association EZAKA",
+  "acronym": null,
+  "aliases": [],
+  "type": "ngo_association",
+  "mission": "Community association involved in rural drinking-water oversight.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Ambatoaranana, Andasibe, Vavatenina"
+      ],
+      "sector_ids": [
+        "wash"
+      ],
+      "summary": "The pS-Eau directory lists a drinking-water management monitoring team and identifies Soakoja and the regional water directorate as partners.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Published village contact and address",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://bdd.pseau.org/outils/organismes/organisme_detail.php?l=fr&org_organisme_id=76528",
+          "href": "https://bdd.pseau.org/outils/organismes/organisme_detail.php?l=fr&org_organisme_id=76528",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://bdd.pseau.org/outils/organismes/organisme_detail.php?l=fr&org_organisme_id=76528",
+      "title": "Regional programme evidence",
+      "publisher": "pS-Eau directory",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://bdd.pseau.org/outils/organismes/organisme_detail.php?l=fr&org_organisme_id=76528",
+      "title": "Published organisation contact",
+      "publisher": "pS-Eau directory",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

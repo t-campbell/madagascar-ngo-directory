@@ -31,6 +31,30 @@
       "web_reviewed_on": "2026-11-19",
       "direct_confirmed_on": null,
       "notes": []
+    },
+    {
+      "id": "sava-farmer-partnership",
+      "region_scope": "specified",
+      "region_ids": [
+        "sava"
+      ],
+      "localities": [
+        "SAVA"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "environment"
+      ],
+      "summary": "Works in the Helvetas-led partnership with communities around protected forests in SAVA on crop livelihoods and conservation.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "sava-farmer-partnership"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
     }
   ],
   "offices": [],
@@ -82,6 +106,18 @@
       "checked_on": "2026-11-19",
       "supports": [
         "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sava-farmer-partnership",
+      "url": "https://www.helvetas.org/fr/madagascar/ce-qu-on-fait/comment-on-travaille/nos-projets/afrique/madagascar/madagascar-protection-de-la-foret",
+      "title": "SAVA farm and conservation consortium",
+      "publisher": "Helvetas",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
       ],
       "notes": []
     }

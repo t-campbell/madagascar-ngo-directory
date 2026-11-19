@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "soa-gny-mivaotsy",
+  "name": "Soa Gny Mivaotsy",
+  "acronym": null,
+  "aliases": [],
+  "type": "nonprofit_network",
+  "mission": "Ihorombe confederation of producer unions affiliated with Fifata.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "regional-work",
+      "region_scope": "specified",
+      "region_ids": [
+        "ihorombe"
+      ],
+      "localities": [
+        "Ihorombe"
+      ],
+      "sector_ids": [
+        "agriculture",
+        "livelihoods"
+      ],
+      "summary": "Fifata’s group history documents this federation’s local producer unions for poultry, onions and potatoes, and fish farming. Ask Fifata to identify the current member contact.",
+      "activity_status": "unknown",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Fifata referral to the Ihorombe federation",
+      "scope": "referral",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "fifata@fifata.mg",
+          "href": "mailto:fifata@fifata.mg",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.fert.fr/v2/wp-content/uploads/2025/01/fifata-livre-version-numerique-format-pdf-v2.pdf",
+      "title": "Regional programme evidence",
+      "publisher": "Fert and Groupe Fifata",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://fifata.mg/",
+      "title": "Published organisation contact",
+      "publisher": "Soa Gny Mivaotsy",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}
