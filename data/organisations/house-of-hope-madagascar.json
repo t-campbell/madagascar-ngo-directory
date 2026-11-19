@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "id": "house-of-hope-madagascar",
+  "name": "House of Hope Madagascar",
+  "acronym": "HOHM",
+  "aliases": [
+    "House of Hope Madagasikara",
+    "School of Hope Madagascar"
+  ],
+  "type": "ngo_association",
+  "mission": "Faith-based nonprofit operating a residential care programme and school for children in Ihosy.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "ihosy-school",
+      "region_scope": "specified",
+      "region_ids": [
+        "ihorombe"
+      ],
+      "localities": [
+        "Ihosy"
+      ],
+      "sector_ids": [
+        "education",
+        "child-protection"
+      ],
+      "summary": "Runs a Christian residential care programme in Ihosy. Its School of Hope opened in 2025 and serves both residents and children from surrounding villages.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity",
+        "school"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "U.S. partner referral for House of Hope Madagascar",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "web_form",
+          "value": "https://sothpewaukee.org/contact-us/",
+          "href": "https://sothpewaukee.org/contact-us/",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route",
+        "partner"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "organisation-page",
+      "person_name": null,
+      "role": "Organisation Facebook page",
+      "scope": "organisation",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "website",
+          "value": "https://www.facebook.com/people/House-of-Hope-Madagasikara/61554319433911/",
+          "href": "https://www.facebook.com/people/House-of-Hope-Madagasikara/61554319433911/",
+          "source_ids": [
+            "partner"
+          ]
+        }
+      ],
+      "source_ids": [
+        "partner"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": [
+        "Linked by the U.S. partner. The partner contact form is another route for enquiries."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://hohmadagascar.org/about-us/",
+      "title": "Ihosy residential care and school programme",
+      "publisher": "House of Hope Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://sothpewaukee.org/contact-us/",
+      "title": "Published organisation contact",
+      "publisher": "Shepherd of the Hills",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "school",
+      "url": "https://hohmadagascar.org/education/",
+      "title": "School of Hope curriculum and local enrolment",
+      "publisher": "House of Hope Madagascar",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "partner",
+      "url": "https://sothpewaukee.org/give/house-of-hope-madagascar/",
+      "title": "Partner referral and public organisation page",
+      "publisher": "Shepherd of the Hills",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation",
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

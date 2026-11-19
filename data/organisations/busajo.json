@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "busajo",
+  "name": "Busajo NGO ETS",
+  "acronym": null,
+  "aliases": [
+    "Stand Up for Life Madagascar",
+    "House of Hope Ambovombe",
+    "Canteen of Hope"
+  ],
+  "type": "ngo_association",
+  "mission": "Nonprofit working with local teams on children’s education, health and nutrition.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "stand-up-for-life",
+      "region_scope": "specified",
+      "region_ids": [
+        "androy"
+      ],
+      "localities": [
+        "Ambovombe"
+      ],
+      "sector_ids": [
+        "education",
+        "health",
+        "nutrition",
+        "child-protection"
+      ],
+      "summary": "Operates the House of Hope programme in Ambovombe through its local team. The programme provides meals, helps children enrol in local schools and offers basic health support and referrals.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "activity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Busajo referral for Ambovombe programme",
+      "scope": "referral_international",
+      "office_id": null,
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "associazione@busajo.org",
+          "href": "mailto:associazione@busajo.org",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.busajo.org/en/stand-up-for-life/",
+      "title": "Stand Up for Life and House of Hope in Ambovombe",
+      "publisher": "Busajo NGO ETS",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://www.busajo.org/en/support-us/",
+      "title": "Published organisation contact",
+      "publisher": "Busajo NGO ETS",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}

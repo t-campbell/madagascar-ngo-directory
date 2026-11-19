@@ -1,0 +1,490 @@
+{
+  "schema_version": 1,
+  "id": "missouri-botanical-garden",
+  "name": "Missouri Botanical Garden",
+  "acronym": "MBG",
+  "aliases": [
+    "MBG Madagascar",
+    "Missouri Botanical Garden Madagascar"
+  ],
+  "type": "other_nonprofit",
+  "mission": "Nonprofit botanical institution working with Malagasy partners on plant research, restoration and community-based conservation.",
+  "publication_status": "listed",
+  "operations": [
+    {
+      "id": "pointe-a-larree",
+      "region_scope": "specified",
+      "region_ids": [
+        "analanjirofo"
+      ],
+      "localities": [
+        "Pointe à Larrée",
+        "Antanifotsy",
+        "Manompana"
+      ],
+      "sector_ids": [
+        "environment"
+      ],
+      "summary": "Works with communities on conservation in the forest blocks of Pointe à Larrée in Soanierana Ivongo district.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "pointe-a-larree"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "analalava",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsinanana"
+      ],
+      "localities": [
+        "Analalava Forest",
+        "Foulpointe"
+      ],
+      "sector_ids": [
+        "environment"
+      ],
+      "summary": "Supports conservation and community management of the lowland forest near Foulpointe.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "analalava"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "vohibe",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsinanana"
+      ],
+      "localities": [
+        "Vohibe Forest",
+        "Ambalabe"
+      ],
+      "sector_ids": [
+        "environment"
+      ],
+      "summary": "Publishes community forest conservation and botanical research work at Vohibe in Ambalabe.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "vohibe"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "ankafobe",
+      "region_scope": "specified",
+      "region_ids": [
+        "analamanga"
+      ],
+      "localities": [
+        "Ankafobe Forest",
+        "Ankazobe"
+      ],
+      "sector_ids": [
+        "environment"
+      ],
+      "summary": "Supports community-based conservation of forest fragments at Ankafobe in Ankazobe.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "ankafobe"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "agnalazaha",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsimo-atsinanana"
+      ],
+      "localities": [
+        "Agnalazaha Forest",
+        "Mahabo Mananivo"
+      ],
+      "sector_ids": [
+        "environment"
+      ],
+      "summary": "Supports conservation and community management of littoral forest at Agnalazaha.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "agnalazaha"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "ankarabolava-agnakatrika",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsimo-atsinanana"
+      ],
+      "localities": [
+        "Ankarabolava-Agnakatrika",
+        "Matanga",
+        "Tsianofaha",
+        "Vohipaho"
+      ],
+      "sector_ids": [
+        "environment"
+      ],
+      "summary": "Works with local partners on conservation of the Ankarabolava-Agnakatrika forest.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "ankarabolava-agnakatrika"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "analavelona",
+      "region_scope": "specified",
+      "region_ids": [
+        "atsimo-andrefana"
+      ],
+      "localities": [
+        "Analavelona",
+        "Mahaboboka",
+        "Mikoboka",
+        "Amboronabo"
+      ],
+      "sector_ids": [
+        "environment"
+      ],
+      "summary": "Supports community-based conservation of the sacred forest of Analavelona.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "analavelona"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "ibity",
+      "region_scope": "specified",
+      "region_ids": [
+        "vakinankaratra"
+      ],
+      "localities": [
+        "Ibity",
+        "Manadona",
+        "Sahanivotry"
+      ],
+      "sector_ids": [
+        "environment"
+      ],
+      "summary": "Works with local partners to conserve the Ibity Massif and its tapia woodland and other native vegetation.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "ibity"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "makirovana",
+      "region_scope": "specified",
+      "region_ids": [
+        "sava"
+      ],
+      "localities": [
+        "Makirovana-Tsihomanaomby",
+        "Anjangoveratra",
+        "Antsirabe Nord",
+        "Marogaona"
+      ],
+      "sector_ids": [
+        "environment"
+      ],
+      "summary": "Lists Makirovana-Tsihomanaomby among its community-based forest conservation sites.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "makirovana"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "oronjia",
+      "region_scope": "specified",
+      "region_ids": [
+        "diana"
+      ],
+      "localities": [
+        "Oronjia",
+        "Ramena"
+      ],
+      "sector_ids": [
+        "environment"
+      ],
+      "summary": "Supports conservation and native-plant restoration at Oronjia in Ramena commune.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "oronjia"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    },
+    {
+      "id": "vohidava-betsimalaho",
+      "region_scope": "specified",
+      "region_ids": [
+        "anosy"
+      ],
+      "localities": [
+        "Vohidava-Betsimalaho",
+        "Tsivory",
+        "Ranobe",
+        "Mahaly",
+        "Marotsiraka"
+      ],
+      "sector_ids": [
+        "environment"
+      ],
+      "summary": "Lists Vohidava-Betsimalaho among its community-based forest conservation sites.",
+      "activity_status": "reported_active",
+      "starts_on": null,
+      "ends_on": null,
+      "source_ids": [
+        "vohidava-betsimalaho"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "offices": [
+    {
+      "id": "antananarivo",
+      "label": "Madagascar programme office",
+      "office_type": "national",
+      "country": "MG",
+      "region_id": "analamanga",
+      "town": "Antananarivo",
+      "address": "Lot VP 31 Ankadibevava, Anjohy, Antananarivo",
+      "source_ids": [
+        "contact-route"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "national-contact",
+      "person_name": null,
+      "role": "Madagascar programme office",
+      "scope": "national",
+      "office_id": "antananarivo",
+      "operation_ids": [],
+      "methods": [
+        {
+          "type": "email",
+          "value": "mbg@mobot.mg",
+          "href": "mailto:mbg@mobot.mg",
+          "source_ids": [
+            "contact-route"
+          ]
+        }
+      ],
+      "source_ids": [
+        "contact-route"
+      ],
+      "web_reviewed_on": "2026-11-19",
+      "direct_confirmed_on": null,
+      "notes": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "activity",
+      "url": "https://www.missouribotanicalgarden.org/plant-science/plant-science/about-science-conservation/departments-centers-of-excellence/madagascar",
+      "title": "Madagascar research and conservation programme",
+      "publisher": "Missouri Botanical Garden",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "contact-route",
+      "url": "https://mobot.mg/contact_tgbs/",
+      "title": "Published organisation contact",
+      "publisher": "Missouri Botanical Garden",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "public contact route"
+      ],
+      "notes": []
+    },
+    {
+      "id": "pointe-a-larree",
+      "url": "https://mobot.mg/conservation/pointe-a-larree-site/",
+      "title": "Pointe à Larrée conservation site",
+      "publisher": "Missouri Botanical Garden",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "analalava",
+      "url": "https://mobot.mg/conservation/analalava-forest-site/",
+      "title": "Analalava Forest conservation site",
+      "publisher": "Missouri Botanical Garden",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "vohibe",
+      "url": "https://mobot.mg/conservation/vohibe-site/",
+      "title": "Vohibe Forest conservation site",
+      "publisher": "Missouri Botanical Garden",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ankafobe",
+      "url": "https://mobot.mg/conservation/ankafobe-site/",
+      "title": "Ankafobe Forest conservation site",
+      "publisher": "Missouri Botanical Garden",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "agnalazaha",
+      "url": "https://mobot.mg/conservation/agnalazaha-site/",
+      "title": "Agnalazaha Forest conservation site",
+      "publisher": "Missouri Botanical Garden",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ankarabolava-agnakatrika",
+      "url": "https://mobot.mg/conservation/ankarabolava-site/",
+      "title": "Ankarabolava-Agnakatrika conservation site",
+      "publisher": "Missouri Botanical Garden",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "analavelona",
+      "url": "https://mobot.mg/conservation/analavelona-site/",
+      "title": "Analavelona conservation site",
+      "publisher": "Missouri Botanical Garden",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ibity",
+      "url": "https://mobot.mg/conservation/ibity-site/",
+      "title": "Ibity conservation site",
+      "publisher": "Missouri Botanical Garden",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "makirovana",
+      "url": "https://mobot.mg/conservation/makirovana-site/",
+      "title": "Makirovana-Tsihomanaomby conservation site",
+      "publisher": "Missouri Botanical Garden",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "oronjia",
+      "url": "https://mobot.mg/conservation/oronjia-site/",
+      "title": "Oronjia conservation site",
+      "publisher": "Missouri Botanical Garden",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    },
+    {
+      "id": "vohidava-betsimalaho",
+      "url": "https://mobot.mg/conservation/vohidava-betsimalaho-site/",
+      "title": "Vohidava-Betsimalaho conservation site",
+      "publisher": "Missouri Botanical Garden",
+      "published_on": null,
+      "checked_on": "2026-11-19",
+      "supports": [
+        "local operation"
+      ],
+      "notes": []
+    }
+  ],
+  "notes": [],
+  "relationships": []
+}
